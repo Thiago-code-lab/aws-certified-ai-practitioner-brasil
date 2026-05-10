@@ -1,0 +1,526 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS AI Practitioner | Portal de Estudos</title>
+  <meta name="description" content="Portal de estudos AWS Certified AI Practitioner (AIF-C01) em Português do Brasil.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #08131e;
+      --bg-soft: #0d1c2c;
+      --panel: #10263a;
+      --panel-2: #143049;
+      --line: rgba(92, 231, 255, 0.18);
+      --text: #ecf7ff;
+      --muted: #8db2c8;
+      --accent: #5ce7ff;
+      --accent-2: #36b8d8;
+      --warm: #ffb347;
+      --mono: "Fira Code", monospace;
+      --body: "Space Grotesk", sans-serif;
+      --display: "Syne", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--body);
+      background: radial-gradient(circle at top right, rgba(92,231,255,0.08), transparent 32%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(92,231,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(92,231,255,0.03) 1px, transparent 1px);
+      background-size: 44px 44px;
+      opacity: 0.45;
+    }
+    a { color: inherit; text-decoration: none; }
+    .shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(14px);
+      background: rgba(8, 19, 30, 0.84);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--display);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .brand-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #04202a;
+      font-size: 0.95rem;
+    }
+    .brand span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .nav-cta {
+      border: 1px solid rgba(255, 179, 71, 0.35);
+      color: var(--warm);
+      border-radius: 999px;
+      padding: 10px 16px;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+    .hero {
+      padding: 84px 0 36px;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: center;
+    }
+    .hero-card,
+    .side-card,
+    .module-card,
+    .domain-card,
+    .sim-card {
+      background: linear-gradient(180deg, rgba(16, 38, 58, 0.96), rgba(13, 28, 44, 0.96));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-card {
+      padding: 34px;
+    }
+    .hero-card::after,
+    .side-card::after,
+    .module-card::after,
+    .domain-card::after,
+    .sim-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(92,231,255,0.1), transparent 35%);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+      background: rgba(92,231,255,0.08);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 14px;
+      margin-bottom: 20px;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .hero h1 {
+      font-family: var(--display);
+      font-size: clamp(2.5rem, 5vw, 4.8rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+      margin-bottom: 18px;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero p {
+      color: var(--muted);
+      max-width: 60ch;
+      margin-bottom: 24px;
+    }
+    .hero-cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .btn-main,
+    .btn-ghost {
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.92rem;
+    }
+    .btn-main {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #04202a;
+    }
+    .btn-ghost {
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    .stat {
+      background: rgba(92,231,255,0.05);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 14px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 1.7rem;
+      line-height: 1;
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+    .stat span {
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .hero-side {
+      display: grid;
+      gap: 16px;
+    }
+    .side-card {
+      padding: 22px;
+    }
+    .side-card h3 {
+      font-family: var(--display);
+      font-size: 1.35rem;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+    .side-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .domain-grid {
+      padding: 12px 0 24px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+    }
+    .domain-card {
+      padding: 18px;
+    }
+    .domain-card .pct {
+      font-family: var(--display);
+      font-size: 2rem;
+      color: var(--warm);
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    .domain-card .label {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .domain-card p {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+    section { padding: 28px 0; }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+    .section-head h2 {
+      font-family: var(--display);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      letter-spacing: -0.04em;
+    }
+    .section-head p {
+      color: var(--muted);
+      max-width: 62ch;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      background: rgba(92,231,255,0.05);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .chip.on {
+      background: rgba(92,231,255,0.18);
+      color: var(--accent);
+    }
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .module-card {
+      padding: 18px 18px 20px;
+      min-height: 250px;
+      display: flex;
+      flex-direction: column;
+    }
+    .module-card .meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .module-card .meta .icon {
+      font-size: 1rem;
+    }
+    .module-card h3 {
+      font-family: var(--display);
+      font-size: 1.3rem;
+      line-height: 1.06;
+      letter-spacing: -0.03em;
+      margin: 12px 0 10px;
+    }
+    .module-card p {
+      color: var(--muted);
+      font-size: 0.92rem;
+      flex: 1;
+    }
+    .module-card a {
+      margin-top: 18px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+    .sim-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .sim-card {
+      padding: 22px;
+    }
+    .sim-card h3 {
+      font-family: var(--display);
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+    .sim-card p {
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    footer {
+      padding: 28px 0 42px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 30px;
+    }
+    @media (max-width: 1100px) {
+      .hero { grid-template-columns: 1fr; }
+      .domain-grid { grid-template-columns: repeat(2, 1fr); }
+      .module-grid,
+      .sim-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 780px) {
+      .shell { width: min(1180px, calc(100% - 28px)); }
+      .nav-links { display: none; }
+      .hero-stats,
+      .module-grid,
+      .sim-grid,
+      .domain-grid { grid-template-columns: 1fr; }
+      .hero-card { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="shell nav-inner">
+      <a href="#topo" class="brand">
+        <span class="brand-badge">AI</span>
+        <div>AWS <span>AI Practitioner</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="#modulos">Módulos</a>
+        <a href="#dominios">Domínios</a>
+        <a href="#simulados">Simulados</a>
+        <a href="./README.md">README</a>
+      </div>
+      <a class="nav-cta" href="./README.md">Abrir guia</a>
+    </div>
+  </nav>
+
+  <main class="shell" id="topo">
+    <section class="hero">
+      <article class="hero-card">
+        <div class="eyebrow"><span class="dot"></span>AIF-C01 · CloudStudy · PT-BR</div>
+        <h1>Estude IA na AWS com foco em <span>prova</span> e aplicação real.</h1>
+        <p>Portal de estudos para AWS Certified AI Practitioner com 18 módulos, trilha progressiva, revisão por domínio e simulados em linguagem alinhada ao ecossistema CloudStudy.</p>
+        <div class="hero-cta-row">
+          <a class="btn-main" href="./README.md">Abrir README principal</a>
+          <a class="btn-ghost" href="#modulos">Ver módulos</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>18</strong><span>Módulos</span></div>
+          <div class="stat"><strong>65</strong><span>Questões alvo</span></div>
+          <div class="stat"><strong>5</strong><span>Domínios</span></div>
+          <div class="stat"><strong>90m</strong><span>Prova</span></div>
+        </div>
+      </article>
+      <div class="hero-side">
+        <aside class="side-card">
+          <h3>O que você vai dominar</h3>
+          <p>Bedrock, LLMs, embeddings, RAG, SageMaker AI, segurança, governança, custo e integração com aplicações AWS-native.</p>
+        </aside>
+        <aside class="side-card">
+          <h3>Filosofia de estudo</h3>
+          <p>Entender o caso de uso, escolher o serviço mais gerenciado possível e justificar a arquitetura com linguagem simples, precisa e orientada a prova.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="dominios">
+      <div class="section-head">
+        <div>
+          <h2>Domínios do exame</h2>
+          <p>Distribuição oficial do AIF-C01 organizada para servir como mapa mental de estudo.</p>
+        </div>
+      </div>
+      <div class="domain-grid">
+        <article class="domain-card"><div class="pct">20%</div><div class="label">Fundamentos de IA e ML</div><p>Conceitos-base, treino, inferência, tipos de aprendizado e visão geral do ecossistema.</p></article>
+        <article class="domain-card"><div class="pct">24%</div><div class="label">Fundamentos de IA generativa</div><p>Prompts, grounding, alucinação, contexto, modelos fundacionais e LLMs.</p></article>
+        <article class="domain-card"><div class="pct">28%</div><div class="label">Aplicações de foundation models</div><p>Bedrock, integração com apps, casos de uso e arquiteturas generativas.</p></article>
+        <article class="domain-card"><div class="pct">14%</div><div class="label">IA responsável</div><p>Governança, revisão humana, viés, explicabilidade e políticas.</p></article>
+        <article class="domain-card"><div class="pct">14%</div><div class="label">Segurança e conformidade</div><p>IAM, KMS, auditoria, dados sensíveis, controles e operação segura.</p></article>
+      </div>
+    </section>
+
+    <section id="modulos">
+      <div class="section-head">
+        <div>
+          <h2>Módulos</h2>
+          <p>Selecione uma trilha para filtrar os módulos e abrir direto o material correspondente.</p>
+        </div>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="module-grid" id="moduleGrid"></div>
+    </section>
+
+    <section id="simulados">
+      <div class="section-head">
+        <div>
+          <h2>Revisão final</h2>
+          <p>Use o módulo 16 para simulados, o 17 para glossário e o 18 para curadoria oficial de materiais.</p>
+        </div>
+      </div>
+      <div class="sim-grid">
+        <article class="sim-card">
+          <h3>Módulo 16</h3>
+          <p>Simulados completos, mini-blocos por domínio, caderno de erros e estratégia de prova.</p>
+          <a href="./16-Simulados-e-Questoes/README.md">Abrir simulados</a>
+        </article>
+        <article class="sim-card">
+          <h3>Módulo 17</h3>
+          <p>Glossário dos termos mais cobrados no ecossistema de IA da AWS.</p>
+          <a href="./17-Glossario/README.md">Abrir glossário</a>
+        </article>
+        <article class="sim-card">
+          <h3>Módulo 18</h3>
+          <p>Recursos oficiais para reta final, leitura complementar e expansão do estudo.</p>
+          <a href="./18-Recursos-e-Links/README.md">Abrir recursos</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">AWS Certified AI Practitioner · Portal CloudStudy · Conteúdo em Português do Brasil</div>
+  </footer>
+
+  <script>
+    const tracks = ["Todos","Fundamentos","GenAI","Plataformas","Governança","Dados","Arquiteturas","Serviços","Otimização","Revisão"];
+    const modules = [{"id":"01","title":"Introdução a IA e ML","desc":"Este módulo estabelece o vocabulário base do exame. A meta é distinguir IA, machine learning, deep learning e IA generativa sem cair em definições soltas ou acadêmicas demais.","folder":"01-Introducao-IA-e-ML","icon":"🤖","track":"Fundamentos"},{"id":"02","title":"Fundamentos de IA Generativa","desc":"Aqui começa a base conceitual de IA generativa: prompt, token, contexto, temperatura, grounding e alucinação. Este é um dos pontos em que a prova exige clareza prática, não definições decoradas.","folder":"02-Fundamentos-de-IA-Generativa","icon":"✨","track":"GenAI"},{"id":"03","title":"Fundamentos de Machine Learning","desc":"O AIF-C01 não exige matemática pesada, mas exige que você entenda como ML aprende com dados e por que qualidade de dados, rótulos e avaliação importam.","folder":"03-Fundamentos-de-Machine-Learning","icon":"📈","track":"Fundamentos"},{"id":"04","title":"Modelos Fundacionais e LLMs","desc":"Este módulo conecta teoria e arquitetura: o que são foundation models, como LLMs se encaixam nesse universo e por que embeddings, vetores e RAG aparecem juntos em tantas soluções na AWS.","folder":"04-Modelos-Fundacionais-e-LLMs","icon":"🧠","track":"GenAI"},{"id":"05","title":"Amazon Bedrock","desc":"Amazon Bedrock é o eixo mais importante da certificação para IA generativa na AWS. O exame cobra o que ele resolve, quando usá-lo e como integrá-lo com segurança e governança.","folder":"05-Amazon-Bedrock","icon":"🪨","track":"Plataformas"},{"id":"06","title":"Amazon SageMaker AI","desc":"SageMaker AI aparece quando o problema deixa de ser apenas usar um modelo pronto e passa a exigir preparo de dados, treinamento, avaliação, implantação e operação de ML em escala.","folder":"06-Amazon-SageMaker","icon":"🧪","track":"Plataformas"},{"id":"07","title":"IA Responsável e Governança","desc":"O exame não trata responsible AI como tema abstrato. Ele conecta risco, revisão humana, explicabilidade, guardrails, auditoria e políticas de uso a cenários bem concretos.","folder":"07-IA-Responsavel-e-Governanca","icon":"⚖️","track":"Governança"},{"id":"08","title":"Dados para IA","desc":"Modelos só respondem bem quando recebem dados corretos, acessíveis e governados. O exame cobra exatamente esse raciocínio: dado limpo, atualizado e protegido é parte da arquitetura de IA, não detalhe secundário.","folder":"08-Dados-para-IA","icon":"🗂️","track":"Dados"},{"id":"09","title":"Engenharia de Prompts","desc":"Engenharia de prompts é um dos temas mais práticos do exame. A prova quer que você entenda como instrução, contexto, formato e limites mudam o comportamento da aplicação generativa.","folder":"09-Engenharia-de-Prompts","icon":"📝","track":"GenAI"},{"id":"10","title":"IA Generativa na AWS","desc":"Neste módulo você liga os conceitos de GenAI à arquitetura de aplicação: front-end, autenticação, backend, observabilidade, bases documentais e serviços de integração na AWS.","folder":"10-IA-Generativa-na-AWS","icon":"🏗️","track":"Arquiteturas"},{"id":"11","title":"Segurança e Conformidade em IA","desc":"Segurança em IA não é um módulo isolado: ela atravessa dado, modelo, prompt, identidade, logs e integração. O exame gosta justamente dessa visão sistêmica.","folder":"11-Seguranca-e-Conformidade-em-IA","icon":"🔐","track":"Governança"},{"id":"12","title":"Casos de Uso e Arquiteturas","desc":"A certificação cobra menos fórmulas e mais julgamento: qual serviço atende melhor determinado problema? Este módulo organiza esse raciocínio em cenários reais e comparações úteis.","folder":"12-Casos-de-Uso-e-Arquiteturas","icon":"🧩","track":"Arquiteturas"},{"id":"13","title":"Serviços de IA da AWS","desc":"Este módulo faz a revisão orientada por serviço. Em vez de decorar listas, o foco é entender qual problema cada serviço resolve e como ele costuma aparecer em alternativa de prova.","folder":"13-Servicos-de-IA-da-AWS","icon":"🛠️","track":"Serviços"},{"id":"14","title":"Integração com Aplicações","desc":"IA útil é IA integrada. Este módulo trata de como conectar serviços de IA a aplicações, APIs, eventos, filas e componentes corporativos sem perder controle da arquitetura.","folder":"14-Integracao-com-Aplicacoes","icon":"🔌","track":"Arquiteturas"},{"id":"15","title":"Boas Práticas e Otimização","desc":"Depois de entender serviços e arquiteturas, falta aprender a operá-los bem. O exame cobra muito a ideia de eficiência: atingir objetivo com menor custo, menor risco e menor complexidade desnecessária.","folder":"15-Boas-Praticas-e-Otimizacao","icon":"⚙️","track":"Otimização"},{"id":"16","title":"Simulados e Questões","desc":"Treino final com simulados completos, mini-blocos por domínio e caderno de erros.","folder":"16-Simulados-e-Questoes","icon":"🧪","track":"Revisão"},{"id":"17","title":"Glossário","desc":"Revisão rápida dos termos mais cobrados no ecossistema de IA da AWS.","folder":"17-Glossario","icon":"📘","track":"Revisão"},{"id":"18","title":"Recursos e Links","desc":"Curadoria oficial para reta final e expansão do estudo.","folder":"18-Recursos-e-Links","icon":"🔗","track":"Revisão"}];
+    let activeTrack = "Todos";
+
+    function filteredModules() {
+      return activeTrack === "Todos" ? modules : modules.filter((item) => item.track === activeTrack);
+    }
+
+    function renderFilters() {
+      const wrap = document.getElementById("filters");
+      wrap.innerHTML = "";
+      tracks.forEach((track) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "chip" + (track === activeTrack ? " on" : "");
+        button.textContent = track;
+        button.addEventListener("click", () => {
+          activeTrack = track;
+          renderFilters();
+          renderModules();
+        });
+        wrap.appendChild(button);
+      });
+    }
+
+    function renderModules() {
+      const grid = document.getElementById("moduleGrid");
+      grid.innerHTML = "";
+      filteredModules().forEach((module) => {
+        const article = document.createElement("article");
+        article.className = "module-card";
+        article.innerHTML = `
+          <div class="meta"><span>Módulo ${module.id}</span><span class="icon">${module.icon}</span></div>
+          <h3>${module.title}</h3>
+          <p>${module.desc}</p>
+          <a href="./${module.folder}/README.md">Abrir módulo →</a>
+        `;
+        grid.appendChild(article);
+      });
+    }
+
+    renderFilters();
+    renderModules();
+  </script>
+</body>
+</html>
+
