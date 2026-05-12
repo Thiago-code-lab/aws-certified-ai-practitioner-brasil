@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Glossario Essencial
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Embedding?
+  **Resposta curta:** Representacao vetorial.
+- **Pergunta rapida:** RAG?
+  **Resposta curta:** Recuperacao + geracao.
+- **Pergunta rapida:** Fine-tuning?
+  **Resposta curta:** Especializacao.
+- **Pergunta rapida:** Injection?
+  **Resposta curta:** Ataque de prompt.
+- **Pergunta rapida:** Drift?
+  **Resposta curta:** Mudanca no dado.

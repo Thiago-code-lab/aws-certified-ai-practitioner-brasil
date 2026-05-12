@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Servicos de IA da AWS
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Rekognition x Textract?
+  **Resposta curta:** Visao geral x documento.
+- **Pergunta rapida:** Comprehend para?
+  **Resposta curta:** NLP classico.
+- **Pergunta rapida:** Transcribe para?
+  **Resposta curta:** Audio-texto.
+- **Pergunta rapida:** Polly para?
+  **Resposta curta:** Texto-fala.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Servico certo para tarefa certa.

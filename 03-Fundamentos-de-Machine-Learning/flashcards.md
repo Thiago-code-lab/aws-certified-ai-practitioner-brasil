@@ -1,38 +1,98 @@
-﻿# Flashcards — Edição Curada
+﻿# Flashcards - Fundamentos de Machine Learning
 
 ## Card 01
 
-**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
+**Pergunta:** Supervisionado vs nao supervisionado?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Supervisionado usa rotulos; nao supervisionado encontra padroes sem rotulo.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
+**Pergunta:** Por que separar treino, validacao e teste?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Para ajustar e medir generalizacao sem vies.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
+**Pergunta:** O que e feature engineering?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Criar e transformar atributos que aumentam sinal util.
+
+</details>
+
+## Card 04
+
+**Pergunta:** Quando usar matriz de confusao?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Para enxergar erros por classe.
+
+</details>
+
+## Card 05
+
+**Pergunta:** Para que normalizar?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Evitar distorcao por escalas muito diferentes.
+
+</details>
+
+## Card 06
+
+**Pergunta:** O que e drift de dados?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Mudanca de distribuicao ao longo do tempo.
+
+</details>
+
+## Card 07
+
+**Pergunta:** Como evitar data leakage?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Nao usar informacao futura no treino.
+
+</details>
+
+## Card 08
+
+**Pergunta:** Qual validacao final robusta?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Teste em cenarios proximos ao uso real.
 
 </details>
 

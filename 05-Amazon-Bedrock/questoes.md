@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Amazon Bedrock
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Quando Agents?
+  **Resposta curta:** Quando precisa orquestracao.
+- **Pergunta rapida:** Knowledge Base resolve?
+  **Resposta curta:** Contexto atualizado.
+- **Pergunta rapida:** Guardrails sao para?
+  **Resposta curta:** Controle de risco de conteudo.
+- **Pergunta rapida:** Bedrock substitui IAM?
+  **Resposta curta:** Nao, complementa.
+- **Pergunta rapida:** Termo-chave?
+  **Resposta curta:** Modelos gerenciados.

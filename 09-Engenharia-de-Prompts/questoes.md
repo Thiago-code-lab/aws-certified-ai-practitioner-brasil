@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Engenharia de Prompts
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Zero-shot quando?
+  **Resposta curta:** Tarefa direta.
+- **Pergunta rapida:** Few-shot para que?
+  **Resposta curta:** Fixar formato.
+- **Pergunta rapida:** Contexto deve ser?
+  **Resposta curta:** Delimitado.
+- **Pergunta rapida:** Avaliacao exige?
+  **Resposta curta:** Criterio objetivo.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Clareza.

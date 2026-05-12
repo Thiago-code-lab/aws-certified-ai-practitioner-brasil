@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - IA Responsavel e Governanca
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Bias e fairness sao iguais?
+  **Resposta curta:** Nao.
+- **Pergunta rapida:** Explainability para que?
+  **Resposta curta:** Auditoria e confianca.
+- **Pergunta rapida:** Privacy exige?
+  **Resposta curta:** Protecao de dados.
+- **Pergunta rapida:** Safety foca?
+  **Resposta curta:** Prevenir dano.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Governanca.

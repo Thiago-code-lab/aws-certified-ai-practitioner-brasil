@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Seguranca e Conformidade em IA
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Injection e?
+  **Resposta curta:** Tentativa de burlar politica.
+- **Pergunta rapida:** Leakage e?
+  **Resposta curta:** Vazamento de dado.
+- **Pergunta rapida:** Guardrails ajudam?
+  **Resposta curta:** Filtrar risco.
+- **Pergunta rapida:** Compliance pede?
+  **Resposta curta:** Evidencia auditavel.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Defesa em camadas.

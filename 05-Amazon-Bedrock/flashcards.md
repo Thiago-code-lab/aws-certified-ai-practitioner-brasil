@@ -1,38 +1,98 @@
-﻿# Flashcards — Edição Curada
+﻿# Flashcards - Amazon Bedrock
 
 ## Card 01
 
-**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
+**Pergunta:** Valor central do Bedrock?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Acesso a modelos gerenciados sem operar infraestrutura de ML.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
+**Pergunta:** Modelos gerenciados sao?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Foundation models expostos por API.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
+**Pergunta:** Quando usar Agents for Bedrock?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Fluxos com multiplas etapas e ferramentas.
+
+</details>
+
+## Card 04
+
+**Pergunta:** Knowledge Bases serve para?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Grounding com recuperacao de contexto empresarial.
+
+</details>
+
+## Card 05
+
+**Pergunta:** Guardrails fazem o que?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Aplicam politicas de conteudo e seguranca.
+
+</details>
+
+## Card 06
+
+**Pergunta:** Como Bedrock ajuda compliance?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Integracao com IAM, auditoria e criptografia.
+
+</details>
+
+## Card 07
+
+**Pergunta:** Integracao tipica de app?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Backend chama Bedrock e aplica regras de negocio.
+
+</details>
+
+## Card 08
+
+**Pergunta:** Erro comum no exame?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Escolher retreinamento quando faltava RAG e guardrails.
 
 </details>
 

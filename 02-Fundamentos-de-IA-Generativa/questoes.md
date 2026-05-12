@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Fundamentos de IA Generativa
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** RAG ajuda quando?
+  **Resposta curta:** Quando a base de conhecimento muda sempre.
+- **Pergunta rapida:** Token importa por que?
+  **Resposta curta:** Custo e desempenho.
+- **Pergunta rapida:** Embedding faz o que?
+  **Resposta curta:** Busca semantica.
+- **Pergunta rapida:** Risco de prompt vago?
+  **Resposta curta:** Resposta inconsistente.
+- **Pergunta rapida:** Termo chave?
+  **Resposta curta:** Grounding.

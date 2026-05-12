@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Boas Praticas e Otimizacao
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Custo cai com?
+  **Resposta curta:** Menos tokens desnecessarios.
+- **Pergunta rapida:** Observabilidade para?
+  **Resposta curta:** Diagnosticar e otimizar.
+- **Pergunta rapida:** Fallback para?
+  **Resposta curta:** Balancear custo e qualidade.
+- **Pergunta rapida:** Over-engineering evita como?
+  **Resposta curta:** Medindo antes.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Eficiencia.

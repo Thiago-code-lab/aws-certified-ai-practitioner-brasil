@@ -1,38 +1,98 @@
-﻿# Flashcards — Edição Curada
+﻿# Flashcards - Modelos Fundacionais e LLMs
 
 ## Card 01
 
-**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
+**Pergunta:** O que define um LLM?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Modelo de linguagem em grande escala para gerar texto por tokens.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
+**Pergunta:** Quando considerar fine-tuning?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Quando prompt nao entrega comportamento estavel.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
+**Pergunta:** Qual papel do contexto?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Delimitar informacao usada na resposta.
+
+</details>
+
+## Card 04
+
+**Pergunta:** Temperatura alta faz o que?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Aumenta variacao e criatividade.
+
+</details>
+
+## Card 05
+
+**Pergunta:** Janela de contexto significa?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Limite de tokens por requisicao.
+
+</details>
+
+## Card 06
+
+**Pergunta:** Como avaliar resposta?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Com criterios objetivos de qualidade.
+
+</details>
+
+## Card 07
+
+**Pergunta:** Sinal de contexto mal montado?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Perda de instrucoes importantes.
+
+</details>
+
+## Card 08
+
+**Pergunta:** Como equilibrar custo e qualidade?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Modelo proporcional e prompt enxuto.
 
 </details>
 

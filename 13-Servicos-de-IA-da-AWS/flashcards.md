@@ -1,38 +1,98 @@
-﻿# Flashcards — Edição Curada
+﻿# Flashcards - Servicos de IA da AWS
 
 ## Card 01
 
-**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
+**Pergunta:** Rekognition e indicado para?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Visao computacional em imagem e video.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
+**Pergunta:** Comprehend resolve que tipo de tarefa?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+NLP classico como sentimento e entidades.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
+**Pergunta:** Textract e usado para?
 
 <details>
 <summary><strong>Ver resposta</strong></summary>
 
 **Resposta:**
-Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+Extracao estruturada de documentos.
+
+</details>
+
+## Card 04
+
+**Pergunta:** Transcribe e ideal quando?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Conversao de audio para texto.
+
+</details>
+
+## Card 05
+
+**Pergunta:** Translate agrega em qual cenario?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Fluxos multilanguage.
+
+</details>
+
+## Card 06
+
+**Pergunta:** Polly oferece o que?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Texto para fala natural.
+
+</details>
+
+## Card 07
+
+**Pergunta:** Diferenca para Bedrock?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Servicos especializados versus plataforma de FM.
+
+</details>
+
+## Card 08
+
+**Pergunta:** Como evitar erro de escolha na prova?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Partir do tipo de entrada e saida desejada.
 
 </details>
 

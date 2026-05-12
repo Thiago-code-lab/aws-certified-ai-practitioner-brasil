@@ -1,14 +1,14 @@
-﻿# Revisão Guiada do Módulo
+﻿# Revisao Guiada - Integracao com Aplicacoes
 
-Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
+## Quick Review (Q&A)
 
-- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
-- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
-- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
-
-## Quick Review
-
-- Conceitos-chave do módulo
-- Serviço AWS correto para cada cenário
-- Risco de segurança/governança relacionado
-- Escolha de arquitetura com menor complexidade operacional
+- **Pergunta rapida:** Fila serve para?
+  **Resposta curta:** Resiliencia e escala.
+- **Pergunta rapida:** Timeout trata como?
+  **Resposta curta:** Retry/backoff.
+- **Pergunta rapida:** Front-end direto e risco por?
+  **Resposta curta:** Segredo exposto.
+- **Pergunta rapida:** Versionamento de prompt?
+  **Resposta curta:** Evita regressao.
+- **Pergunta rapida:** Palavra-chave?
+  **Resposta curta:** Desacoplamento.
