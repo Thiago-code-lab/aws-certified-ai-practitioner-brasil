@@ -1,28 +1,38 @@
-# Flashcards — Módulo 06: Amazon SageMaker AI
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Quando o SageMaker AI se torna mais adequado que o Bedrock?
-**R:** Quando o problema exige ciclo de ML customizado: dados, treino, ajuste, deploy e operação do modelo próprio.
+**Pergunta:** Qual é um conceito-chave de revisão em 06-Amazon-SageMaker para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Qual é o foco do SageMaker Canvas?
-**R:** Permitir que usuários de negócio criem soluções de ML com pouca ou nenhuma codificação.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Para que serve o JumpStart?
-**R:** Para acelerar experimentação com modelos e soluções prontas como ponto de partida.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 06-Amazon-SageMaker para o exame AIF-C01?
 
-**P4:** Quando usar inferência em lote?
-**R:** Quando a resposta não precisa ocorrer no caminho crítico do usuário e o processamento pode ser assíncrono ou em janela programada.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que o preparo de dados continua crítico no SageMaker AI?
-**R:** Porque dados ruins ou incoerentes comprometem qualquer pipeline de ML.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 06-Amazon-SageMaker para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

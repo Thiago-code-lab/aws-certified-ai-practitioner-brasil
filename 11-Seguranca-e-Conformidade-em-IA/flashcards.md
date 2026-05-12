@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 11: Segurança e Conformidade em IA
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual serviço AWS é mais associado ao princípio do menor privilégio?
-**R:** AWS IAM.
+**Pergunta:** Qual é um conceito-chave de revisão em 11-Seguranca-e-Conformidade-em-IA para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Para que serve o AWS KMS em uma solução de IA?
-**R:** Para apoiar proteção criptográfica de dados e segredos com gestão de chaves.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Por que CloudTrail importa em IA?
-**R:** Porque ajuda a rastrear ações e apoiar auditoria e investigação.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 11-Seguranca-e-Conformidade-em-IA para o exame AIF-C01?
 
-**P4:** Onde guardar segredos de integração?
-**R:** No AWS Secrets Manager, e não hardcoded no código.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Guardrails resolvem controle de identidade?
-**R:** Não. Esse papel continua sendo de IAM e serviços relacionados.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 11-Seguranca-e-Conformidade-em-IA para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

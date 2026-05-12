@@ -1,45 +1,14 @@
-# Questões — Recursos e Links
+﻿# Revisão Guiada do Módulo
 
-**1.** Se você precisa confirmar oficialmente o formato e os domínios do AIF-C01, qual recurso deve abrir primeiro?
+Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
 
-- A) Guia oficial do exame
-- B) Um fórum aleatório
-- C) Somente vídeos curtos de terceiros
-- D) Painel do CloudFront
+- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
+- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
+- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
 
-<details><summary>Resposta e explicações</summary>
+## Quick Review
 
-**Resposta correta: A**
-
-O guia oficial é a fonte primária para formato, domínios, pesos e expectativas do exame.
-
-**Por que as demais estão incorretas:**
-- **B** — Pode ajudar em opinião, mas não substitui fonte primária.
-- **C** — Material de terceiros é complemento, não base oficial do blueprint.
-- **D** — CloudFront não tem relação com o blueprint do exame.
-
-</details>
-
----
-
-**2.** Qual recurso oficial da AWS é mais indicado para trilhas estruturadas e laboratórios guiados?
-
-- A) AWS Skill Builder
-- B) Amazon EBS
-- C) AWS Global Accelerator
-- D) Amazon MQ
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-AWS Skill Builder reúne cursos, trilhas e laboratórios oficiais da AWS.
-
-**Por que as demais estão incorretas:**
-- **B** — EBS é armazenamento.
-- **C** — Global Accelerator é rede.
-- **D** — Amazon MQ é mensageria.
-
-</details>
-
----
+- Conceitos-chave do módulo
+- Serviço AWS correto para cada cenário
+- Risco de segurança/governança relacionado
+- Escolha de arquitetura com menor complexidade operacional

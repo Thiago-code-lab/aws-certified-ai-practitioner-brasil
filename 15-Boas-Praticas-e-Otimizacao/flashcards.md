@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 15: Boas Práticas e Otimização
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual é uma boa regra para escolha de modelo em otimização?
-**R:** Usar o menor modelo que entregue a qualidade necessária para o caso.
+**Pergunta:** Qual é um conceito-chave de revisão em 15-Boas-Praticas-e-Otimizacao para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Por que contexto excessivo pode ser ruim?
-**R:** Porque aumenta custo, pode aumentar latência e nem sempre melhora a resposta.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Quando batch é melhor que tempo real?
-**R:** Quando a resposta não precisa ser imediata e o processamento pode ocorrer fora do caminho interativo.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 15-Boas-Praticas-e-Otimizacao para o exame AIF-C01?
 
-**P4:** O que AWS Budgets e Cost Explorer ajudam a fazer?
-**R:** Monitorar e controlar gasto da solução.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que avaliação contínua é importante?
-**R:** Porque mudanças em prompt, dado ou modelo podem degradar qualidade sem que a equipe perceba rapidamente.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 15-Boas-Praticas-e-Otimizacao para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

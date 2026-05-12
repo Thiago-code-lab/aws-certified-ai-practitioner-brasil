@@ -1,223 +1,170 @@
-# Simulado Completo 1 — AIF-C01
+﻿# Simulado Completo 1 — Edição Curada
 
-Simulado focado em progressão de dificuldade, cobrindo fundamentos, GenAI, responsible AI e segurança.
+## Questão 01
 
-**1.** Uma empresa quer responder perguntas sobre políticas internas usando documentos atualizados com frequência. Qual solução é mais coerente?
+**Pergunta:** Quando o enunciado pede "menor esforço operacional" para GenAI, qual direção costuma ser mais adequada?
 
-- A) RAG com base documental controlada
-- B) Re-treinar o modelo a cada novo documento
-- C) Remover logs para ganhar latência
-- D) Trocar IAM por Guardrails
+- A) Serviço gerenciado
+- B) Infraestrutura autogerida completa
+- C) Treino distribuído próprio
+- D) Pipeline MLOps customizado do zero
 
-<details><summary>Resposta e explicações</summary>
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-Quando o conhecimento muda com frequência e precisa ser fundamentado, RAG é o caminho mais prático.
+**Explicação:**
+No nível AI Practitioner, "menor esforço operacional" normalmente aponta para serviços gerenciados.
 
-**Por que as demais estão incorretas:**
-- **B** — Costuma ser mais caro e menos ágil para esse cenário.
-- **C** — Logs não são a raiz do problema e continuam importantes.
-- **D** — Guardrails e IAM atendem problemas diferentes.
-
-</details>
-
----
-
-**2.** Qual serviço AWS é mais alinhado à construção de um modelo customizado com dados próprios?
-
-- A) Amazon SageMaker AI
-- B) Amazon Route 53
-- C) Amazon Bedrock Guardrails
-- D) Amazon CloudFront
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-SageMaker AI é a plataforma de ML customizado da AWS.
-
-**Por que as demais estão incorretas:**
-- **B** — DNS não resolve treino de modelo.
-- **C** — Guardrails não treinam modelo.
-- **D** — CloudFront é CDN.
+**Por que a alternativa B está errada:**
+Eleva complexidade operacional sem necessidade no cenário descrito.
 
 </details>
 
----
+## Questão 02
 
-**3.** Qual recurso ajuda a aplicar políticas de conteúdo em aplicações generativas no Bedrock?
+**Pergunta:** Embeddings são usados principalmente para:
+
+- A) Gerar áudio
+- B) Recuperação semântica
+- C) Gerar DNS
+- D) Criptografar buckets
+
+<details><summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** B
+
+**Explicação:**
+Embeddings convertem texto em vetores para busca por similaridade semântica.
+
+**Por que a alternativa A está errada:**
+Geração de áudio é caso de serviços de speech, não de embeddings.
+
+</details>
+
+## Questão 03
+
+**Pergunta:** Qual serviço é mais associado à extração de formulários em PDF?
+
+- A) Textract
+- B) Personalize
+- C) Kinesis
+- D) CloudFormation
+
+<details><summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** A
+
+**Explicação:**
+Textract extrai texto estruturado, formulários e tabelas de documentos.
+
+**Por que a alternativa B está errada:**
+Personalize é focado em recomendação.
+
+</details>
+
+## Questão 04
+
+**Pergunta:** Qual controle é mais alinhado para trilha de auditoria de ações?
+
+- A) IAM
+- B) CloudTrail
+- C) Route 53
+- D) WAF
+
+<details><summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** B
+
+**Explicação:**
+CloudTrail registra eventos de API e ações para auditoria e conformidade.
+
+**Por que a alternativa A está errada:**
+IAM define permissão; auditoria de eventos é outra função.
+
+</details>
+
+## Questão 05
+
+**Pergunta:** Para limitar saída inadequada de um assistente Bedrock, você deve priorizar:
 
 - A) Guardrails
-- B) Transit Gateway
+- B) NAT Gateway
 - C) EBS
-- D) Route Table
+- D) ELB
 
-<details><summary>Resposta e explicações</summary>
+<details><summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-Guardrails ajudam a controlar entradas e saídas em aplicações generativas.
+**Explicação:**
+Guardrails aplica política de conteúdo em prompts e respostas.
 
-**Por que as demais estão incorretas:**
-- **B** — É conectividade de rede.
-- **C** — É armazenamento.
-- **D** — É roteamento de rede.
-
-</details>
-
----
-
-**4.** Em uma arquitetura RAG, qual elemento existe para recuperar contexto semântico?
-
-- A) Embeddings e base vetorial
-- B) Subnet pública
-- C) NAT Gateway
-- D) ACM
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-A recuperação semântica depende de embeddings e de um armazenamento/índice vetorial.
-
-**Por que as demais estão incorretas:**
-- **B** — Rede não executa retrieval semântico.
-- **C** — NAT trata saída para internet.
-- **D** — ACM trata certificados.
+**Por que a alternativa B está errada:**
+NAT é componente de rede, sem função de política de conteúdo.
 
 </details>
 
----
+## Questão 06
 
-**5.** Qual serviço AWS é mais indicado para extrair texto, formulários e tabelas de PDFs?
+**Pergunta:** Quando a questão destaca "dados sensíveis" e "chaves", o serviço esperado é:
 
-- A) Amazon Textract
-- B) Amazon Personalize
-- C) Amazon SQS
-- D) AWS Budgets
+- A) KMS
+- B) EventBridge
+- C) SES
+- D) ECS
 
-<details><summary>Resposta e explicações</summary>
+<details><summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-Textract é o serviço especializado em extração documental.
+**Explicação:**
+KMS é o serviço central para gestão de chaves criptográficas na AWS.
 
-**Por que as demais estão incorretas:**
-- **B** — Personalize é recomendação.
-- **C** — SQS é fila.
-- **D** — Budgets trata custo.
-
-</details>
-
----
-
-**6.** Uma aplicação generativa lida com decisões sensíveis de RH. Qual prática é mais alinhada com IA responsável?
-
-- A) Revisão humana antes da decisão final
-- B) Automação total sem supervisão
-- C) Sem logs nem política
-- D) Temperatura máxima em produção
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Decisões sensíveis pedem supervisão humana e governança reforçada.
-
-**Por que as demais estão incorretas:**
-- **B** — É arriscado e desalinhado com responsible AI.
-- **C** — Governança exige registros e política.
-- **D** — Temperatura não resolve o tema de risco.
+**Por que a alternativa B está errada:**
+EventBridge é barramento de eventos, não gestão de chaves.
 
 </details>
 
----
+## Questão 07
 
-**7.** Qual serviço ajuda a identificar PII em dados armazenados no S3?
-
-- A) Amazon Macie
-- B) Amazon Polly
-- C) Amazon MQ
-- D) AWS Batch
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Macie é o serviço associado à descoberta de dados sensíveis em S3.
-
-**Por que as demais estão incorretas:**
-- **B** — Polly é texto para fala.
-- **C** — MQ é mensageria.
-- **D** — Batch executa jobs.
-
-</details>
-
----
-
-**8.** Qual escolha tende a ser melhor quando a empresa quer reduzir custo ocioso em inferência esporádica?
-
-- A) Inferência serverless ou fluxo sob demanda
-- B) Capacidade permanente máxima o tempo todo
-- C) Aumentar o contexto sem necessidade
-- D) Desligar CloudWatch
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Carga esporádica favorece abordagens mais elásticas, reduzindo custo ocioso.
-
-**Por que as demais estão incorretas:**
-- **B** — Mantém custo desnecessário.
-- **C** — Mais contexto pode aumentar custo.
-- **D** — Observabilidade continua necessária.
-
-</details>
-
----
-
-**9.** Qual serviço é o mais indicado para recomendação personalizada de produtos?
+**Pergunta:** Em perguntas sobre recomendação personalizada de produtos, qual serviço costuma ser o alvo?
 
 - A) Amazon Personalize
-- B) Amazon Rekognition
-- C) Amazon Textract
-- D) AWS KMS
+- B) Amazon Athena
+- C) AWS Backup
+- D) AWS Glue DataBrew
 
-<details><summary>Resposta e explicações</summary>
+<details><summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-Personalize é o serviço específico para recomendação personalizada na AWS.
+**Explicação:**
+Personalize é serviço dedicado para recomendações baseadas em comportamento e perfil.
 
-**Por que as demais estão incorretas:**
-- **B** — Rekognition é visão computacional.
-- **C** — Textract é documentos.
-- **D** — KMS é criptografia.
-
-</details>
-
----
-
-**10.** Se a pergunta fala em simplicidade operacional para usar FMs por API, qual serviço AWS costuma ser a melhor resposta?
-
-- A) Amazon Bedrock
-- B) Amazon RDS
-- C) AWS Snowball
-- D) Elastic Load Balancing
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Bedrock entrega consumo gerenciado de FMs por API com baixa carga operacional.
-
-**Por que as demais estão incorretas:**
-- **B** — RDS é banco relacional.
-- **C** — Snowball é transferência de dados.
-- **D** — ELB é balanceamento de carga.
+**Por que a alternativa B está errada:**
+Athena é engine SQL sobre dados no S3.
 
 </details>
 
----
+## Questão 08
+
+**Pergunta:** Em caso de uso com baixa latência e custo controlado, a prática inicial recomendada é:
+
+- A) Começar com modelo menor e medir qualidade
+- B) Sempre usar o maior modelo disponível
+- C) Ignorar observabilidade
+- D) Aumentar temperatura para tudo
+
+<details><summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** A
+
+**Explicação:**
+Escolha progressiva de modelo reduz custo e latência sem sacrificar qualidade quando validada por métricas.
+
+**Por que a alternativa B está errada:**
+Modelo maior eleva custo/latência sem garantia de benefício real.
+
+</details>

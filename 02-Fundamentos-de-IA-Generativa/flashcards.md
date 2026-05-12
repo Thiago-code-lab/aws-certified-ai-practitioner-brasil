@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 02: Fundamentos de IA Generativa
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** O que é alucinação em IA generativa?
-**R:** É quando o modelo gera uma resposta plausível, porém incorreta, inventada ou sem base confiável.
+**Pergunta:** Qual é um conceito-chave de revisão em 02-Fundamentos-de-IA-Generativa para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** O que o RAG adiciona a uma aplicação generativa?
-**R:** Recupera contexto externo relevante antes da geração, ajudando a fundamentar a resposta.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Quando usar temperatura mais baixa?
-**R:** Em tarefas que exigem consistência, precisão operacional ou saída estruturada.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 02-Fundamentos-de-IA-Generativa para o exame AIF-C01?
 
-**P4:** Engenharia de prompts substitui governança?
-**R:** Não. Prompt ajuda no comportamento, mas governança inclui segurança, políticas, logs, revisão e gestão de dados.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Qual é a vantagem de grounding sobre depender só do conhecimento prévio do modelo?
-**R:** Permite respostas baseadas em informação atual e específica do negócio.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 02-Fundamentos-de-IA-Generativa para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

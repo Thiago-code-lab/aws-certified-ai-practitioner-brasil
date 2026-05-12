@@ -1,19 +1,38 @@
-# Flashcards — Simulados e Questões
+﻿# Flashcards — Edição Curada
 
-**P1:** Qual é a diferença de leitura entre Bedrock e SageMaker AI em prova?  
-**R:** Bedrock geralmente aponta para consumo gerenciado de FMs; SageMaker AI aponta para ML customizado e ciclo de vida do modelo.
+## Card 01
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 16-Simulados-e-Questoes para o exame AIF-C01?
 
-**P2:** O que costuma indicar necessidade de RAG?  
-**R:** Uso de documentos internos, conhecimento atualizado e necessidade de grounding.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P3:** Quando a revisão humana deve entrar?  
-**R:** Em casos sensíveis, regulados ou de alto impacto para pessoas.
+</details>
 
----
+## Card 02
 
-**P4:** O que revisar se você erra custo e latência?  
-**R:** Modo de inferência, tamanho de contexto, escolha do modelo e possibilidade de cache ou batch.
+**Pergunta:** Qual é um conceito-chave de revisão em 16-Simulados-e-Questoes para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 16-Simulados-e-Questoes para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

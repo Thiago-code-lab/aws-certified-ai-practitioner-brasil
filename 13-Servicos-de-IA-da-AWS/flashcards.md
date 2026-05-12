@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 13: Serviços de IA da AWS
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual serviço é mais indicado para recomendação personalizada?
-**R:** Amazon Personalize.
+**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Qual serviço da AWS é especializado em documentos, formulários e tabelas?
-**R:** Amazon Textract.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Qual serviço da AWS é mais forte para IA generativa com foundation models?
-**R:** Amazon Bedrock.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
 
-**P4:** Amazon Comprehend resolve melhor que Bedrock em quais tipos de caso?
-**R:** Casos de NLP estruturado como análise de sentimento, entidade e classificação simples.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que estudar serviços por caso de uso é melhor que decorar a lista?
-**R:** Porque a prova descreve problemas de negócio, e não apenas nomes de serviços.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 13-Servicos-de-IA-da-AWS para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

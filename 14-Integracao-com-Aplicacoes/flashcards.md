@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 14: Integração com Aplicações
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Quando usar SQS em uma solução com IA?
-**R:** Quando o processamento pode ser assíncrono e a arquitetura precisa de desacoplamento e resiliência.
+**Pergunta:** Qual é um conceito-chave de revisão em 14-Integracao-com-Aplicacoes para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Por que API Gateway + Lambda aparece tanto em soluções de IA?
-**R:** Porque oferece uma camada serverless simples para expor, controlar e observar chamadas de IA.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Qual é a vantagem de uma integração orientada a eventos?
-**R:** Reduz acoplamento e facilita workflows assíncronos entre serviços.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 14-Integracao-com-Aplicacoes para o exame AIF-C01?
 
-**P4:** Toda solução com usuário final precisa ser síncrona?
-**R:** Não. Depende do que o usuário espera receber imediatamente.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que a aplicação deve intermediar o modelo?
-**R:** Para aplicar autenticação, validação, logging, políticas e transformação de dados.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 14-Integracao-com-Aplicacoes para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

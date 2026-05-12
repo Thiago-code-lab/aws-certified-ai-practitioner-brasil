@@ -1,71 +1,14 @@
-﻿# Questões — Módulo 13: Serviços de IA da AWS
+﻿# Revisão Guiada do Módulo
 
-> **Nível predominante:** Intermediário
-> **Objetivo:** treinar vocabulário de prova e raciocínio arquitetural em contexto AWS.
+Este arquivo foi mantido para preservar a navegação completa do repositório, com foco em revisão objetiva.
 
-**1.** Uma plataforma quer sugerir produtos com base em comportamento e histórico de interação. Qual serviço AWS é mais alinhado?
+- Use os flashcards e o cheatsheet deste módulo para reforçar conceitos.
+- Faça treino prático no [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
+- Para revisão final, priorize perguntas comentadas com respostas colapsáveis no módulo de simulados.
 
-- A) Amazon Personalize
-- B) Amazon Textract
-- C) Amazon CloudFront
-- D) AWS Direct Connect
+## Quick Review
 
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Personalize é o serviço especializado em recomendações personalizadas dentro do ecossistema AWS.
-
-**Por que as demais estão incorretas:**
-- **B** — Textract é para documentos.
-- **C** — CloudFront é CDN.
-- **D** — Direct Connect é conectividade dedicada.
-
-</details>
-
----
-
-**2.** Qual serviço AWS é mais indicado para extrair campos de formulários escaneados?
-
-- A) Amazon Textract
-- B) Amazon Personalize
-- C) AWS KMS
-- D) Amazon SQS
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Textract foi desenhado para documentos, incluindo formulários e tabelas.
-
-**Por que as demais estão incorretas:**
-- **B** — Personalize é para recomendação.
-- **C** — KMS trata criptografia.
-- **D** — SQS é mensageria.
-
-</details>
-
----
-
-**3.** Uma empresa quer um assistente empresarial para busca e produtividade em conteúdo corporativo. Qual nome aparece com mais força nesse tipo de cenário?
-
-- A) Amazon Q Business
-- B) Amazon EBS
-- C) AWS Snowmobile
-- D) Amazon VPC
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Amazon Q Business é o serviço mais associado a produtividade e busca empresarial assistida dentro da linha Amazon Q.
-
-**Por que as demais estão incorretas:**
-- **B** — EBS é armazenamento em bloco.
-- **C** — Snowmobile é transferência física de grandes volumes de dados.
-- **D** — VPC é rede.
-
-</details>
-
----
-
+- Conceitos-chave do módulo
+- Serviço AWS correto para cada cenário
+- Risco de segurança/governança relacionado
+- Escolha de arquitetura com menor complexidade operacional

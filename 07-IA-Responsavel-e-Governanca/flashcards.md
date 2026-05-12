@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 07: IA Responsável e Governança
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Quando human-in-the-loop é especialmente importante?
-**R:** Quando a aplicação influencia decisões sensíveis, reguladas ou com impacto significativo para pessoas.
+**Pergunta:** Qual é um conceito-chave de revisão em 07-IA-Responsavel-e-Governanca para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Qual serviço AWS ajuda na revisão humana seletiva?
-**R:** Amazon Augmented AI (A2I).
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Para que serve o SageMaker Clarify?
-**R:** Para apoiar análise de viés e explicabilidade em workflows de ML.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 07-IA-Responsavel-e-Governanca para o exame AIF-C01?
 
-**P4:** Governança é só documentação?
-**R:** Não. Inclui controle de acesso, trilhas, monitoramento, revisão e melhoria contínua.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Guardrails resolvem toda a governança de IA?
-**R:** Não. Eles ajudam no conteúdo, mas governança inclui muito mais.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 07-IA-Responsavel-e-Governanca para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

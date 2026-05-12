@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 09: Engenharia de Prompts
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** O que um bom prompt costuma explicitar?
-**R:** Papel, objetivo, contexto, formato de saída e restrições.
+**Pergunta:** Qual é um conceito-chave de revisão em 09-Engenharia-de-Prompts para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** O que é few-shot prompting?
-**R:** É fornecer alguns exemplos de entrada e saída para orientar o comportamento do modelo.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Por que saída estruturada importa?
-**R:** Porque facilita validação e integração com aplicações e workflows automáticos.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 09-Engenharia-de-Prompts para o exame AIF-C01?
 
-**P4:** Engenharia de prompts substitui RAG?
-**R:** Não. Prompt ajuda o comportamento; RAG ajuda a base factual e o contexto do negócio.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que versionar prompts?
-**R:** Porque mudanças de prompt podem alterar fortemente a qualidade e a previsibilidade da aplicação.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 09-Engenharia-de-Prompts para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

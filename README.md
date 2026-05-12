@@ -1,136 +1,85 @@
-﻿# 🤖 AWS Certified AI Practitioner (AIF-C01)
+﻿<p align="center">
+  <img src="./assets/Banner-AI-Practitioner.png" alt="Banner AWS AI Practitioner" width="100%">
+</p>
 
-<p align="center"><strong>Base de estudos CloudStudy em Português do Brasil para a certificação AWS Certified AI Practitioner</strong></p>
+<p align="center">
+  <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="156">
+  &nbsp;&nbsp;&nbsp;
+  <img src="./assets/IaPractitioner%20(1).png" alt="AWS AI Practitioner" height="102">
+</p>
+
+<h1 align="center">AWS AI Practitioner (AIF-C01) | Brasil</h1>
+
+<p align="center">
+  Base open source em PT-BR para fundamentos de IA na AWS com navegação premium e trilha de evolução.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Thiago-code-lab/aws-certified-ai-practitioner-brasil?style=for-the-badge&label=Stars&color=2563eb" alt="Stars">
+  <img src="https://img.shields.io/github/forks/Thiago-code-lab/aws-certified-ai-practitioner-brasil?style=for-the-badge&label=Forks&color=1d4ed8" alt="Forks">
+  <img src="https://img.shields.io/github/last-commit/Thiago-code-lab/aws-certified-ai-practitioner-brasil?style=for-the-badge&label=Ultimo%20commit&color=334155" alt="Último commit">
+  <img src="https://img.shields.io/github/license/Thiago-code-lab/aws-certified-ai-practitioner-brasil?style=for-the-badge&label=MIT&color=0f766e" alt="Licença MIT">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Conteudo-PT--BR-0284c7?style=for-the-badge&labelColor=0f172a" alt="Conteúdo em PT-BR">
+  <img src="https://img.shields.io/badge/Open%20Source-Educacional-1e40af?style=for-the-badge&labelColor=0f172a" alt="Open Source">
+  <img src="https://img.shields.io/badge/Focus-GenAI%20on%20AWS-0f766e?style=for-the-badge&labelColor=0f172a" alt="Focus">
+</p>
 
 ---
 
-## 🚦 Por onde começar
+## Visão Geral
 
-- **Trilha para iniciantes:** siga os módulos [01](./01-Introducao-IA-e-ML/README.md) → [02](./02-Fundamentos-de-IA-Generativa/README.md) → [03](./03-Fundamentos-de-Machine-Learning/README.md) → [04](./04-Modelos-Fundacionais-e-LLMs/README.md) → [05](./05-Amazon-Bedrock/README.md) → [06](./06-Amazon-SageMaker/README.md) e continue em ordem até [18](./18-Recursos-e-Links/README.md).
-- **Revisão rápida:** priorize [Bedrock](./05-Amazon-Bedrock/README.md), [Prompt Engineering](./09-Engenharia-de-Prompts/README.md), [Segurança em IA](./11-Seguranca-e-Conformidade-em-IA/README.md), [Serviços de IA da AWS](./13-Servicos-de-IA-da-AWS/README.md) e [Simulados](./16-Simulados-e-Questoes/README.md).
-- **Reta final de 14 dias:** concentre em [02](./02-Fundamentos-de-IA-Generativa/README.md), [04](./04-Modelos-Fundacionais-e-LLMs/README.md), [05](./05-Amazon-Bedrock/README.md), [07](./07-IA-Responsavel-e-Governanca/README.md), [11](./11-Seguranca-e-Conformidade-em-IA/README.md), [15](./15-Boas-Praticas-e-Otimizacao/README.md) e feche com [16](./16-Simulados-e-Questoes/README.md).
+Este repositório organiza os fundamentos de IA e IA generativa na AWS em módulos objetivos, com foco em leitura progressiva, revisão rápida e prática guiada. A proposta pública prioriza clareza e consistência para quem está iniciando no escopo do exame AIF-C01.
 
-> Repositório de estudos em Português do Brasil com foco prático na aprovação no exame AWS Certified AI Practitioner e no uso responsável de IA na AWS.
+| Bloco | O que você encontra |
+|---|---|
+| Fundamentos | Conceitos de IA, ML, inferência, LLMs e base da certificação |
+| Serviços de IA AWS | Bedrock, SageMaker, serviços especializados e integração com aplicações |
+| Responsible AI e Segurança | Governança, conformidade, privacidade, revisão humana e controles essenciais |
+| Revisão | Simulados curtos, questões comentadas, glossário e material de fixação |
+| Apoio | Cheatsheets, flashcards, labs guiados e recursos complementares |
 
-## 🎯 Sobre este Repositório
+## Roadmap de Estudo
 
-Este material foi criado para a CloudStudy com foco em preparação real para o exame **AWS Certified AI Practitioner (AIF-C01)**. A proposta é combinar linguagem didática, profundidade suficiente para prova e forte alinhamento com arquiteturas e serviços nativos da AWS.
+1. Módulos 01 a 05: fundamentos de IA/ML, IA generativa, LLMs e Bedrock.
+2. Módulos 06 a 10: SageMaker, governança inicial, dados para IA e prompts.
+3. Módulos 11 a 15: segurança, casos de uso, integração e otimização.
+4. Módulos 16 a 18: consolidação, simulados, glossário e revisão final.
 
-O conteúdo foi organizado para funcionar como trilha progressiva: primeiro você consolida os fundamentos de IA e ML, depois entra em foundation models, Bedrock, SageMaker AI, governança, segurança, integração e otimização. Ao final, a revisão se fecha com simulados, glossário e curadoria de recursos oficiais.
+## Módulos
 
-## 📌 Objetivos da certificação
+| # | Tema | Link |
+|---|---|---|
+| 01 | Introdução a IA e ML | [Abrir](./01-Introducao-IA-e-ML/README.md) |
+| 02 | Fundamentos de IA Generativa | [Abrir](./02-Fundamentos-de-IA-Generativa/README.md) |
+| 03 | Fundamentos de Machine Learning | [Abrir](./03-Fundamentos-de-Machine-Learning/README.md) |
+| 04 | Modelos Fundacionais e LLMs | [Abrir](./04-Modelos-Fundacionais-e-LLMs/README.md) |
+| 05 | Amazon Bedrock | [Abrir](./05-Amazon-Bedrock/README.md) |
+| 06 | Amazon SageMaker | [Abrir](./06-Amazon-SageMaker/README.md) |
+| 07 | IA Responsável e Governança | [Abrir](./07-IA-Responsavel-e-Governanca/README.md) |
+| 08 | Dados para IA | [Abrir](./08-Dados-para-IA/README.md) |
+| 09 | Engenharia de Prompts | [Abrir](./09-Engenharia-de-Prompts/README.md) |
+| 10 | IA Generativa na AWS | [Abrir](./10-IA-Generativa-na-AWS/README.md) |
+| 11 | Segurança e Conformidade em IA | [Abrir](./11-Seguranca-e-Conformidade-em-IA/README.md) |
+| 12 | Casos de Uso e Arquiteturas | [Abrir](./12-Casos-de-Uso-e-Arquiteturas/README.md) |
+| 13 | Serviços de IA da AWS | [Abrir](./13-Servicos-de-IA-da-AWS/README.md) |
+| 14 | Integração com Aplicações | [Abrir](./14-Integracao-com-Aplicacoes/README.md) |
+| 15 | Boas Práticas e Otimização | [Abrir](./15-Boas-Praticas-e-Otimizacao/README.md) |
+| 16 | Simulados e Questões | [Abrir](./16-Simulados-e-Questoes/README.md) |
+| 17 | Glossário | [Abrir](./17-Glossario/README.md) |
+| 18 | Recursos e Links | [Abrir](./18-Recursos-e-Links/README.md) |
 
-- Entender fundamentos de IA, ML e IA generativa no contexto da AWS.
-- Reconhecer casos de uso apropriados para serviços especializados, Bedrock e SageMaker AI.
-- Aplicar princípios de responsible AI, governança, segurança e otimização de custo.
-- Ler cenários de negócio e escolher a arquitetura AWS mais adequada para o caso.
+## Estudos Complementares AWS
 
-## 👥 Público-alvo
+- **Para revisar fundamentos de cloud:**
+https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
 
-- Estudantes iniciando em IA na AWS.
-- Profissionais de cloud, dados, produto e software que precisam entender o vocabulário de IA aplicado ao negócio.
-- Times que usarão este repositório como base de conhecimento da CloudStudy.
+- **Arquiteturas AWS complementares podem ser aprofundadas em:**
+https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil
 
-## 📊 Estrutura e domínios do exame
-
-| Domínio | Peso | O que tende a cair na prática | Módulos principais |
-| --- | --- | --- | --- |
-| Fundamentos de IA e ML | 20% | Diferenças entre IA, ML, GenAI, treino, inferência e tipos de aprendizado | 01, 03, 06, 08 |
-| Fundamentos de IA generativa | 24% | Prompting, alucinação, grounding, RAG, embeddings e LLMs | 02, 04, 05, 09, 10 |
-| Aplicações de foundation models | 28% | Bedrock, modelos fundacionais, integração com apps e casos de uso | 04, 05, 10, 12, 13, 14 |
-| Diretrizes para IA responsável | 14% | Responsible AI, governança, revisão humana, viés e políticas | 07, 11, 15 |
-| Segurança, conformidade e governança | 14% | IAM, KMS, CloudTrail, segredos, dados sensíveis e controle operacional | 08, 11, 15 |
-
-## 🗺️ Roteiro de estudos
-
-### Semana 1
-- Módulo 01: Introdução a IA e ML
-- Módulo 02: Fundamentos de IA Generativa
-- Módulo 03: Fundamentos de Machine Learning
-
-### Semana 2
-- Módulo 04: Modelos Fundacionais e LLMs
-- Módulo 05: Amazon Bedrock
-- Módulo 06: Amazon SageMaker AI
-
-### Semana 3
-- Módulo 07: IA Responsável e Governança
-- Módulo 08: Dados para IA
-- Módulo 09: Engenharia de Prompts
-
-### Semana 4
-- Módulo 10: IA Generativa na AWS
-- Módulo 11: Segurança e Conformidade em IA
-- Módulo 12: Casos de Uso e Arquiteturas
-
-### Semana 5
-- Módulo 13: Serviços de IA da AWS
-- Módulo 14: Integração com Aplicações
-- Módulo 15: Boas Práticas e Otimização
-
-### Semana 6
-- Módulo 16: Simulados e Questões
-- Módulo 17: Glossário
-- Módulo 18: Recursos e Links
-
-## 📁 Índice de módulos
-
-| # | Módulo | Domínio predominante | Link |
-| --- | --- | --- | --- |
-| 01 | Introdução a IA e ML | Fundamentos de IA e ML | [README](./01-Introducao-IA-e-ML/README.md) |
-| 02 | Fundamentos de IA Generativa | Fundamentos de IA generativa | [README](./02-Fundamentos-de-IA-Generativa/README.md) |
-| 03 | Fundamentos de Machine Learning | Fundamentos de IA e ML | [README](./03-Fundamentos-de-Machine-Learning/README.md) |
-| 04 | Modelos Fundacionais e LLMs | Aplicações de foundation models | [README](./04-Modelos-Fundacionais-e-LLMs/README.md) |
-| 05 | Amazon Bedrock | Aplicações de foundation models | [README](./05-Amazon-Bedrock/README.md) |
-| 06 | Amazon SageMaker AI | Fundamentos de IA e ML | [README](./06-Amazon-SageMaker/README.md) |
-| 07 | IA Responsável e Governança | Diretrizes para IA responsável | [README](./07-IA-Responsavel-e-Governanca/README.md) |
-| 08 | Dados para IA | Dados e preparação para IA | [README](./08-Dados-para-IA/README.md) |
-| 09 | Engenharia de Prompts | Engenharia de prompts | [README](./09-Engenharia-de-Prompts/README.md) |
-| 10 | IA Generativa na AWS | Aplicações e arquiteturas GenAI | [README](./10-IA-Generativa-na-AWS/README.md) |
-| 11 | Segurança e Conformidade em IA | Segurança, conformidade e governança | [README](./11-Seguranca-e-Conformidade-em-IA/README.md) |
-| 12 | Casos de Uso e Arquiteturas | Aplicações práticas na AWS | [README](./12-Casos-de-Uso-e-Arquiteturas/README.md) |
-| 13 | Serviços de IA da AWS | Serviços de IA em escopo | [README](./13-Servicos-de-IA-da-AWS/README.md) |
-| 14 | Integração com Aplicações | Integração com aplicações | [README](./14-Integracao-com-Aplicacoes/README.md) |
-| 15 | Boas Práticas e Otimização | Otimização, custo e operação | [README](./15-Boas-Praticas-e-Otimizacao/README.md) |
-| 16 | Simulados e Questões | Todos os domínios | [README](./16-Simulados-e-Questoes/README.md) |
-| 17 | Glossário | Revisão final | [README](./17-Glossario/README.md) |
-| 18 | Recursos e Links | Revisão final | [README](./18-Recursos-e-Links/README.md) |
-
-## 🎓 Objetivos de aprendizagem
-
-- Explicar com segurança conceitos como embeddings, vector databases, RAG, grounding e hallucinations.
-- Diferenciar Amazon Bedrock, Amazon SageMaker AI e serviços de IA especializados da AWS.
-- Desenhar arquiteturas GenAI com foco em simplicidade operacional, segurança e governança.
-- Entender quando usar revisão humana, Guardrails, IAM, KMS e trilhas de auditoria.
-- Otimizar custo e latência sem perder alinhamento com o caso de uso.
-
-## 💼 Valor da certificação
-
-A certificação AWS Certified AI Practitioner valida uma base sólida para trabalhar com IA e IA generativa na AWS. Para a CloudStudy, este repositório funciona tanto como material de aprovação quanto como referência operacional para times que precisam aprender, revisar e discutir IA com critério técnico.
-
-## 🧭 Como estudar com este material
-
-1. Leia o README de cada módulo antes de abrir cheatsheet e flashcards.
-2. Resolva as questões do módulo antes de consultar as explicações.
-3. Use o lab para transformar o conceito em raciocínio arquitetural.
-4. Ao concluir os módulos 01 a 15, vá para [Simulados](./16-Simulados-e-Questoes/README.md).
-5. Feche a revisão com [Glossário](./17-Glossario/README.md) e [Recursos e Links](./18-Recursos-e-Links/README.md).
-
-## ⚠️ Armadilhas comuns na prova
-
-| Confusão frequente | Leitura correta | Erro típico |
-| --- | --- | --- |
-| Bedrock vs SageMaker AI | Bedrock para consumir FMs; SageMaker AI para ML customizado e operação do ciclo de vida | Escolher Bedrock quando a questão pede treino customizado completo |
-| RAG vs fine-tuning | RAG para conhecimento dinâmico e documental; fine-tuning para adaptar comportamento/estilo | Achar que todo problema de conhecimento interno pede re-treinamento |
-| Embeddings vs LLM | Embedding representa semanticamente; LLM gera resposta | Tratar base vetorial como se gerasse texto sozinha |
-| Guardrails vs IAM | Guardrails controlam conteúdo; IAM controla identidade e permissão | Usar Guardrails como substituto de segurança de acesso |
-| Serviço especializado vs LLM | Textract, Comprehend, Rekognition e Personalize continuam sendo respostas fortes | Responder Bedrock para qualquer cenário só porque envolve IA |
-
-## 🤝 CloudStudy
-
-Este repositório faz parte do ecossistema CloudStudy e foi escrito para uso educacional real, com foco em clareza, consistência e aplicabilidade prática em AWS.
-
-## 📄 Licença
+## Licença
 
 MIT
 

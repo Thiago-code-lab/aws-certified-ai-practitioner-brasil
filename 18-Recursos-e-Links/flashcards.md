@@ -1,24 +1,38 @@
-# Flashcards — Recursos e Links
+﻿# Flashcards — Edição Curada
 
-**P1:** Qual é o documento mais importante para alinhar o escopo do exame?  
-**R:** O guia oficial do exame AIF-C01.
+## Card 01
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 18-Recursos-e-Links para o exame AIF-C01?
 
-**P2:** Onde revisar rapidamente a lista de serviços cobrados?  
-**R:** Na página oficial de serviços em escopo do AIF-C01.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P3:** Qual recurso oficial ajuda em laboratórios e trilhas?  
-**R:** AWS Skill Builder.
+</details>
 
----
+## Card 02
 
-**P4:** Qual documentação revisar para Bedrock?  
-**R:** A user guide oficial do Amazon Bedrock.
+**Pergunta:** Qual é um conceito-chave de revisão em 18-Recursos-e-Links para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P5:** Qual documentação revisar para ML customizado?  
-**R:** A documentação oficial do Amazon SageMaker AI.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 18-Recursos-e-Links para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

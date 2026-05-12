@@ -1,28 +1,38 @@
-# Flashcards — Módulo 10: IA Generativa na AWS
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual é um desenho comum para uma aplicação GenAI simples na AWS?
-**R:** Front-end + API Gateway + Lambda + Bedrock + S3 + CloudWatch.
+**Pergunta:** Qual é um conceito-chave de revisão em 10-IA-Generativa-na-AWS para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Quando usar fluxo assíncrono?
-**R:** Quando a tarefa é demorada, como processamento de documentos grandes ou geração de relatórios fora do caminho crítico do usuário.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Por que não chamar o modelo diretamente do front-end?
-**R:** Porque isso dificulta segurança, controle de acesso, observabilidade e governança do prompt.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 10-IA-Generativa-na-AWS para o exame AIF-C01?
 
-**P4:** O que CloudWatch agrega a uma aplicação GenAI?
-**R:** Logs, métricas, alarmes e visibilidade operacional.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que fallback é importante?
-**R:** Porque modelos podem falhar, demorar ou responder com baixa utilidade; a aplicação precisa comportamento degradado seguro.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 10-IA-Generativa-na-AWS para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

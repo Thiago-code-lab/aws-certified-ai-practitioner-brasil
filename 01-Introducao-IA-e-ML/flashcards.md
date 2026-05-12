@@ -1,29 +1,38 @@
-﻿# Flashcards — Módulo 01: Introdução a IA e ML
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual é a diferença central entre treinamento e inferência?
-**R:** Treinamento ajusta os parâmetros do modelo com base em dados. Inferência usa o modelo já treinado para responder a uma nova entrada.
+**Pergunta:** Qual é um conceito-chave de revisão em 01-Introducao-IA-e-ML para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Quando Bedrock tende a ser melhor escolha que SageMaker AI?
-**R:** Quando a empresa quer consumir foundation models por API, com mínimo esforço operacional e sem montar infraestrutura de treinamento do zero.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** O que caracteriza IA generativa?
-**R:** A capacidade de produzir novos conteúdos, como texto, imagem, áudio ou código, a partir de padrões aprendidos.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 01-Introducao-IA-e-ML para o exame AIF-C01?
 
-**P4:** Qual é a principal vantagem de um serviço gerenciado da AWS em prova?
-**R:** Reduz esforço operacional e costuma atender melhor cenários em que o enunciado valoriza simplicidade, velocidade e governança.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** O que costuma indicar um caso de ML supervisionado?
-**R:** Dados históricos com rótulos e um objetivo de prever uma categoria ou valor futuro.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 01-Introducao-IA-e-ML para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
 

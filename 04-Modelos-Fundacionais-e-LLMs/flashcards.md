@@ -1,28 +1,38 @@
-# Flashcards — Módulo 04: Modelos Fundacionais e LLMs
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** O que é embedding?
-**R:** Uma representação numérica que captura semelhança semântica entre conteúdos.
+**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Qual é a função de uma vector database?
-**R:** Armazenar vetores e permitir busca eficiente por similaridade.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Quando RAG costuma ser melhor escolha que fine-tuning?
-**R:** Quando a aplicação precisa responder com base em conhecimento interno atualizado e auditável.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
 
-**P4:** Quem gera a resposta final em uma arquitetura RAG?
-**R:** O modelo gerador, alimentado pelo contexto recuperado.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Por que metadados importam em RAG?
-**R:** Porque ajudam a filtrar o que é relevante antes da geração, melhorando precisão e governança.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 04-Modelos-Fundacionais-e-LLMs para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

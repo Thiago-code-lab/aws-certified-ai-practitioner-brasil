@@ -1,28 +1,38 @@
-# Flashcards — Módulo 05: Amazon Bedrock
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Qual é a proposta central do Amazon Bedrock?
-**R:** Permitir o uso gerenciado de foundation models por API, sem operar infraestrutura de modelo diretamente.
+**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Para que servem Knowledge Bases no Bedrock?
-**R:** Para recuperar contexto relevante de fontes documentais e apoiar respostas fundamentadas.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Guardrails substituem IAM?
-**R:** Não. Guardrails tratam políticas de conteúdo; IAM controla identidade e permissões.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
 
-**P4:** Quando Agents fazem sentido?
-**R:** Quando a aplicação precisa ir além de responder texto e executar ações, consultar sistemas ou seguir passos orquestrados.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Qual é o risco de usar Bedrock sem observabilidade?
-**R:** Perder visibilidade sobre custo, latência, falhas e qualidade das respostas.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 05-Amazon-Bedrock para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

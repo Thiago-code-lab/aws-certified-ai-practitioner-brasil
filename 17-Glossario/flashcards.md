@@ -1,24 +1,38 @@
-# Flashcards — Glossário
+﻿# Flashcards — Edição Curada
 
-**P1:** O que é RAG?  
-**R:** Padrão em que a aplicação recupera contexto externo antes de pedir ao modelo que gere a resposta.
+## Card 01
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 17-Glossario para o exame AIF-C01?
 
-**P2:** Qual é a diferença entre treinamento e inferência?  
-**R:** Treinamento ajusta o modelo com dados; inferência usa o modelo pronto para responder a novas entradas.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P3:** O que é embedding?  
-**R:** Representação vetorial de conteúdo usada para busca semântica e similaridade.
+</details>
 
----
+## Card 02
 
-**P4:** Bedrock substitui SageMaker AI?  
-**R:** Não. Bedrock foca consumo de FMs; SageMaker AI foca ciclo de ML customizado.
+**Pergunta:** Qual é um conceito-chave de revisão em 17-Glossario para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P5:** O que é alucinação?  
-**R:** Resposta plausível, porém incorreta, sem base confiável ou inventada.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 17-Glossario para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

@@ -1,28 +1,38 @@
-# Flashcards — Módulo 03: Fundamentos de Machine Learning
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Quando um problema é de classificação?
-**R:** Quando a saída desejada é uma classe ou categoria, como aprovar/rejeitar, urgente/não urgente, fraude/não fraude.
+**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Qual a função do conjunto de teste?
-**R:** Medir como o modelo se comporta em dados não vistos, avaliando generalização.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** O que é overfitting?
-**R:** É quando o modelo se ajusta demais ao treino e perde desempenho em novos dados.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
 
-**P4:** Para que serve o Ground Truth?
-**R:** Para rotular dados, principalmente em cenários supervisionados que exigem exemplos anotados.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** Qual serviço da AWS aparece com mais frequência para ML customizado?
-**R:** Amazon SageMaker AI.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 03-Fundamentos-de-Machine-Learning para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

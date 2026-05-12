@@ -1,113 +1,133 @@
-# Questões de Aquecimento — AIF-C01
+﻿# Questões de Aquecimento — AIF-C01
 
-Use estas questões antes dos simulados completos para aquecer leitura de enunciado e vocabulário do exame.
+## Questão 01
 
-**1.** Uma empresa quer responder perguntas sobre políticas internas usando documentos atualizados com frequência. Qual solução é mais coerente?
+**Pergunta:** Em um cenário com base documental que muda semanalmente, qual abordagem é mais adequada para respostas atualizadas?
 
-- A) RAG com base documental controlada
-- B) Re-treinar o modelo a cada novo documento
-- C) Remover logs para ganhar latência
-- D) Trocar IAM por Guardrails
+- A) RAG com recuperação de contexto
+- B) Fine-tuning a cada atualização
+- C) Remoção de logs de auditoria
+- D) Substituir IAM por Guardrails
 
-<details><summary>Resposta e explicações</summary>
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-Quando o conhecimento muda com frequência e precisa ser fundamentado, RAG é o caminho mais prático.
+**Explicação:**
+RAG separa conhecimento dinâmico do treinamento do modelo, reduzindo custo e tempo de atualização.
 
-**Por que as demais estão incorretas:**
-- **B** — Costuma ser mais caro e menos ágil para esse cenário.
-- **C** — Logs não são a raiz do problema e continuam importantes.
-- **D** — Guardrails e IAM atendem problemas diferentes.
+**Por que a alternativa B está errada:**
+Fine-tuning recorrente para atualização documental tende a elevar custo e complexidade operacional.
 
 </details>
 
----
+## Questão 02
 
-**2.** Qual serviço AWS é mais alinhado à construção de um modelo customizado com dados próprios?
+**Pergunta:** Qual serviço AWS é mais indicado para aplicar políticas de conteúdo em apps GenAI com Bedrock?
 
-- A) Amazon SageMaker AI
-- B) Amazon Route 53
-- C) Amazon Bedrock Guardrails
+- A) AWS KMS
+- B) Amazon Bedrock Guardrails
+- C) Amazon Route 53
 - D) Amazon CloudFront
 
-<details><summary>Resposta e explicações</summary>
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** B
 
-SageMaker AI é a plataforma de ML customizado da AWS.
+**Explicação:**
+Guardrails controla temas e padrões de conteúdo em entradas e saídas de aplicações generativas.
 
-**Por que as demais estão incorretas:**
-- **B** — DNS não resolve treino de modelo.
-- **C** — Guardrails não treinam modelo.
-- **D** — CloudFront é CDN.
-
-</details>
-
----
-
-**3.** Qual recurso ajuda a aplicar políticas de conteúdo em aplicações generativas no Bedrock?
-
-- A) Guardrails
-- B) Transit Gateway
-- C) EBS
-- D) Route Table
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Guardrails ajudam a controlar entradas e saídas em aplicações generativas.
-
-**Por que as demais estão incorretas:**
-- **B** — É conectividade de rede.
-- **C** — É armazenamento.
-- **D** — É roteamento de rede.
+**Por que a alternativa A está errada:**
+KMS trata gestão de chaves e criptografia, não política semântica de conteúdo.
 
 </details>
 
----
+## Questão 03
 
-**4.** Em uma arquitetura RAG, qual elemento existe para recuperar contexto semântico?
+**Pergunta:** Para identificar dados sensíveis em buckets S3, qual serviço é o mais aderente?
 
-- A) Embeddings e base vetorial
-- B) Subnet pública
-- C) NAT Gateway
-- D) ACM
+- A) Amazon Macie
+- B) Amazon Rekognition
+- C) Amazon Polly
+- D) Amazon SQS
 
-<details><summary>Resposta e explicações</summary>
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**Resposta correta: A**
+✅ **Resposta correta:** A
 
-A recuperação semântica depende de embeddings e de um armazenamento/índice vetorial.
+**Explicação:**
+Amazon Macie foi desenhado para descoberta e classificação de dados sensíveis no S3.
 
-**Por que as demais estão incorretas:**
-- **B** — Rede não executa retrieval semântico.
-- **C** — NAT trata saída para internet.
-- **D** — ACM trata certificados.
-
-</details>
-
----
-
-**5.** Qual serviço AWS é mais indicado para extrair texto, formulários e tabelas de PDFs?
-
-- A) Amazon Textract
-- B) Amazon Personalize
-- C) Amazon SQS
-- D) AWS Budgets
-
-<details><summary>Resposta e explicações</summary>
-
-**Resposta correta: A**
-
-Textract é o serviço especializado em extração documental.
-
-**Por que as demais estão incorretas:**
-- **B** — Personalize é recomendação.
-- **C** — SQS é fila.
-- **D** — Budgets trata custo.
+**Por que a alternativa B está errada:**
+Rekognition é voltado para visão computacional, não classificação de PII em armazenamento.
 
 </details>
 
----
+## Questão 04
+
+**Pergunta:** Em inferência com tráfego imprevisível, qual decisão tende a reduzir custo ocioso?
+
+- A) Manter capacidade máxima fixa
+- B) Usar modelo maior por padrão
+- C) Inferência elástica sob demanda
+- D) Aumentar contexto sempre
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** C
+
+**Explicação:**
+Capacidade elástica evita custo parado quando a carga é intermitente.
+
+**Por que a alternativa A está errada:**
+Capacidade fixa máxima aumenta gasto em períodos de baixa utilização.
+
+</details>
+
+## Questão 05
+
+**Pergunta:** Qual par de serviços atende melhor à proteção de segredos e criptografia de dados?
+
+- A) Secrets Manager + AWS KMS
+- B) CloudFront + Route 53
+- C) Textract + Comprehend
+- D) Budgets + Cost Explorer
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** A
+
+**Explicação:**
+Secrets Manager protege credenciais; KMS gerencia chaves para criptografia de dados.
+
+**Por que a alternativa B está errada:**
+CloudFront e Route 53 resolvem entrega e DNS, não gestão de segredo e chave.
+
+</details>
+
+## Questão 06
+
+**Pergunta:** Em IA responsável para decisões sensíveis, qual prática é prioritária?
+
+- A) Revisão humana em decisões críticas
+- B) Automação irrestrita
+- C) Desativar trilhas de auditoria
+- D) Aumentar temperatura para diversificar respostas
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+✅ **Resposta correta:** A
+
+**Explicação:**
+Human-in-the-loop reduz risco em cenários de alto impacto e melhora governança.
+
+**Por que a alternativa B está errada:**
+Automação irrestrita em decisões sensíveis fere princípios de responsible AI.
+
+</details>

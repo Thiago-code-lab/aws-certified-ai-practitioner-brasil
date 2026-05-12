@@ -1,28 +1,38 @@
-# Flashcards — Módulo 08: Dados para IA
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Por que qualidade de dados importa tanto em IA?
-**R:** Porque o sistema aprende ou responde a partir do que recebe; dado ruim leva a previsão ruim, recuperação ruim ou resposta ruim.
+**Pergunta:** Qual é um conceito-chave de revisão em 08-Dados-para-IA para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** O que é chunking em RAG?
-**R:** É a divisão estruturada de documentos em partes menores e reutilizáveis para recuperação contextual.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Para que serve o Amazon Macie nesse contexto?
-**R:** Para ajudar a identificar dados sensíveis armazenados no S3.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 08-Dados-para-IA para o exame AIF-C01?
 
-**P4:** Metadados ajudam em quê?
-**R:** Em filtro, governança, rastreabilidade e recuperação mais precisa.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** S3 sozinho resolve governança de dados para IA?
-**R:** Não. Ele armazena, mas governança depende de permissões, classificação, catálogo, versionamento e processo.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 08-Dados-para-IA para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+

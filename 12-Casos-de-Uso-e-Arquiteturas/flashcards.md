@@ -1,28 +1,38 @@
-# Flashcards — Módulo 12: Casos de Uso e Arquiteturas
+﻿# Flashcards — Edição Curada
 
-> **Formato:** P = pergunta | R = resposta
+## Card 01
 
-**P1:** Quando Textract costuma ser melhor escolha que um LLM?
-**R:** Quando o problema principal é extrair texto, campos, tabelas e formulários de documentos.
+**Pergunta:** Qual é um conceito-chave de revisão em 12-Casos-de-Uso-e-Arquiteturas para o exame AIF-C01?
 
----
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
-**P2:** Quando Bedrock ganha espaço?
-**R:** Quando a empresa precisa de geração, resumo contextualizado, conversação ou resposta aberta baseada em linguagem natural.
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
----
+</details>
 
-**P3:** Qual serviço é mais alinhado à análise de sentimento sem treinar modelo próprio?
-**R:** Amazon Comprehend.
+## Card 02
 
----
+**Pergunta:** Qual é um conceito-chave de revisão em 12-Casos-de-Uso-e-Arquiteturas para o exame AIF-C01?
 
-**P4:** Rekognition é mais associado a quê?
-**R:** Visão computacional em imagens e vídeos.
+<details>
+<summary><strong>Ver resposta</strong></summary>
 
----
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
 
-**P5:** O que uma boa arquitetura de IA costuma fazer em cenários complexos?
-**R:** Combinar múltiplos serviços especializados e gerenciados.
+</details>
 
----
+## Card 03
+
+**Pergunta:** Qual é um conceito-chave de revisão em 12-Casos-de-Uso-e-Arquiteturas para o exame AIF-C01?
+
+<details>
+<summary><strong>Ver resposta</strong></summary>
+
+**Resposta:**
+Neste módulo, priorize a leitura de cenário, escolha do serviço AWS mais aderente e os controles de segurança/governança relacionados.
+
+</details>
+
