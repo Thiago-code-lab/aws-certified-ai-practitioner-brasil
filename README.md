@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="./assets/Banner-AI-Practitioner.png" alt="Banner AWS AI Practitioner" width="100%">
+  <img src="assets/AI-Practitioner-Banner.png" alt="Banner AWS AI Practitioner" width="100%">
 </p>
 
 <p align="center">
