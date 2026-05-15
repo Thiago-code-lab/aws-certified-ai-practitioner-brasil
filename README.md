@@ -8,6 +8,12 @@
   <img src="./assets/IaPractitioner%20(1).png" alt="AWS AI Practitioner" height="102">
 </p>
 
+<div align="center">
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="https://img.shields.io/badge/ACESSAR_CLOUDSTUDY-www.cloudstudy.com.br-38BDF8?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  </a>
+</div>
+
 <h1 align="center">AWS AI Practitioner (AIF-C01) | Brasil</h1>
 
 <p align="center">
