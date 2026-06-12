@@ -3,18 +3,39 @@
 </p>
 
 <p align="center">
-  <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="156">
-  &nbsp;&nbsp;&nbsp;
-  <img src="./assets/IaPractitioner%20(1).png" alt="AWS AI Practitioner" height="102">
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="./assets/Logo-CloudStudy.png" alt="CloudStudy" width="260">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Estude para a AWS AI Practitioner (AIF-C01) com fundamentos de IA Generativa, Amazon Bedrock, Machine Learning, flashcards e simulados.</strong>
+</p>
+
+<p align="center">
+  <strong>Entre na lista de espera da CloudStudy e receba acesso antecipado à plataforma.</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.cloudstudy.com.br/">
+    <img src="https://img.shields.io/badge/ENTRAR_NA_WAITLIST-CloudStudy-2563EB?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/IaPractitioner%20(1).png" alt="AWS AI Practitioner" height="180">
 </p>
 
 <div align="center">
-  <a href="https://www.instagram.com/cloudstudy.ai/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.cloudstudy.com.br/">
-    <img src="https://img.shields.io/badge/ACESSAR_CLOUDSTUDY-www.cloudstudy.com.br-38BDF8?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  </a>
+
+<a href="https://www.cloudstudy.com.br/">
+  <img src="https://img.shields.io/badge/🌐_CloudStudy-cloudstudy.com.br-2563EB?style=for-the-badge" />
+</a>
+
+<a href="https://www.instagram.com/cloudstudy.ai/">
+  <img src="https://img.shields.io/badge/Instagram-@cloudstudy.ai-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+
 </div>
 
 <h1 align="center">AWS AI Practitioner (AIF-C01) | Brasil</h1>
