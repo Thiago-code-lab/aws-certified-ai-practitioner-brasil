@@ -26,3 +26,16 @@ Mapear os controles mínimos de segurança antes de liberar uma aplicação gene
 - Lab sem custo obrigatório.
 - Em POCs reais, não use dado sensível sem aprovação formal.
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -103,3 +103,16 @@ Fine-tuning altera o comportamento do modelo com dados adicionais, mas nem sempr
 - Revisão complementar: [Módulo 01 — Introdução a IA e ML](../01-Introducao-IA-e-ML/README.md).
 - Continue para [Módulo 03 — Fundamentos de Machine Learning](../03-Fundamentos-de-Machine-Learning/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

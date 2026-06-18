@@ -8,3 +8,16 @@
 | Amazon Comprehend | NLP gerenciado | https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html |
 | Amazon Textract | Extração documental | https://docs.aws.amazon.com/textract/latest/dg/what-is.html |
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

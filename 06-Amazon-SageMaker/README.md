@@ -99,3 +99,16 @@ Se a carga é esporádica e sensível a custo ocioso, serverless faz sentido. Se
 - Revisão complementar: [Módulo 05 — Amazon Bedrock](../05-Amazon-Bedrock/README.md).
 - Continue para [Módulo 07 — IA Responsável e Governança](../07-IA-Responsavel-e-Governanca/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

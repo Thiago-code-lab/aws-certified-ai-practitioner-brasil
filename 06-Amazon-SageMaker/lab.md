@@ -26,3 +26,16 @@ Fixar como o padrão de acesso influencia o modo de inferência no SageMaker AI.
 
 - Lab pode ser resolvido apenas conceitualmente.
 - Se criar recursos na AWS, encerre ao final.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

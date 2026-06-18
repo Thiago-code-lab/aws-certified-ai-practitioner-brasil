@@ -33,3 +33,16 @@ Use esta curadoria para validar formato, escopo e serviços cobrados no AIF-C01.
 ## Observação importante
 
 A página de **serviços em escopo** pode mudar ao longo do tempo. Antes da prova, priorize sempre a lista oficial mais recente da AWS.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

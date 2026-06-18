@@ -39,3 +39,16 @@ Este glossário resume os termos mais recorrentes no AWS Certified AI Practition
 - Confusões clássicas: Bedrock vs SageMaker AI, embedding vs geração, RAG vs fine-tuning, Guardrails vs IAM.
 - Use os [flashcards](./flashcards.md) para revisão ativa.
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

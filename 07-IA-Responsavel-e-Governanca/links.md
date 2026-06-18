@@ -7,3 +7,16 @@
 | SageMaker Clarify | Viés e explicabilidade | https://docs.aws.amazon.com/sagemaker/latest/dg/clarify-fairness-and-explainability.html |
 | Amazon Augmented AI (A2I) | Human review workflows | https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-human-fallback-conditions.html |
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

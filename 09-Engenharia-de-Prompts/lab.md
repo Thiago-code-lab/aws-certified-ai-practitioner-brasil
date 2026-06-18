@@ -26,3 +26,16 @@ Transformar um prompt genérico em um prompt pronto para uso em aplicação real
 
 - Sem custo obrigatório se feito apenas conceitualmente.
 - Se usar serviços reais, não deixe recursos desnecessários ativos.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

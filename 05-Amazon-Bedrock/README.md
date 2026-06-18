@@ -103,3 +103,16 @@ Guardrails ajudam no conteúdo gerado e na experiência da aplicação, mas não
 - Revisão complementar: [Módulo 04 — Modelos Fundacionais e LLMs](../04-Modelos-Fundacionais-e-LLMs/README.md).
 - Continue para [Módulo 06 — Amazon SageMaker AI](../06-Amazon-SageMaker/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -102,3 +102,16 @@ Serviços prontos são ideais quando o problema já está bem representado por u
 - Consulte o [lab](./lab.md) para consolidar a parte prática.
 - Continue para [Módulo 02 — Fundamentos de IA Generativa](../02-Fundamentos-de-IA-Generativa/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

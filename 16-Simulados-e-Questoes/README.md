@@ -101,3 +101,16 @@ Total: **65 questões**.
 - Para revisar fundamentos de cloud antes dos simulados, veja: https://github.com/Thiago-code-lab/aws-certified-cloud-practitioner-brasil
 - Estudos complementares de arquitetura podem ser aprofundados em: https://github.com/Thiago-code-lab/aws-certified-solutions-architect-associate-brasil
 - Continue a jornada AWS com foco em contexto arquitetural e governança entre certificações.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

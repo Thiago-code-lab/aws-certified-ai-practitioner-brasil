@@ -102,3 +102,16 @@ Embeddings representam conteúdo. Quem gera a resposta final é o modelo gerador
 - Consulte o [lab](./lab.md) para consolidar a parte prática.
 - Revisão complementar: [Módulo 03 — Fundamentos de Machine Learning](../03-Fundamentos-de-Machine-Learning/README.md).
 - Continue para [Módulo 05 — Amazon Bedrock](../05-Amazon-Bedrock/README.md).
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

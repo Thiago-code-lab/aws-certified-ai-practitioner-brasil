@@ -7,3 +7,16 @@
 | Engenharia de prompts no Bedrock | Guia oficial para estruturação de prompts | https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html |
 | Amazon Nova | Visão oficial dos modelos da AWS | https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html |
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

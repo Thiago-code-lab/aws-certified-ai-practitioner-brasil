@@ -99,3 +99,16 @@ Quando a pergunta fala em auditoria, investigação ou evidência de conformidad
 - Revisão complementar: [Módulo 10 — IA Generativa na AWS](../10-IA-Generativa-na-AWS/README.md).
 - Continue para [Módulo 12 — Casos de Uso e Arquiteturas](../12-Casos-de-Uso-e-Arquiteturas/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

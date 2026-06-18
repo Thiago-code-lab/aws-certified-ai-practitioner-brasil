@@ -32,3 +32,16 @@ Este módulo reúne materiais oficiais e referências de estudo para consolidar 
 - Ler apenas revisão curta, sem abrir novos temas.
 - Revisar armadilhas clássicas: Bedrock vs SageMaker AI, RAG vs fine-tuning, Guardrails vs IAM.
 - Checar logística do exame e descansar.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -99,3 +99,16 @@ Se o usuário espera resposta imediata, a arquitetura precisa ser otimizada para
 - Revisão complementar: [Módulo 09 — Engenharia de Prompts](../09-Engenharia-de-Prompts/README.md).
 - Continue para [Módulo 11 — Segurança e Conformidade em IA](../11-Seguranca-e-Conformidade-em-IA/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

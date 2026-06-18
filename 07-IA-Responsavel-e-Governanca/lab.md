@@ -27,3 +27,16 @@ Aplicar os princípios de responsible AI a um cenário realista do exame.
 - Lab conceitual, sem custo obrigatório.
 - Se fizer POC real, não use dados pessoais sem autorização.
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -99,3 +99,16 @@ Quando o problema exige resumo contextualizado, resposta aberta, composição te
 - Revisão complementar: [Módulo 11 — Segurança e Conformidade em IA](../11-Seguranca-e-Conformidade-em-IA/README.md).
 - Continue para [Módulo 13 — Serviços de IA da AWS](../13-Servicos-de-IA-da-AWS/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

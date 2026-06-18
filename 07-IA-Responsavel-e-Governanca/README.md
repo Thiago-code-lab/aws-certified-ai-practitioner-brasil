@@ -99,3 +99,16 @@ Aplicações responsáveis precisam registrar entradas, saídas, ações dispara
 - Revisão complementar: [Módulo 06 — Amazon SageMaker AI](../06-Amazon-SageMaker/README.md).
 - Continue para [Módulo 08 — Dados para IA](../08-Dados-para-IA/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -19,3 +19,16 @@
 **Por que essa escolha faz sentido:** O comportamento desejado pode ser fortemente influenciado por instrução e exemplos.
 
 **Armadilha de prova associada:** Ir direto para fine-tuning sem testar engenharia de prompt.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

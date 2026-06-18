@@ -29,3 +29,16 @@ Este micro-lab ajuda a treinar o raciocínio de seleção de serviço antes de e
 - Não há custo obrigatório neste lab se você ficar apenas no exercício de arquitetura.
 - Se abrir serviços na AWS, não deixe recursos persistentes sem necessidade.
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

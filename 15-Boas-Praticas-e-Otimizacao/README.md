@@ -99,3 +99,16 @@ Nem toda pergunta precisa gerar tudo de novo. Perguntas repetidas podem ser serv
 - Revisão complementar: [Módulo 14 — Integração com Aplicações](../14-Integracao-com-Aplicacoes/README.md).
 - Continue para [Módulo 16 — Simulados e Questões](../16-Simulados-e-Questoes/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

@@ -121,3 +121,16 @@ Guia de fechamento para os últimos dias antes da prova, com foco em retenção,
 - Sei reconhecer quando revisão humana é obrigatória.
 - Sei identificar os controles mínimos de IAM, KMS, logs e segredos.
 - Sei o formato oficial da prova e treinei um volume próximo de 65 questões.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

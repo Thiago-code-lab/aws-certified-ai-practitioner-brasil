@@ -19,3 +19,16 @@
 **Por que essa escolha faz sentido:** O objetivo não é prever uma classe conhecida, mas revelar estrutura nos dados.
 
 **Armadilha de prova associada:** Insistir em classificação sem rótulo disponível.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

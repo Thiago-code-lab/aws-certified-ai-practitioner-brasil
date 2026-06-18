@@ -26,3 +26,16 @@ Organizar mentalmente os blocos do serviço e quando cada um entra na arquitetur
 
 - Se criar recursos na conta, remova-os após o teste.
 - Não use dados sensíveis sem política e aprovação adequadas.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

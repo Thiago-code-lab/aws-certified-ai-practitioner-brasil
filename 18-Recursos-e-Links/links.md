@@ -8,3 +8,16 @@
 | Amazon SageMaker AI | Documentação da plataforma de ML | https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html |
 | AWS Skill Builder | Cursos e laboratórios | https://skillbuilder.aws/ |
 | AWS Security | Revisão de boas práticas e compliance | https://docs.aws.amazon.com/security/ |
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

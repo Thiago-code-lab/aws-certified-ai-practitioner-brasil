@@ -104,3 +104,16 @@ Em arquiteturas reais, preparar bem os dados costuma ter impacto maior que troca
 - Revisão complementar: [Módulo 02 — Fundamentos de IA Generativa](../02-Fundamentos-de-IA-Generativa/README.md).
 - Continue para [Módulo 04 — Modelos Fundacionais e LLMs](../04-Modelos-Fundacionais-e-LLMs/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

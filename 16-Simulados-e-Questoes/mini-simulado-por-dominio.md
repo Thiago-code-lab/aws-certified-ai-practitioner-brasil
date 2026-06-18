@@ -168,3 +168,16 @@ A AWS tende a valorizar simplicidade operacional e ajuste claro ao requisito.
 Complexidade extra não agrega quando o problema pede solução prática e gerenciada.
 
 </details>
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

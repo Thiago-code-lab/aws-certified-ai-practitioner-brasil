@@ -99,3 +99,16 @@ Quando prompts mudam comportamento da aplicação, eles passam a ser artefatos i
 - Revisão complementar: [Módulo 08 — Dados para IA](../08-Dados-para-IA/README.md).
 - Continue para [Módulo 10 — IA Generativa na AWS](../10-IA-Generativa-na-AWS/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---

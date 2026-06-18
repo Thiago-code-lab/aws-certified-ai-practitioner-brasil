@@ -99,3 +99,16 @@ API Gateway e Lambda podem expor uma interface consistente para o front-end, esc
 - Revisão complementar: [Módulo 13 — Serviços de IA da AWS](../13-Servicos-de-IA-da-AWS/README.md).
 - Continue para [Módulo 15 — Boas Práticas e Otimização](../15-Boas-Praticas-e-Otimizacao/README.md).
 
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---
