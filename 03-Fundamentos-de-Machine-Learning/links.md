@@ -19,3 +19,5 @@ Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos s
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
+
+> Aprofundamento opcional: pipelines e fundamentos de dados na AWS aparecem no curso [Engenharia de Dados na AWS: do Zero aos Projetos Reais](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
