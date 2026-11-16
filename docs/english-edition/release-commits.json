@@ -1,9 +1,9 @@
 {
   "source_commit": "122726b73a6e805a71b711dd65d1786fcc2ba42f",
-  "implementation_head": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
-  "verified_publication_head": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
+  "implementation_head": "8aced722eafd21de273ffa57f89c2808e706e7a5",
+  "verified_publication_head": "8aced722eafd21de273ffa57f89c2808e706e7a5",
   "remote_refs": {
-    "refs/heads/aif-c01-english": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
+    "refs/heads/aif-c01-english": "8aced722eafd21de273ffa57f89c2808e706e7a5",
     "refs/heads/gh-pages": "224c0a075fa702bf9912dc75b86e0012797fb191",
     "refs/heads/main": "122726b73a6e805a71b711dd65d1786fcc2ba42f"
   },
@@ -51,15 +51,23 @@
     {
       "commit": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
       "subject": "fix(en): write portable LF validation reports"
+    },
+    {
+      "commit": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "subject": "docs(en): record published clean-clone verification"
+    },
+    {
+      "commit": "8aced722eafd21de273ffa57f89c2808e706e7a5",
+      "subject": "docs(en): finalize AIF-C01 complete English edition"
     }
   ],
   "evidence_note": "These are actual refs at verification time; subsequent audit-only commits record this evidence.",
   "clean_clone_verification": {
-    "verified_commit": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
-    "checkout": "Independent clone with core.autocrlf=false; no local main branch",
+    "verified_commit": "8aced722eafd21de273ffa57f89c2808e706e7a5",
+    "checkout": "Independent checkout with core.autocrlf=false; no local main branch",
     "validation_passed": true,
-    "tests_passed": 12,
-    "local_references_checked": 320,
+    "tests_passed": 21,
+    "local_references_checked": 335,
     "diff_check_returncode": 0,
     "working_tree_clean": true
   }

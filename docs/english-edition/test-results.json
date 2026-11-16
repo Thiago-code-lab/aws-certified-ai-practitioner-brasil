@@ -5,5 +5,14 @@
   "output": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.020s\n\nOK",
   "diff_check_returncode": 0,
   "diff_check_output": "",
-  "review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
+  "review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+  "clean_clone_verification": {
+    "verified_commit": "8aced722eafd21de273ffa57f89c2808e706e7a5",
+    "checkout": "Independent checkout with core.autocrlf=false; no local main branch",
+    "validation_passed": true,
+    "tests_passed": 21,
+    "local_references_checked": 335,
+    "diff_check_returncode": 0,
+    "working_tree_clean": true
+  }
 }
