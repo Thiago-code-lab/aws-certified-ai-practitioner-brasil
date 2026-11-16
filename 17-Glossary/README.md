@@ -2,6 +2,16 @@
 
 This glossary summarizes the most common terms in AWS Certified AI Practitioner. Use it as a quick review before the simulations and in the final stretch.
 
+## Module navigation
+
+- [README](./README.md)
+- [Cheatsheet](./cheatsheet.md)
+- [Flashcards](./flashcards.md)
+- [Questions](./questions.md)
+- [Use cases](./use-cases.md)
+- [Practical lab](./lab.md)
+- [Official links](./links.md)
+
 ## How to use
 
 - Read the term and try to explain it in your own words.
@@ -29,7 +39,7 @@ This glossary summarizes the most common terms in AWS Certified AI Practitioner.
 | Prompt engineering | Prompt engineering | Structuring instructions and context to guide output. |
 | RAG | Retrieval-Augmented Generation | Context retrieval followed by generation. |
 | SageMaker AI | ML Platform | End-to-end service for ML workflows. |
-| Token | Processing unit | Text fragment used by the model in input and output. |
+| Token | Processing unit | A unit produced by tokenization, such as a word fragment or character sequence; text models process input and output in tokens rather than assuming one token per word. |
 | Training | Training | Phase in which the model learns from data. |
 | Vector database | Vector database | Stores embeddings and allows similarity search. |
 

@@ -7,10 +7,10 @@
 - **Quick question:** Are training and inference the same?
   **Short answer:** No. Training learns, inference applies.
 - **Quick question:** How does overfitting appear?
-  **Short answer:** High gap between training and validation.
+  **Short answer:** A large performance gap between training and validation.
 - **Quick question:** Why do metrics matter?
-  **Short answer:** Defines what the model optimizes.
-- **Quick question:** Review keyword?
+  **Short answer:** They define how to assess model behavior and compare it with the business objective.
+- **Quick question:** What is the key review term?
   **Short answer:** Generalization.
 
 ---

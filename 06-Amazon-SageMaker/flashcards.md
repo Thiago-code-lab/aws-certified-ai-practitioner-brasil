@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** When is SageMaker best suited?
+**Question:** When is SageMaker AI the best fit?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,7 +38,7 @@ Scalable online inference service.
 
 ## Card 04
 
-**Question:** Pipeline in SageMaker does what?
+**Question:** What does a SageMaker AI pipeline do?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Automates training, validation and deployment.
 
 ## Card 05
 
-**Question:** Feature Store helps with what?
+**Question:** What does Feature Store help with?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ Consistency between training and production.
 
 ## Card 06
 
-**Question:** ML cycle covered how?
+**Question:** Which stages of the ML lifecycle are covered?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ From data preparation to monitoring.
 
 ## Card 07
 
-**Question:** How to reduce inference cost?
+**Question:** How can you reduce inference cost?
 
 <details>
 <summary><strong>See answer</strong></summary>

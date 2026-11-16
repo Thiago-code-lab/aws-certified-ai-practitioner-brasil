@@ -10,9 +10,9 @@
 
 **Associated exam trap:** Choosing Bedrock just because it is an AI service.
 
-## Case 2 — Business analysts without a mature DS team
+## Case 2 — Business analysts without an established data science team
 
-**Scenario:** A commercial area wants to quickly test forecasting models without starting with notebooks.
+**Scenario:** A sales team wants to quickly test forecasting models without starting with notebooks.
 
 **Suggested architecture:** Canvas as a gateway, with governance and organized data.
 

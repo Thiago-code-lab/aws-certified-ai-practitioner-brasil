@@ -19,7 +19,7 @@ Practice deciding between synchronous, asynchronous, and event-driven.
 ## What to observe
 
 - The same model can be used in different integrations, depending on the case.
-- The right architecture depends on the expected behavior of the flow.
+- The right architecture depends on the required workflow behavior.
 
 ## Costs and cleanup
 

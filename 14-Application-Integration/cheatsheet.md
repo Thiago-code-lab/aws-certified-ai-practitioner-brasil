@@ -6,7 +6,7 @@
 
 | Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| API Gateway + Lambda | Controlled AI exposure via API. | Do not expose direct call to the model without mediation. |
+| API Gateway + Lambda | Controlled AI exposure via API. | Do not expose unprotected model calls without appropriate authentication and controls. |
 | SQS | Queue for decoupling and background processing. | Do not use when immediate latency is a central requirement. |
 | EventBridge | Event-driven integration. | Not to be confused with work queue. |
 | Retry | Important in transient faults. | Without care it can duplicate the effect in non-idempotent processes. |

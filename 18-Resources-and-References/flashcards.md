@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** How to use AWS docs in review?
+**Question:** How should AWS documentation be used during review?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -26,7 +26,7 @@ Flashcards, cheatsheet and practice exams with explanations.
 
 ## Card 03
 
-**Question:** How to avoid passive studying?
+**Question:** How can you avoid passive studying?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,7 +38,7 @@ Convert reading into scenario questions.
 
 ## Card 04
 
-**Question:** Official FAQ helps with what?
+**Question:** What can an official service FAQ help explain?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Shows limits and actual service behavior.
 
 ## Card 05
 
-**Question:** Reliable study source?
+**Question:** What makes a study source reliable?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ Current material aligned with the AIF-C01 exam guide.
 
 ## Card 06
 
-**Question:** How to avoid excess material?
+**Question:** How can you avoid collecting too much study material?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -92,7 +92,7 @@ Consolidate architectural trade-offs.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Choose service by scenario, not by name.
+Choose a service based on the scenario requirements rather than a familiar name.
 
 </details>
 

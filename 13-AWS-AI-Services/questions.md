@@ -6,11 +6,11 @@
   **Short answer:** General computer vision versus document extraction.
 - **Quick question:** What is Comprehend used for?
   **Short answer:** Classic NLP.
-- **Quick question:** Transcribe to?
-  **Short answer:** Audio-text.
+- **Quick question:** What does Transcribe convert?
+  **Short answer:** Audio to text.
 - **Quick question:** What is Polly used for?
   **Short answer:** Text-to-speech.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** The right service for the right task.
 
 ---

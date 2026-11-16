@@ -10,7 +10,7 @@ Learn how to structure more useful, predictable and safe prompts for real cases 
 
 - Structure prompts with role, context, objective and format.
 - Differentiate zero-shot, few-shot and output restrictions.
-- Mitigate hallucination with instructional engineering and grounding.
+- Mitigate hallucination with prompt engineering, grounding, and output evaluation.
 
 ## Module navigation
 
@@ -28,7 +28,7 @@ Learn how to structure more useful, predictable and safe prompts for real cases 
 | --- | --- | --- |
 | Amazon Bedrock | Natural environment for testing and operating prompts in FM applications. | Appears as the main service for orchestrating prompts. |
 | Amazon Bedrock Guardrails | Complements the prompt with content policies. | Important in regulated flows. |
-| AWS Lambda | Common component to apply prompt templates in backend. | Appears in serverless integrations. |
+| AWS Lambda | Common component to apply prompt templates in the backend. | Appears in serverless integrations. |
 | Amazon CloudWatch | Observability of calls and application behavior. | Supports testing and prompt operation in production. |
 
 ## Essential concepts
@@ -39,7 +39,7 @@ Better prompts make clear the model's role, task objective, authoritative contex
 
 ### Zero-shot, few-shot and examples
 
-Zero-shot is asking the task without examples. Few-shot includes some input and output examples to guide behavior. In fact, few-shot is usually relevant when the company needs greater standardization without going straight to fine-tuning.
+Zero-shot prompting describes a task without providing examples. Few-shot includes some input and output examples to guide behavior. In fact, few-shot is usually relevant when the company needs greater standardization without going straight to fine-tuning.
 
 ### Prompts as part of the architecture
 
@@ -59,7 +59,7 @@ Even a well-written prompt does not correct a lack of factual context. When busi
 
 ### Prompt versioning is also governance
 
-When prompts change application behavior, they become important artifacts. Versioning, testing, and comparing prompts reduces silent regressions and improves solution maintainability.
+When prompts change application behavior, they become important artifacts. Versioning, testing, and comparing prompts reduce silent regressions and improves solution maintainability.
 
 ## Best practices
 
@@ -80,15 +80,15 @@ When prompts change application behavior, they become important artifacts. Versi
 
 - Thinking that a prompt alone solves a lack of business knowledge.
 - Sending too much context and degrading the response.
-- Request free output when the application requires a rigid structure.
-- Treat prompt as disposable text, without testing and without versioning.
+- Requesting free output when the application requires a rigid structure.
+- Treating prompt as disposable text, without testing and without versioning.
 
 ## Summary for review
 
 - A prompt is a critical part of a generative application.
 - Clarity of task and format reduces variability.
 - Few-shot examples help standardize responses.
-- Good prompt and RAG complement each other.
+- Good prompts and RAG complement each other.
 - Versioning and prompt observability are mature practices.
 
 ## Next steps

@@ -23,18 +23,18 @@
 
 ## Response Heuristics
 
-- Specialized service usually beats broad LLM when the problem is objective.
-- Bedrock usually wins over its own infrastructure when the requirement is to consume FM with less operation.
-- SageMaker AI usually beats Bedrock when the question asks for training, deep customization or ML lifecycle.
+- A specialized managed service is often the simplest fit for a clearly defined task.
+- Bedrock often fits better than self-managed infrastructure when the goal is to use foundation models with less operational overhead.
+- SageMaker AI is often the better fit when a question requires training and operating custom ML models across the ML lifecycle.
 - Guardrails do not replace IAM, KMS, logs or human review.
 - RAG is not synonymous with fine-tuning.
 
 ## Frequent pitfalls
 
-- Choose GenAI when the question asks for OCR, recommendation or sentiment.
-- Treat embeddings as if they generated a final response.
-- Ignore cost of context and output size.
-- Thinking that a single content policy solves entire governance.
+- Choosing GenAI automatically when a specialized service meets the OCR, recommendation, or sentiment-analysis requirement.
+- Treating embeddings as if they generated a final response.
+- Ignoring the cost of context and output size.
+- Assuming that one content policy provides complete governance.
 
 ---
 

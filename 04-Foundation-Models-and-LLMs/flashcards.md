@@ -8,13 +8,13 @@
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Large-scale language model for generating text by tokens.
+A large language model trained on substantial language data; generative LLMs produce text by predicting successive tokens.
 
 </details>
 
 ## Card 02
 
-**Question:** When to consider fine-tuning?
+**Question:** When should you consider fine-tuning?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -32,7 +32,7 @@ When prompting does not produce consistent behavior.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Delimit information used in the response.
+Provide and delimit information the model can use when composing its response.
 
 </details>
 
@@ -56,13 +56,13 @@ Increases variation and creativity.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Limit of tokens per request.
+The token budget the model can process for a request, including input and, where applicable, generated output; limits depend on the model.
 
 </details>
 
 ## Card 06
 
-**Question:** How to evaluate response?
+**Question:** How should you evaluate a response?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ With objective quality criteria.
 
 ## Card 07
 
-**Question:** Poorly assembled context signal?
+**Question:** What indicates poorly assembled context?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,13 +86,13 @@ Missing important instructions.
 
 ## Card 08
 
-**Question:** How to balance cost and quality?
+**Question:** How can you balance cost and quality?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Proportional model and lean prompt.
+Choose a model appropriate to the task and a concise prompt with enough relevant context.
 
 </details>
 

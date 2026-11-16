@@ -6,7 +6,7 @@
 
 | Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| AI | Broad field that includes ML, computer vision, NLP, and GenAI. | Do not assume that all AI uses LLM. |
+| AI | Broad field that includes ML, computer vision, NLP, and GenAI. | Do not assume that all AI uses an LLM. |
 | Supervised ML | Train with labeled examples. | Not to be confused with clustering. |
 | Inference | Use of the model already trained in production. | Do not treat it as a learning phase. |
 | Bedrock | Consumption of managed FMs through an API. | Not to be confused with a complete customized training platform. |

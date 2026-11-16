@@ -35,15 +35,15 @@ Build architectural reasoning for generative applications on AWS, understanding 
 
 ### Typical flow of a GenAI application
 
-User sends the request, the application authenticates, prepares the context, queries the knowledge base when necessary, calls the model and records logs and metrics. In many cases, the best architecture is serverless and managed services oriented.
+The user sends a request; the application authenticates the user, prepares the context, queries the knowledge base when necessary, calls the model and records logs and metrics. In many cases, the best architecture is serverless and managed services oriented.
 
 ### Synchronous, asynchronous and batch
 
-A real-time chat usually requests a synchronous call to the model. Large document processing can be asynchronous or batch. Exam often differentiates these modes by latency, user experience, and cost.
+A real-time chat usually requests a synchronous call to the model. Large document processing can be asynchronous or batch. The exam often differentiates these modes by latency, user experience, and cost.
 
 ### Fallback and observability
 
-Mature applications do not assume that the model will always respond well. They monitor error, response time and cost, and can fall back to human flow, queue or simplified response in case of failure.
+Mature applications do not assume that the model will always respond well. They monitor error, response time and cost, and can fall back to human review, a processing queue, or a simplified response in case of failure.
 
 ## Practical example
 
@@ -74,18 +74,18 @@ If the user expects immediate response, the architecture needs to be optimized f
 - GenAI architectures on AWS typically combine Bedrock, S3, API, and observability.
 - Synchronous serves chat and assistants; Asynchronous serves large documents and long workflows.
 - Managed services tend to be the preferred answer when the requirement does not call for deep infrastructure control.
-- Security and logs remain part of the architecture, not annexes.
+- Security and logging are integral parts of the architecture.
 
 ## Common pitfalls
 
-- Call the model directly from the front-end without control layer.
-- Do not provide timeout, fallback queue or error handling.
-- Ignore cost per token on high volume flows.
-- Mix sensitive data without access policy.
+- Calling the model directly from the front-end without control layer.
+- Failing to provide timeout, fallback queue or error handling.
+- Ignoring cost per token on high volume flows.
+- Mixing sensitive data without access policy.
 
 ## Summary for review
 
-- GenAI application is a complete system, not just model calls.
+- A GenAI application is a complete system that includes much more than model calls.
 - Serverless is usually an excellent starting point on AWS.
 - Synchronous and asynchronous must follow the use case.
 - Observability and fallback increase robustness.

@@ -27,7 +27,7 @@ Understand the role of SageMaker AI in the AWS ecosystem, including Studio, Canv
 | AWS Service | Role in the module | How it appears on the exam |
 | --- | --- | --- |
 | Amazon SageMaker AI | End-to-end platform for ML. | Appears when there is a need to build and operate customized models. |
-| SageMaker Studio | Integrated environment for experimentation and development. | It can appear as a work interface for data scientists. |
+| SageMaker Studio | Integrated environment for experimentation and development. | It provides a development environment for data scientists. |
 | SageMaker Canvas | ML experience for non-code-focused analysts. | Appears in ML democratization scenarios. |
 | SageMaker JumpStart | Preconfigured models and solutions. | Helps accelerate adoption without starting from scratch. |
 
@@ -59,7 +59,7 @@ Canvas makes sense when business users need to create predictions or rankings wi
 
 ### Choose the inference mode based on load behavior
 
-If the load is sporadic and sensitive to idle cost, serverless makes sense. If continuous and stable response is required, real-time endpoint may be more suitable. If the job processes large batches offline, batching is often the natural answer.
+If traffic is sporadic and idle cost matters, on-demand serverless inference can be appropriate when the workload can tolerate cold starts and meets supported feature limits. If the workload requires sustained traffic and consistently low latency, a real-time endpoint may be more suitable. If the job processes large batches offline, batching is often the natural answer.
 
 ## Best practices
 
@@ -73,19 +73,19 @@ If the load is sporadic and sensitive to idle cost, serverless makes sense. If c
 
 - Canvas appears when the company wants ML without heavy code.
 - JumpStart accelerates prototyping with pretrained models and ready-made solutions.
-- Batch inference is different from real-time endpoint.
+- Batch inference processes offline workloads rather than serving requests through a persistent real-time endpoint.
 - If the question is about training and operating your own ML, think about SageMaker AI.
 
 ## Common pitfalls
 
 - Confusing the use of FM via API with a complete custom ML cycle.
-- Choose real-time endpoint for fully batch load.
-- Ignore costs of keeping capacity always on.
+- Choosing real-time endpoint for fully batch load.
+- Ignoring costs of keeping capacity always on.
 - Thinking that Canvas eliminates the need for well-prepared data.
 
 ## Summary for review
 
-- SageMaker AI is end-to-end ML platform.
+- SageMaker AI is an end-to-end ML platform.
 - Canvas, Studio and JumpStart meet different profiles and needs.
 - Training and inference are distinct phases within the platform.
 - The choice of inference mode affects cost and latency.

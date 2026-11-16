@@ -6,7 +6,7 @@
     "short_review_prompts": 85,
     "labs": 17,
     "modules": 18,
-    "local_references_checked": 320
+    "local_references_checked": 335
   },
   "errors": [],
   "lab_execution": "Static review only; no AWS resources provisioned",

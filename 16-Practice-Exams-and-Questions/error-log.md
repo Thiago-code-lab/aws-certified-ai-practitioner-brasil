@@ -27,7 +27,7 @@ Use this file after each simulation. The goal is not just to record the right al
 
 ## How to use
 
-1. Fill out the template right after finishing a simulation.
+1. Fill out the template immediately after completing a practice exam.
 2. Group errors by pattern: Bedrock vs SageMaker, security, RAG, cost, governance.
 3. Redo only the questions you got wrong after reviewing.
 4. Rewrite the rule of thumb in your own voice. This reinforces learning more effectively than simply rereading the answer key.

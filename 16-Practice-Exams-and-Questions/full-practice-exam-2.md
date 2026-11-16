@@ -66,7 +66,7 @@ Personalize is focused on recommendation.
 
 ## Question 12
 
-**Question:** Which control is most aligned to the audit trail of actions?
+**Question:** Which service is most appropriate for recording an audit trail of actions?
 
 - A) IAM
 - B) CloudTrail
@@ -81,7 +81,7 @@ Personalize is focused on recommendation.
 CloudTrail records API events and actions for auditing and compliance.
 
 **Why option A is wrong:**
-IAM defines permission; Event auditing is another function.
+IAM defines permissions; recording API activity for auditing is a separate function.
 
 </details>
 
@@ -99,7 +99,7 @@ IAM defines permission; Event auditing is another function.
 ✅ **Correct answer:** A
 
 **Explanation:**
-Guardrails enforces content policy on prompts and responses.
+Amazon Bedrock Guardrails can help filter prompts and responses against configured content policies; filtering is not a guarantee that every violation will be detected.
 
 **Why option B is wrong:**
 NAT is a network component, without content policy function.
@@ -123,7 +123,7 @@ NAT is a network component, without content policy function.
 KMS is the central service for managing cryptographic keys on AWS.
 
 **Why option B is wrong:**
-EventBridge is event bus, not key management.
+EventBridge is an event bus; it does not manage encryption keys.
 
 </details>
 
@@ -144,13 +144,13 @@ EventBridge is event bus, not key management.
 Personalize is a dedicated service for recommendations based on behavior and profile.
 
 **Why option B is wrong:**
-Athena is SQL engine over data in S3.
+Athena is a SQL query service for data sources such as S3.
 
 </details>
 
 ## Question 16
 
-**Question:** In case of use with low latency and controlled cost, the recommended initial practice is:
+**Question:** For a use case requiring low latency and controlled cost, the recommended first step is:
 
 - A) Start with a smaller model and measure quality
 - B) Always use the largest model available

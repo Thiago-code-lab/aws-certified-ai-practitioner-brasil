@@ -10,7 +10,7 @@
 
 **Associated exam trap:** Scale only by increasing capacity and cost.
 
-## Case 2 — Night report
+## Case 2 — Nightly report
 
 **Scenario:** The operations area generates a daily summary for managers.
 

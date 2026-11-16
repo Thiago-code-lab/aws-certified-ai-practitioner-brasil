@@ -2,7 +2,7 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** When Agents?
+- **Quick question:** When are agents useful?
   **Short answer:** When orchestration is needed.
 - **Quick question:** What does a knowledge base provide?
   **Short answer:** Updated context.
@@ -10,7 +10,7 @@
   **Short answer:** Content risk control.
 - **Quick question:** Does Bedrock replace IAM?
   **Short answer:** No. It complements IAM.
-- **Quick question:** Key term?
+- **Quick question:** What is the key term?
   **Short answer:** Managed models.
 
 ---

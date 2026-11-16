@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** GenAI app base architecture on AWS?
+**Question:** What forms the basic architecture of a GenAI application on AWS?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -14,7 +14,7 @@ Application, model, data context and security controls.
 
 ## Card 02
 
-**Question:** When to choose Bedrock?
+**Question:** When should you choose Bedrock?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Store documents and context artifacts.
 
 ## Card 05
 
-**Question:** IAM enters at which point?
+**Question:** Where does IAM fit into the architecture?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ In access control between app, data and model.
 
 ## Card 06
 
-**Question:** How to reduce perceived latency?
+**Question:** How can you reduce perceived latency?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ Streaming and a more focused prompt.
 
 ## Card 07
 
-**Question:** Does operational governance include?
+**Question:** What does operational governance include?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Audit of prompts, responses and access.
 
 ## Card 08
 
-**Question:** Sign of mature architecture?
+**Question:** What indicates a mature architecture?
 
 <details>
 <summary><strong>See answer</strong></summary>

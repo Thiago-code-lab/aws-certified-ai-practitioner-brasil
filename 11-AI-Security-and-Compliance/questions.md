@@ -5,12 +5,12 @@
 - **Quick question:** What is prompt injection?
   **Short answer:** An attempt to bypass policies.
 - **Quick question:** What is data leakage?
-  **Short answer:** Data leak.
-- **Quick question:** Do guardrails help?
-  **Short answer:** Filter risk.
-- **Quick question:** Compliance requires?
+  **Short answer:** Unauthorized exposure of data through inputs, outputs, logs, or connected systems.
+- **Quick question:** How do Guardrails help?
+  **Short answer:** They evaluate configured content policies and help filter risky inputs and outputs.
+- **Quick question:** What does compliance require?
   **Short answer:** Auditable evidence.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Layered defense.
 
 ---

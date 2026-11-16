@@ -6,10 +6,10 @@
 
 | Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| Textract | Extracts text, tables and forms. | It is not the best first answer to generate free summary. |
+| Textract | Extracts text, tables and forms. | It extracts document content; use a generative model for a free-form summary. |
 | Comprehend | Managed NLP for common tasks. | Not to be confused with generative chatbot. |
 | Rekognition | Managed computer vision. | Do not use for full document OCR when Textract is more appropriate. |
-| Bedrock | Flexible generation and interaction with FM. | Do not use as a universal hammer. |
+| Bedrock | Flexible generation and interaction with FM. | Do not assume that every task requires a generative model. |
 
 ## Practical rules
 

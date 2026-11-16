@@ -4,13 +4,13 @@
 
 - **Quick question:** How can inference cost be reduced?
   **Short answer:** Fewer unnecessary tokens.
-- **Quick question:** Observability for?
+- **Quick question:** What is observability useful for?
   **Short answer:** Diagnose and optimize.
 - **Quick question:** What is fallback useful for?
   **Short answer:** Balance cost and quality.
 - **Quick question:** How do you avoid over-engineering?
   **Short answer:** By measuring first.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Efficiency.
 
 ---

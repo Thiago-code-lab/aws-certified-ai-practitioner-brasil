@@ -6,8 +6,8 @@
 
 | Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| Classification | Provides a category, such as fraud or non-fraud. | Not to be confused with cluster. |
-| Regression | Predicts continuous numeric value. | It's not for class label. |
+| Classification | Provides a category, such as fraud or non-fraud. | Not to be confused with clustering. |
+| Regression | Predicts continuous numeric value. | It predicts a numerical value rather than a class label. |
 | Clustering | Groups unlabeled patterns. | Does not respond directly to a known target. |
 | Ground Truth | Data labeling for supervised training. | It is not a core inference service. |
 

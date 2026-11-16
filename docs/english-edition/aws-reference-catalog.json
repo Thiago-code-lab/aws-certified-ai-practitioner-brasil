@@ -55,6 +55,61 @@
       "title": "Bedrock Agents",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
       "review_scope": "Agents Classic is closed to new sign-ups; AgentCore is referenced for new implementations."
+    },
+    {
+      "title": "Inference parameters",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/inference-parameters.html",
+      "review_scope": "Model-specific settings and probabilistic effects of temperature."
+    },
+    {
+      "title": "Inference deployment",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html",
+      "review_scope": "Real-time, batch, asynchronous and serverless selection."
+    },
+    {
+      "title": "Serverless inference",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html",
+      "review_scope": "On-demand serverless workloads must tolerate cold starts."
+    },
+    {
+      "title": "Prompt attacks",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-prompt-attack.html",
+      "review_scope": "Untrusted instructions and limitations of configured filtering."
+    },
+    {
+      "title": "Invocation logging",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html",
+      "review_scope": "Logging is opt-in and can contain model inputs and outputs; protect logged content."
+    },
+    {
+      "title": "Transformer architecture",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/gen-ai-inference-architecture-and-best-practices-on-aws/how-ai-inference-works.html",
+      "review_scope": "Attention and token-based text generation."
+    },
+    {
+      "title": "ML lifecycle",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/wellarchitected-machine-learning-lens.pdf",
+      "review_scope": "Held-out data leakage and preprocessing."
+    },
+    {
+      "title": "Textract",
+      "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+      "review_scope": "Document text, forms and tables."
+    },
+    {
+      "title": "Comprehend",
+      "url": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+      "review_scope": "NLP sentiment and entity extraction."
+    },
+    {
+      "title": "Personalize",
+      "url": "https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html",
+      "review_scope": "Managed item recommendations and user segments."
+    },
+    {
+      "title": "KMS",
+      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html",
+      "review_scope": "Cryptographic key management and access control."
     }
   ]
 }

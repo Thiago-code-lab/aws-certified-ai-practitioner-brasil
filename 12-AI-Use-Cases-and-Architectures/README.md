@@ -8,7 +8,7 @@ Transform concepts into architectural decisions, comparing services and standard
 
 ## How this topic appears on AIF-C01
 
-- Map use case to the most coherent service.
+- Map each use case to the service that best meets its requirements.
 - Compare ready-made services, Bedrock and custom ML.
 - Practice reasoning by business requirement.
 
@@ -35,7 +35,7 @@ Transform concepts into architectural decisions, comparing services and standard
 
 ### Start with the type of expected result
 
-If the company wants to extract fields from a PDF, perhaps Textract would be more direct than an LLM. If you want to analyze sentiment in reviews, Comprehend may be simpler. If you want to answer questions with natural language on your own, Bedrock with grounding may make more sense.
+If the company wants to extract fields from a PDF, perhaps Textract would be more direct than an LLM. If you want to analyze sentiment in reviews, Comprehend may be simpler. If you want natural-language answers grounded in your own documents, Bedrock with grounding may make more sense.
 
 ### Ready service vs generative model
 
@@ -43,7 +43,7 @@ Many AWS questions compare a specialized managed service with a more open founda
 
 ### Architecture as composition
 
-In real-world scenarios, it's common to combine multiple services: Textract for extracting, S3 for storing, Bedrock for summarizing, Lambda for orchestrating, and CloudWatch for observing. The exam values this complete solution reading.
+In real-world scenarios, it's common to combine multiple services: Textract for extracting, S3 for storing, Bedrock for summarizing, Lambda for orchestrating, and CloudWatch for observing. The exam assesses this understanding of the complete solution.
 
 ## Practical example
 
@@ -78,10 +78,10 @@ When the problem requires contextualized summary, open-ended response, textual c
 
 ## Common pitfalls
 
-- Use Bedrock for everything and ignore more direct specialized services.
-- Do not separate structured extraction from textual generation.
+- Using Bedrock for everything and ignore more direct specialized services.
+- Failing to separate structured extraction from textual generation.
 - Choosing a service for its popularity rather than its fit for the requirement.
-- Ignore composition of multiple services when the case is pipeline.
+- Ignoring composition of multiple services when the case is pipeline.
 
 ## Summary for review
 

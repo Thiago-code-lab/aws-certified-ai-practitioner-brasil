@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Recommended integration standard for legacy?
+**Question:** What integration pattern is useful for legacy systems?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -26,19 +26,19 @@ Absorb spikes and decouple processing.
 
 ## Card 03
 
-**Question:** How to handle inference timeout?
+**Question:** How should inference timeouts be handled?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Retry with controlled backoff and fallback.
+Use bounded retries with backoff for retryable failures and a fallback; consider idempotency to avoid duplicate actions.
 
 </details>
 
 ## Card 04
 
-**Question:** Risk of direct calling on the front end?
+**Question:** What is the risk of unprotected model calls from the frontend?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ Repository control and regression testing.
 
 ## Card 06
 
-**Question:** Main operational metric?
+**Question:** Which operational metrics are important?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Recurring questions with low response variation.
 
 ## Card 08
 
-**Question:** Sign of mature integration?
+**Question:** What indicates a mature integration?
 
 <details>
 <summary><strong>See answer</strong></summary>

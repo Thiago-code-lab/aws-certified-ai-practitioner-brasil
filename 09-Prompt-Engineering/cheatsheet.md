@@ -20,8 +20,8 @@
 
 ## Memory cues
 
-- Good prompt reduces ambiguity.
-- Example teaches pattern without re-training.
+- A clear prompt reduces ambiguity.
+- Examples illustrate the desired pattern without retraining the model.
 - Explicit format protects integrations.
 
 ---

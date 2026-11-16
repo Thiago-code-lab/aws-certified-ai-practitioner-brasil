@@ -1,4 +1,4 @@
-# Warm Up Questions — AIF-C01
+# Warm-up Questions — AIF-C01
 
 ## Question 01
 
@@ -37,7 +37,7 @@ Recurrent fine-tuning for document updating tends to increase operational costs 
 ✅ **Correct answer:** B
 
 **Explanation:**
-Guardrails controls themes and content patterns in inputs and outputs of generative applications.
+Amazon Bedrock Guardrails evaluates configured topic and content policies for generative application inputs and outputs.
 
 **Why option A is wrong:**
 KMS is about key management and encryption, not semantic content policy.
@@ -106,7 +106,7 @@ Maximum fixed capacity increases expense in periods of low usage.
 Secrets Manager protects credentials; KMS manages keys for data encryption.
 
 **Why option B is wrong:**
-CloudFront and Route 53 resolve delivery and DNS, not secret and key management.
+CloudFront handles content delivery and Route 53 handles DNS; neither replaces secret storage or cryptographic key management.
 
 </details>
 

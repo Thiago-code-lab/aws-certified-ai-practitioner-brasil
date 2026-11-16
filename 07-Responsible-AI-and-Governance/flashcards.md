@@ -14,7 +14,7 @@ Systematic deviation of results between groups.
 
 ## Card 02
 
-**Question:** Fairness differs from accuracy how?
+**Question:** How does fairness differ from accuracy?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -26,7 +26,7 @@ Fairness assesses equitable outcomes; accuracy measures overall predictive corre
 
 ## Card 03
 
-**Question:** Explainability matters why?
+**Question:** Why does explainability matter?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,7 +38,7 @@ Allows auditing and justification of decisions.
 
 ## Card 04
 
-**Question:** Privacy in AI requires what?
+**Question:** What does privacy in AI require?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Minimization and control of sensitive data.
 
 ## Card 05
 
-**Question:** Safety covers which risks?
+**Question:** Which risks does safety address?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ Harmful outputs and misuse.
 
 ## Card 06
 
-**Question:** Governance defines what?
+**Question:** What does governance define?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ Roles, controls and responsibility.
 
 ## Card 07
 
-**Question:** When to reassess ethical risk?
+**Question:** When should ethical risk be reassessed?
 
 <details>
 <summary><strong>See answer</strong></summary>

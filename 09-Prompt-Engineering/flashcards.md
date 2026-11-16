@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Clear instruction contains what?
+**Question:** What should a clear instruction contain?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -20,13 +20,13 @@ Objective, context and expected format.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Simple task and known by the model.
+When the task is clear and can be handled using the model's existing capabilities without examples.
 
 </details>
 
 ## Card 03
 
-**Question:** Few-shot adds when?
+**Question:** When do few-shot examples help?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,43 +38,43 @@ When examples define the output pattern.
 
 ## Card 04
 
-**Question:** Chain-of-thought should be treated as?
+**Question:** How should chain-of-thought prompting be understood?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Concept of decomposition without exposing private reasoning.
+A prompting technique that encourages intermediate reasoning steps. Such generated reasoning is not proof of correctness or a faithful account of internal computation.
 
 </details>
 
 ## Card 05
 
-**Question:** Delimiting context reduces what?
+**Question:** What does delimiting context help reduce?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Ambiguity and out-of-scope answer.
+Ambiguity and responses outside the intended scope.
 
 </details>
 
 ## Card 06
 
-**Question:** How to evaluate prompt output?
+**Question:** How should prompt outputs be evaluated?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-For accuracy, format, security and completeness.
+Assess accuracy, required format, security, and completeness against defined criteria.
 
 </details>
 
 ## Card 07
 
-**Question:** Common error in prompts?
+**Question:** What is a common prompting mistake?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Increase size without resolving lack of clarity.
 
 ## Card 08
 
-**Question:** How to optimize predictably?
+**Question:** How can prompts be improved predictably?
 
 <details>
 <summary><strong>See answer</strong></summary>

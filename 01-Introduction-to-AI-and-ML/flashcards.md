@@ -32,7 +32,7 @@ Use of the trained model to predict on new data with a focus on latency and cost
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Adjust parameters to reduce error in a defined metric.
+Learn model parameters by optimizing a training objective; use evaluation metrics to assess the result.
 
 </details>
 
@@ -50,7 +50,7 @@ When the output is a discrete class.
 
 ## Card 05
 
-**Question:** When to use regression?
+**Question:** When should you use regression?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,25 +62,25 @@ When the output is a continuous numerical value.
 
 ## Card 06
 
-**Question:** How to detect overfitting?
+**Question:** How can you detect overfitting?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Good result in training and bad in validation or testing.
+Strong training performance with substantially worse validation or test performance.
 
 </details>
 
 ## Card 07
 
-**Question:** How to reduce overfitting?
+**Question:** How can you reduce overfitting?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Regularization, simpler model and better data.
+Use regularization, reduce unnecessary model complexity, and improve the training data.
 
 </details>
 
@@ -110,4 +110,4 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 
 ---
 
-> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering in AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.
+> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering on AWS: From Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.

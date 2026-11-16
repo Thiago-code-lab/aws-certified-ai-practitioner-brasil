@@ -2,7 +2,7 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Zero-shot when?
+- **Quick question:** When is zero-shot prompting useful?
   **Short answer:** Direct task.
 - **Quick question:** What is few-shot useful for?
   **Short answer:** Establishing a consistent output format.
@@ -10,7 +10,7 @@
   **Short answer:** Delimited.
 - **Quick question:** What does evaluation require?
   **Short answer:** Objective criteria.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Clarity.
 
 ---

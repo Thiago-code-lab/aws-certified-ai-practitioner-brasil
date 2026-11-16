@@ -35,11 +35,11 @@ Enable you to explain how a foundation model generates outputs, why responses ca
 
 ### Tokens, context and context window
 
-Language models process input and output as tokens. The larger the context sent, the higher the cost and, depending on the model, the latency. On the exam, this appears as a need to summarize, retrieve only what is necessary and avoid bloated prompts.
+Language models process input and output as tokens produced by a model-specific tokenizer; a token is not necessarily a complete word. The larger the context sent, the higher the cost and, depending on the model, the latency. On the exam, this appears as a need to summarize, retrieve only what is necessary and avoid bloated prompts.
 
 ### Temperature, variation and predictability
 
-Generation parameters change the level of creativity and diversity of the response. Lower temperatures favor consistency; higher temperatures favor variety. For operational tasks, the exam tends to value predictability, especially when there is structured output.
+Generation parameters change the level of creativity and diversity of the response. For models that support temperature control, lower values generally favor more likely tokens and less variation; higher values allow more varied outputs. Low temperature does not guarantee a factually correct or identical answer. For operational tasks, the exam tends to value predictability, especially when there is structured output.
 
 ### Hallucination and grounding
 
@@ -85,7 +85,7 @@ Fine-tuning changes the model's behavior with additional data, but it is not alw
 - Assuming that GenAI always returns the same answer for the same input.
 - Confusing grounding with model training.
 - Sending too much context and worsening cost, latency and quality.
-- Use a generative model for a task that requires simple classification.
+- Using a generative model for a task that requires simple classification.
 
 ## Summary for review
 

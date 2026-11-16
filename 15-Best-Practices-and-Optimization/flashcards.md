@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Principle of optimization in applied AI?
+**Question:** What is the goal of optimization in applied AI?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -14,13 +14,13 @@ Deliver maximum value with controlled cost and risk.
 
 ## Card 02
 
-**Question:** How to reduce inference cost?
+**Question:** How can you reduce inference cost?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Lean prompt and model proportional to the task.
+Use a concise prompt and a model appropriate to the task, then measure quality and cost.
 
 </details>
 
@@ -38,7 +38,7 @@ Without telemetry there is no sustainable improvement.
 
 ## Card 04
 
-**Question:** Continuous assessment prevents what?
+**Question:** What can continuous evaluation help prevent?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,31 +50,31 @@ Silent quality regressions.
 
 ## Card 05
 
-**Question:** Does RAG optimization focus on?
+**Question:** What should RAG optimization focus on?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Retrieve few highly relevant snippets.
+Retrieve a small set of highly relevant passages while preserving enough context for a supported answer.
 
 </details>
 
 ## Card 06
 
-**Question:** Fallback between models when to use?
+**Question:** When can fallback between models be useful?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-When criticality and cost vary per call.
+When request requirements differ or the primary model fails, provided the fallback meets required quality, latency, and security constraints.
 
 </details>
 
 ## Card 07
 
-**Question:** How to avoid over-engineering?
+**Question:** How can you avoid over-engineering?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Evolve only after measuring real bottlenecks.
 
 ## Card 08
 
-**Question:** Decision best evaluated in the test?
+**Question:** Which decision is usually preferred on the exam?
 
 <details>
 <summary><strong>See answer</strong></summary>

@@ -1,16 +1,16 @@
 # Use Cases — Glossary
 
-## Case 1 — Final stretch review
+## Case 1 — Final review
 
 **Scenario:** You get the concept right, but the alternative is wrong because you confuse close terms.
 
-**Glossary Usage:** Review confusion pairs such as Bedrock vs SageMaker AI and RAG vs fine-tuning.
+**Using the glossary:** Review confusion pairs such as Bedrock vs SageMaker AI and RAG vs fine-tuning.
 
 ## Case 2 — Quick diagnosis by domain
 
-**Scenario:** In the simulation, you notice difficulties whenever the topic involves GenAI.
+**Scenario:** During a practice exam, you notice difficulties whenever the topic involves GenAI.
 
-**Use of the glossary:** Review prompt, grounding, token, embedding, vector database and Guardrails before returning to questions.
+**Using the glossary:** Review prompt, grounding, token, embedding, vector database and Guardrails before returning to questions.
 
 ---
 

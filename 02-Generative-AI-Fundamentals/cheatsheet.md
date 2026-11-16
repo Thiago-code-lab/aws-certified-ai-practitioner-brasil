@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | Prompt engineering | Improves instructions and formatting of the response. | Not to be confused with model adjustment. |
 | RAG | Retrieves external context before generation. | It is not synonymous with fine-tuning. |
-| Temperature | Controls output variability. | Higher temperature does not mean more correct answer. |
+| Temperature | Controls output variability. | A higher temperature does not make an answer more accurate. |
 | Hallucination | Plausible content, but incorrect or invented. | A good model can still hallucinate. |
 
 ## Practical rules

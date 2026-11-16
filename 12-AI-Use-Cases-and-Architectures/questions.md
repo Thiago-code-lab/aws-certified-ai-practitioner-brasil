@@ -6,12 +6,12 @@
   **Short answer:** Clear ROI.
 - **Quick question:** Batch versus real-time?
   **Short answer:** It depends on the SLA.
-- **Quick question:** Decoupling for what?
-  **Short answer:** Evolve without breaking everything.
-- **Quick question:** Anti-pattern?
+- **Quick question:** Why decouple components?
+  **Short answer:** Change components independently while limiting the impact on other parts of the system.
+- **Quick question:** What is a common anti-pattern?
   **Short answer:** LLM for everything.
-- **Quick question:** Keyword?
-  **Short answer:** Adherence to the scenario.
+- **Quick question:** What is the key term?
+  **Short answer:** Fit for the scenario requirements.
 
 ---
 

@@ -14,931 +14,1197 @@
       "target": ".github/ISSUE_TEMPLATE/aws_update.md",
       "target_sha256": "77354e324753309907ac02f34890011a51df824d944832d1716afb108aea2294",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": ".github/ISSUE_TEMPLATE/bug_report.md",
       "target": ".github/ISSUE_TEMPLATE/bug_report.md",
       "target_sha256": "a3302a509f47df5ad2c9af0ad9c6dfe0e787e27836aa27a17cd6938825f987fd",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": ".github/ISSUE_TEMPLATE/pedagogy_suggestion.md",
       "target": ".github/ISSUE_TEMPLATE/pedagogy_suggestion.md",
       "target_sha256": "e7f6f0860aabdd7ff402021d4499c38d1eae6cd2ebebfa7ad019f6b096895c44",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/README.md",
       "target": "01-Introduction-to-AI-and-ML/README.md",
-      "target_sha256": "b1a210d02809dd6d12cb403c45f4c7de52356be1c02588899ea85110f21fb7b2",
+      "target_sha256": "ad216ac337a52d7d61eebb6f3e4954064f1b1c052b0a6ab73db37375cf72f734",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/casos-de-uso.md",
       "target": "01-Introduction-to-AI-and-ML/use-cases.md",
       "target_sha256": "28258fb64dbb93712e512182f40099af5c183fecdffba77796d710b603ac42b5",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/cheatsheet.md",
       "target": "01-Introduction-to-AI-and-ML/cheatsheet.md",
-      "target_sha256": "dcab49b991054416766a62acb111437ea6f1e0fb7c54eb2030f98d2fe3ec9535",
+      "target_sha256": "acd9925123cbda5e90ed44f61f8c6d14ae4271fc092eeacbf5d0e193db89e314",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/flashcards.md",
       "target": "01-Introduction-to-AI-and-ML/flashcards.md",
-      "target_sha256": "a5147ff7c6db5c8e8d31e81fb6dd336f54bf1f382c839248c0530599f97cbf6a",
+      "target_sha256": "5431db82ce3bc17184b209e7b21f65dcbd09de04039bf8c8dd326a1949339407",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/lab.md",
       "target": "01-Introduction-to-AI-and-ML/lab.md",
       "target_sha256": "80233ebfacf0f4d2d0c23f6904b88a6b921e95efe5b146bbb06d40d5115b29a4",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/links.md",
       "target": "01-Introduction-to-AI-and-ML/links.md",
       "target_sha256": "5d05962a09109e4c3701643b815777dbcb3664cbfb5a4ee31b1340b592ad9ae1",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "01-Introducao-IA-e-ML/questoes.md",
       "target": "01-Introduction-to-AI-and-ML/questions.md",
-      "target_sha256": "73a8fdee3af3b14e07543eb70cc436306ebfef8379b46af549f5910e15e1c6d5",
+      "target_sha256": "b2365af54a237dd0b34aaafa8e093b0827844f324ccb66fc8f93600907d82fed",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/README.md",
       "target": "02-Generative-AI-Fundamentals/README.md",
-      "target_sha256": "6ff50c890e223d1ea57e4d7c172bb79af04e5d5abdc9d6f73b394503b8625f93",
+      "target_sha256": "61bc073c3cf3fb8f4140a3b03b2329c8d031456d5e8a1f319e6d1ef19e37d965",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/casos-de-uso.md",
       "target": "02-Generative-AI-Fundamentals/use-cases.md",
       "target_sha256": "c6783b6f6cca4096e1a6ac07213339ba517241459c9fe3a57cca39ec391e24ca",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/cheatsheet.md",
       "target": "02-Generative-AI-Fundamentals/cheatsheet.md",
-      "target_sha256": "9400be1433974ca8ffe2f651bbd98d22c73e24b925e19cd45fc2836f471745f3",
+      "target_sha256": "2e669c8cc1b44b7bd6a52de1d50088f0464d4981654b267f96f3874b15582c89",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/flashcards.md",
       "target": "02-Generative-AI-Fundamentals/flashcards.md",
-      "target_sha256": "e6f77c5c8bfe60d986141333bb760839685c98677c52ef9a5144d90cfddac820",
+      "target_sha256": "880ba57dbd96bc33d3dfef9de9decc5059ea8e32e509831bcf3931b62eb6b6f8",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/lab.md",
       "target": "02-Generative-AI-Fundamentals/lab.md",
       "target_sha256": "ee76d6dc9744a989b05bfae4b4209c6842aa3f70795c420470a35857dbada985",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/links.md",
       "target": "02-Generative-AI-Fundamentals/links.md",
       "target_sha256": "cd3355db3374de614e2df0cd185db69c6e8ebb23856de5344a90712b9e4f9265",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "02-Fundamentos-de-IA-Generativa/questoes.md",
       "target": "02-Generative-AI-Fundamentals/questions.md",
-      "target_sha256": "b8332fb21be015f54ed2ed7cbe491c2194572d731ff5ec46cad55fddc9f59052",
+      "target_sha256": "c5d7870a55660182f7d1eb6556873d0b79eb4e7830b5f67cf540ac7e72f720b5",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/README.md",
       "target": "03-Machine-Learning-Fundamentals/README.md",
-      "target_sha256": "1f57384f72d4ce2eee2b4b69db1c6e6e22bb1d81b3534e0ef9c2a3026cc9efd7",
+      "target_sha256": "6223070279eda813fae62fe31c3394df82e92dc64e4ad671fc93231c197e959b",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/casos-de-uso.md",
       "target": "03-Machine-Learning-Fundamentals/use-cases.md",
       "target_sha256": "09370da141f756700a975270962a27fd0a9bc08916db1f309c31996eaea7c8cd",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/cheatsheet.md",
       "target": "03-Machine-Learning-Fundamentals/cheatsheet.md",
-      "target_sha256": "bba30151a3baba412e1e9d4e2f6bbaefd56d13818703d3971ce15f21c364e0d1",
+      "target_sha256": "a4ff6b3f68acf4552b17e9a2b025dfb6000adbbbc11dec0e69c5846f58faacdc",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/flashcards.md",
       "target": "03-Machine-Learning-Fundamentals/flashcards.md",
-      "target_sha256": "faf1454efdeccdae744821709d0e82c850ba3d12d049f687fc25e52a96f30b75",
+      "target_sha256": "5ba70856c2b3a681c12858da96c240cc6ac31adeec14b23de5de2dfe9e3be3e1",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/lab.md",
       "target": "03-Machine-Learning-Fundamentals/lab.md",
-      "target_sha256": "ef18c2654abb5cff97b6a9f75f837b46f3636f063d56e3b96873db6b984a6a7a",
+      "target_sha256": "6876303c2609a2cb7591258e2eb9740fa26e8c02f55aeae646506d26c0058460",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/links.md",
       "target": "03-Machine-Learning-Fundamentals/links.md",
       "target_sha256": "b64a8202a13012e90715bc0824e6dcf1aa882d661f0779f7727faef93d84e877",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "03-Fundamentos-de-Machine-Learning/questoes.md",
       "target": "03-Machine-Learning-Fundamentals/questions.md",
-      "target_sha256": "9d189a2f4598d3b35b590eb7dc82b790ce8be7d75b4901d47824cd9799a1af93",
+      "target_sha256": "db4697c72a208adc7d6aeed516a9674a08b37be2f174f571656130e9c33dd64f",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/README.md",
       "target": "04-Foundation-Models-and-LLMs/README.md",
-      "target_sha256": "78a07b5e108d982b1154446fbdc4c61d871d638fc7db1ad8eb9efd866ea3f53f",
+      "target_sha256": "2c8600ee9c8d6217bdd2d74337187790d33469ddb2629a7ea147c719f2399512",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/casos-de-uso.md",
       "target": "04-Foundation-Models-and-LLMs/use-cases.md",
-      "target_sha256": "612254cbc19dc4e70d4da8e40246ee5e697a1627e5fddf2ccc051cfa29c30ad5",
+      "target_sha256": "dd33e7d7c7fe61d9dd92f7b4e0e129f6fd2d0259fa14a0369c45e764ffca4230",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/cheatsheet.md",
       "target": "04-Foundation-Models-and-LLMs/cheatsheet.md",
       "target_sha256": "cf7358523e94de94fe736c2ce165a6bf7a4e10786718c238550748f04fe10eb0",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/flashcards.md",
       "target": "04-Foundation-Models-and-LLMs/flashcards.md",
-      "target_sha256": "eed02fcb988a1df7830c1f59b4715c86db4c54d5e2a0689b9c305e22b9e7086c",
+      "target_sha256": "76e4c09bc0e7eaa93e80c9f668267d2ef1ec9883c18dec9c875d26a89c39fbd7",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/lab.md",
       "target": "04-Foundation-Models-and-LLMs/lab.md",
       "target_sha256": "daf6d22ef37bd6231993b18874970d2b2d6cf49257baf74ea175f5c0e4e74a26",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/links.md",
       "target": "04-Foundation-Models-and-LLMs/links.md",
       "target_sha256": "595286e597b175c7b946f6aef98cb5af2ca7245bfc3fbe460bc089bccf9b15fa",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "04-Modelos-Fundacionais-e-LLMs/questoes.md",
       "target": "04-Foundation-Models-and-LLMs/questions.md",
-      "target_sha256": "d71077bce6ff2dba8f3de09a981453abf52bd710a87e5892eadc741edf87e19a",
+      "target_sha256": "39f62f0444a145c71013d957946326875d11070277f78f6b18bb339862a31fa8",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/README.md",
       "target": "05-Amazon-Bedrock/README.md",
-      "target_sha256": "ee074d7fb54ead9b223b1762486a9da4a59480661a4eacdd8a8d360aa231e979",
+      "target_sha256": "1828b3401430926fdb5dfc2f8b8e304bd4b182e698d1c4d6f1ad1fdf04aa870f",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/casos-de-uso.md",
       "target": "05-Amazon-Bedrock/use-cases.md",
       "target_sha256": "d6fab84c7cbf9c2e62b8293ca76d254abc1576bc04853675f6e31fb373b83bbc",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/cheatsheet.md",
       "target": "05-Amazon-Bedrock/cheatsheet.md",
-      "target_sha256": "b9cbd2bf2fb2745d29586d7f3f81116e2ee97271037a0cafcff0f997e29d1f74",
+      "target_sha256": "a2139652687375bf39d97f960b10d10b882adf2826b29e16258343e6bdb1bffd",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/flashcards.md",
       "target": "05-Amazon-Bedrock/flashcards.md",
-      "target_sha256": "38b1dd9ba6628f9644251e75308dc240a53d78d83c9e894bfc0436bea225c421",
+      "target_sha256": "f5d547105d569c549a0cb9921ad731f4441f07d536017c2b6ac0a2677bbe38a0",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/lab.md",
       "target": "05-Amazon-Bedrock/lab.md",
       "target_sha256": "3658e05b705398aa8cda7c5962d990f7ba262b8b8309eea9b377a54702e84f4c",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/links.md",
       "target": "05-Amazon-Bedrock/links.md",
       "target_sha256": "6b11af5b8086ea0d4b725dea972fdfd8fb1eaa66b4206eb8f5fc2126895d8450",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "05-Amazon-Bedrock/questoes.md",
       "target": "05-Amazon-Bedrock/questions.md",
-      "target_sha256": "1b915d31b7c66fc06c3477a8e26ba7e1813492ecfdcdbe218719d5ad7daff297",
+      "target_sha256": "67c6d6b89f699f82f2de49c99146829b54ae20e63fea42f020701879cc4885ac",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/README.md",
       "target": "06-Amazon-SageMaker/README.md",
-      "target_sha256": "f6c4ee74b7d07240c02bfd6b47c7a17cd9ace4572203feecf2d0d3fc8a7c713b",
+      "target_sha256": "744cc69795aa82e7f9dfe50223b250a1c5ce647caf57e4d91b58ccfbdeaf8974",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/casos-de-uso.md",
       "target": "06-Amazon-SageMaker/use-cases.md",
-      "target_sha256": "28245db0943d61e59b55b23a89e0aac8cc59fb9184f03a19cdc0d920c8bc2592",
+      "target_sha256": "51fe78ea45f50b59939f614ed3d28dc77ef38f135f0fd79b712d0affd0c9a31a",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/cheatsheet.md",
       "target": "06-Amazon-SageMaker/cheatsheet.md",
       "target_sha256": "af18baedc310baca4a7f90576da1a4f80a18b387c09b5dcdce6c80a30e66af61",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/flashcards.md",
       "target": "06-Amazon-SageMaker/flashcards.md",
-      "target_sha256": "8b4b24ad78070bb2027c4bee1b37d441cac6f744c4b946f34e7b3be0955a862f",
+      "target_sha256": "92a2b4f09a924c5833b8a13b5cfbaac718b91855ac6ae1516d2d6f711dca86b1",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/lab.md",
       "target": "06-Amazon-SageMaker/lab.md",
       "target_sha256": "8eb7deb073e60d6c19883895c22d9ca93e17aa9a31b34730f38d37bebfa8c121",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/links.md",
       "target": "06-Amazon-SageMaker/links.md",
       "target_sha256": "d1e694b41bd357c5aa307ee26a5c9d1d3944672e405cbecd349f0c4c7b038851",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "06-Amazon-SageMaker/questoes.md",
       "target": "06-Amazon-SageMaker/questions.md",
-      "target_sha256": "2db519c42d495a385d961634bc2bcfa22ec56a33c1519567ae1c8d0a7088d1e6",
+      "target_sha256": "8185e9ffd7779d8f7668c04b6f0f4afa0b20c47dc8164e09f13a76cb6ab14098",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/README.md",
       "target": "07-Responsible-AI-and-Governance/README.md",
-      "target_sha256": "69f77075e239d4cdb0f7e3bde3a2f1ebff7feac96ddc0ae7c77d9f6bca4920d9",
+      "target_sha256": "228f86d1733651d2244be3ce693582161caa8bd0a5684712bb6a8c79b53c3791",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/casos-de-uso.md",
       "target": "07-Responsible-AI-and-Governance/use-cases.md",
       "target_sha256": "dbd41fbbb2efeb7cf4ce799b4a5aa391805c9ff3a8463888c6cd0d6787c1c612",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/cheatsheet.md",
       "target": "07-Responsible-AI-and-Governance/cheatsheet.md",
       "target_sha256": "64179ba862b5535c8326b463191b1914c86ce338f1c06f61c264000f8d3e450e",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/flashcards.md",
       "target": "07-Responsible-AI-and-Governance/flashcards.md",
-      "target_sha256": "a4f9a30032db5ee12356e7c7d935025e15fac22c5d1da00f90e71456ae0645af",
+      "target_sha256": "cd025141c58da500cbbade7f713c5ce5ef8bef055d563a6043e962f5ece24b43",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/lab.md",
       "target": "07-Responsible-AI-and-Governance/lab.md",
-      "target_sha256": "60d07d414ebb1674288f5f2bbb1e50738c4e37d78faddc6e347120d0fb481ff0",
+      "target_sha256": "d97152b76cf21fb05bd92984e511e9b15e6fc7f2e8839728e1e6b2dfdda2dee9",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/links.md",
       "target": "07-Responsible-AI-and-Governance/links.md",
       "target_sha256": "5d85025a2fb0e5c06bf9d8690c24ac8aed4d2652922dfc4e4a91d78f8ed46f7d",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "07-IA-Responsavel-e-Governanca/questoes.md",
       "target": "07-Responsible-AI-and-Governance/questions.md",
-      "target_sha256": "db62b093d15d0a66e0ff89b1de1946de5bf332e543a42f4700561a49ebeec78f",
+      "target_sha256": "2c18e0bbe2e573dd2d798518ccf4aea69e6ac335273b706239fb13101ba87bde",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/README.md",
       "target": "08-Data-for-AI/README.md",
-      "target_sha256": "ef5175f251352acd177e4e4f4a94f7bb0ad883945c8a718f1c8748fc326db1b8",
+      "target_sha256": "4bdf4d0aa52d1193d7a9f0a93cd4cfb25023bb9d3481c09a15f616e733d76408",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/casos-de-uso.md",
       "target": "08-Data-for-AI/use-cases.md",
       "target_sha256": "fe7af158043fba59ce7e9964d60c666d5e605daed7735572a5d69cf73cb1dfbe",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/cheatsheet.md",
       "target": "08-Data-for-AI/cheatsheet.md",
-      "target_sha256": "2ac1171037b19032d8852289365e5cbdc92cbe50612f1782ebd6e49ad7ff388f",
+      "target_sha256": "a4a7d3bd9b213b82a82c0fca8d5b078511e4055e8bda42fabd670adedc3f0f21",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/flashcards.md",
       "target": "08-Data-for-AI/flashcards.md",
-      "target_sha256": "6a4de398ff03d7e35a9e274e60835315f3b47c9022e321478f4ffae42ed65018",
+      "target_sha256": "645cc252c57134ca7f6e35ff84881ad187e166c2ec359dfa479c8adc974d2b30",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/lab.md",
       "target": "08-Data-for-AI/lab.md",
       "target_sha256": "6018fe4170b96352f26fdeaae29949a212499094f31dede2f753278a5e444a44",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/links.md",
       "target": "08-Data-for-AI/links.md",
       "target_sha256": "869bd5c151c8f780fc8b6209bea05ca659cd8c3986e9e63aab15b374e082cdc7",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "08-Dados-para-IA/questoes.md",
       "target": "08-Data-for-AI/questions.md",
-      "target_sha256": "8464ff56ef51609297f1b4e9f63a5b76c0a26d19ea8100f29e9c7c622857c0b8",
+      "target_sha256": "edfc20af3b38cc6ae91bb875171f91311a58ceda36054946d4a40617dd3a16fe",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/README.md",
       "target": "09-Prompt-Engineering/README.md",
-      "target_sha256": "ad53e35ae2d03bf634ca94e1f7ab6a9a713438ceb71c70f8d6ad500988a4d0ba",
+      "target_sha256": "9e085d794581798b9dc6a193eb9d003a53209b082971e54db48c9cdeaeef56e2",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/casos-de-uso.md",
       "target": "09-Prompt-Engineering/use-cases.md",
       "target_sha256": "f0417e3a17b473e5e64db076b765a9418be128ce98a8fde1f710b5a8f279bf47",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/cheatsheet.md",
       "target": "09-Prompt-Engineering/cheatsheet.md",
-      "target_sha256": "f063761e79a12cbd42dfd83200d8ead30e7f435b73bd9e1f84421ec717c0ded3",
+      "target_sha256": "c9c6cfa18ae1805bd5b8bb5551f02a97b422dcb6ec89a220494eb23fe9d63656",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/flashcards.md",
       "target": "09-Prompt-Engineering/flashcards.md",
-      "target_sha256": "72d4248bda5384c3d00d5c104ab1f4c64a5b6c3da92908e5dd6d19b6686d6971",
+      "target_sha256": "02e2470e25554046418d25101840195dd80a8e0914f10161e129c228c63a8948",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/lab.md",
       "target": "09-Prompt-Engineering/lab.md",
       "target_sha256": "7c96dc7e33c14237fbfb1e0cc8149ee8b8153f18dfaa75773aaa4d0a84ca91af",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/links.md",
       "target": "09-Prompt-Engineering/links.md",
       "target_sha256": "7ff53ebc74e01ad00146acd5445c186271f1a6321457176c80c675cf94c73acd",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "09-Engenharia-de-Prompts/questoes.md",
       "target": "09-Prompt-Engineering/questions.md",
-      "target_sha256": "8bdcaac4e6b75a13d5a9d6b4bb3fba04006236c9c70ae79536ab7dc57b9807fb",
+      "target_sha256": "a2d1d3a26bd52e6e11eaa0d6ae6c22838916fcc5fa82bbdb707c654210296213",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/README.md",
       "target": "10-Generative-AI-on-AWS/README.md",
-      "target_sha256": "8e3b1183d0c1fc5cd4a2fea6b7cbe9f1f8fa0dd01bd6f0cc982d0272a022e3f2",
+      "target_sha256": "3a5b6a85f809e7c9075013356f37a8d8a0a86516a1e1d27471ac2e4172658342",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/casos-de-uso.md",
       "target": "10-Generative-AI-on-AWS/use-cases.md",
-      "target_sha256": "0978eeb4e23fc1d7c4c11402afbb3193546b18c7078f9dd63d40c66a83b57602",
+      "target_sha256": "b954027d0672dc7ae2e16ad204c660a76f8a2ad2b33205dfacd61effc444d8ba",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/cheatsheet.md",
       "target": "10-Generative-AI-on-AWS/cheatsheet.md",
       "target_sha256": "8aca804b4542f9998ae6114d1d7e4572ac91562bfae7f029de713d717d3a5633",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/flashcards.md",
       "target": "10-Generative-AI-on-AWS/flashcards.md",
-      "target_sha256": "fed9308dcb3134186b14b28b1950570a791ba9710eaa4f4295fd056253b71ffc",
+      "target_sha256": "df0b432f4e2a5a15e8416c7d047d96f36dd497c99a49c610a3c61c3bd40ed592",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/lab.md",
       "target": "10-Generative-AI-on-AWS/lab.md",
       "target_sha256": "b1020038cb83a30ea59066e2201941fd57b9a55c9afe09e632e7d2ddf9c1c3d4",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/links.md",
       "target": "10-Generative-AI-on-AWS/links.md",
       "target_sha256": "f8684a96a5f640361fabaed90027799d8aa2726f0610b92e490611ea61ddef01",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "10-IA-Generativa-na-AWS/questoes.md",
       "target": "10-Generative-AI-on-AWS/questions.md",
-      "target_sha256": "18f5cf19bce94823544b4c107d53395f3fdb8f4a3495961ac795d55f4904dccb",
+      "target_sha256": "2b3c86ec82b006d11d22d921e2545f03e85d284af5a75db6963b8e60454f49fe",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/README.md",
       "target": "11-AI-Security-and-Compliance/README.md",
-      "target_sha256": "07e158f46d9d90f670f929279a3075383f6f6485d703801ce4888d0637ae9894",
+      "target_sha256": "e45834a6a9acfca7f61a126f15b193191db7a1a129a801ade1ee946e1b7be2e4",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/casos-de-uso.md",
       "target": "11-AI-Security-and-Compliance/use-cases.md",
       "target_sha256": "59c8637bbca80fc5cdbc1f88254fb5793efdd0d518eebe9aa18931d6ae4f4b71",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/cheatsheet.md",
       "target": "11-AI-Security-and-Compliance/cheatsheet.md",
-      "target_sha256": "dbe2c3aaa00bc70aa164395e6fe9d0076f110badbdbfc46abe1ed8cd5f710c22",
+      "target_sha256": "51690ba2c0ea8743a61315a85352e526466338cf6e7cb40c0a35d50a3ee13684",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/flashcards.md",
       "target": "11-AI-Security-and-Compliance/flashcards.md",
-      "target_sha256": "eedca59bc88d15d84ceccfc36b3665c602f956294cecc7fdbfb79c17f6f1e864",
+      "target_sha256": "aeca63b76211541a25e21469161d736cae709bc157d620dad7c866225038920e",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/lab.md",
       "target": "11-AI-Security-and-Compliance/lab.md",
       "target_sha256": "9b380eb65f813de4c6b4772d1598ee726c85da750a7f4cdb56550165c3e9fe8a",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/links.md",
       "target": "11-AI-Security-and-Compliance/links.md",
       "target_sha256": "1fb71738ead80d96424a42b2702e33e9638a805b061b5f6dcc155c40a2f8fe52",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "11-Seguranca-e-Conformidade-em-IA/questoes.md",
       "target": "11-AI-Security-and-Compliance/questions.md",
-      "target_sha256": "451c51bd81c4cbf47db50653e86b77d95c5e93f424c78967adb573e31a7181b4",
+      "target_sha256": "ba9a4ab7636ac26a34d40c052c009e60f59466e9c7e4da6cc77ba2ddbc2b6d96",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/README.md",
       "target": "12-AI-Use-Cases-and-Architectures/README.md",
-      "target_sha256": "7485f575aaab35d408fad73aa7d552fe1b6b76217aa8a1b13e10a87d153f1083",
+      "target_sha256": "6ec261a6ae7e2d3c8bf97cafcbbf92ebfc28c01a53081a1c067e969d69be4fdc",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/casos-de-uso.md",
       "target": "12-AI-Use-Cases-and-Architectures/use-cases.md",
       "target_sha256": "7780b0b6b9ed3aee71efefa6a41f7f4afe0d15e9a630b91873e08b7f3416fd0d",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/cheatsheet.md",
       "target": "12-AI-Use-Cases-and-Architectures/cheatsheet.md",
-      "target_sha256": "dd3fc3d12e7acc7e37fb08c8fdf7543f29e401d60dc1ed1e33e2d7883b73e4a3",
+      "target_sha256": "d8993248395d46356016b68f055bdaa7f7d3e32d6776da977fe1681d7713250f",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/flashcards.md",
       "target": "12-AI-Use-Cases-and-Architectures/flashcards.md",
-      "target_sha256": "b5942c33b2db4c2c70d52f982c9333c9693c27d5f3a4c2bdab3bb37db21822a3",
+      "target_sha256": "d313f88aa48c301029ca64b44d3db1e94e0401b42301bc106c9264f1089a582e",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/lab.md",
       "target": "12-AI-Use-Cases-and-Architectures/lab.md",
       "target_sha256": "368457f0d4dd5d1058c988e3521aeb25effa902a87e2251657f7aadba17c9ca1",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/links.md",
       "target": "12-AI-Use-Cases-and-Architectures/links.md",
       "target_sha256": "6328fc6033309735c0d6e3181640b584d7689ec25e06cd5b85efdd7f83030bf3",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "12-Casos-de-Uso-e-Arquiteturas/questoes.md",
       "target": "12-AI-Use-Cases-and-Architectures/questions.md",
-      "target_sha256": "9a5f52915a2d2ed7ed439cea12f71f898635a6e44ef5a3c09d860308be4d38cd",
+      "target_sha256": "1fcb50503ed5c68ed00b20d18c07dac22928c410ce9ef28811e6b66cd698bda0",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/README.md",
       "target": "13-AWS-AI-Services/README.md",
-      "target_sha256": "bd90251332f136dec8166eba7ed67b2480d96e04a87c13ca58e74516e1d052f7",
+      "target_sha256": "08d8eb3bd43fb78dff377a68d8f4883dad4cd7a1580096bbdc6c0dbd24ecd69e",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/casos-de-uso.md",
       "target": "13-AWS-AI-Services/use-cases.md",
-      "target_sha256": "cd2057235e2943149d31cfe66de30e6f033ea3974bd47ab113de481cb154ac2e",
+      "target_sha256": "9c418709aaa4d85fd9d8723abccb7ebe7a9bd91269b57d613d750e7cedf0f703",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/cheatsheet.md",
       "target": "13-AWS-AI-Services/cheatsheet.md",
       "target_sha256": "b78965494be580759067b5c0a44f1ddbc03c5385a1d5a81f93762958e3f6bbb9",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/flashcards.md",
       "target": "13-AWS-AI-Services/flashcards.md",
-      "target_sha256": "3afee22ab2f2277e4de0572972634707a260a97da944c20602f97d04320debfd",
+      "target_sha256": "18e6984facc490a0e31abde927611b710506d4217121027e051a39f43e8f4bac",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/lab.md",
       "target": "13-AWS-AI-Services/lab.md",
       "target_sha256": "1af0bb424ce8c3f3922d266f88c37cf0b6559c6dce6bac86567b39d3ef24546c",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/links.md",
       "target": "13-AWS-AI-Services/links.md",
-      "target_sha256": "f292bcfb4266d7c9e06c6ac9d1a386c7d324e2fb5da7187d9706fbcaa82c72c8",
+      "target_sha256": "20eadfcb4ad06b397f6020541ab5e8f9fca6202cc5f81639c3e58b06de16da5b",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "13-Servicos-de-IA-da-AWS/questoes.md",
       "target": "13-AWS-AI-Services/questions.md",
-      "target_sha256": "4bdeda0d978af1358230affbc55570d2544b348fb91f1166ba0d9523661b44ac",
+      "target_sha256": "34d224868ecbfaf1f8183cefffe4c6a770bb80a832d4917f48a1b9401035c71b",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/README.md",
       "target": "14-Application-Integration/README.md",
-      "target_sha256": "36cd9dc06f4cf2a87c263edb80a7d60784b8a1b6d84fe44fa3ad36b599f1bd13",
+      "target_sha256": "41d7e9dd2f2c11e82bb8a1b8b6024ee466b2b0d7b11fdd29dfd7e15f1f8286be",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/casos-de-uso.md",
       "target": "14-Application-Integration/use-cases.md",
       "target_sha256": "3f86c9522f3c1421e012deccc49684a28f14c86d665b782f2cb0e5f6c8146b91",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/cheatsheet.md",
       "target": "14-Application-Integration/cheatsheet.md",
-      "target_sha256": "ee880273726f5cfdb18ba84b4352c845f81c68ac0f4a1d8042a4fb2a47869092",
+      "target_sha256": "13b4f592132504037be8fe18efb3c1c4603f21180ea56e20e8691f981b778dbf",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/flashcards.md",
       "target": "14-Application-Integration/flashcards.md",
-      "target_sha256": "6eb5fb907b323553dc2d91a1265fbbdbd46e1f08e15700094b5f41cafdc0f3df",
+      "target_sha256": "9704c1ad71f208684a1cb457beb8ec8e3d3df1bfdcc5b1c055ce56fbe8b3c0b7",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/lab.md",
       "target": "14-Application-Integration/lab.md",
-      "target_sha256": "5efa93d1bfe50b29fc0c9b2692b6675a5b276a0c0d720a7577e07ccccdae39a0",
+      "target_sha256": "d9d988e927ef1c64265baeacd6bd4bada4ef64442cce0d78f88d79c4efdf6a06",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/links.md",
       "target": "14-Application-Integration/links.md",
       "target_sha256": "b536ea00fefa8a763feaa15a40561290c98f0e5a0ffbce94ba871f281930cfad",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "14-Integracao-com-Aplicacoes/questoes.md",
       "target": "14-Application-Integration/questions.md",
-      "target_sha256": "298cb930a6f916741437c39eaa50f0e836996ddcc365d7099ef82d887ce72e3f",
+      "target_sha256": "7cd9afada965dea417cff814ae667202457390cf0d6f2b7c82409de65123c261",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/README.md",
       "target": "15-Best-Practices-and-Optimization/README.md",
-      "target_sha256": "fc2711ad5d3a6f26ab1141e3dd791ec32f1aced77b2e6b420a229127c2ec1603",
+      "target_sha256": "18da63b9594a43cf37bbfaf74970cc548786dd9e2bd2775a6ecf7e538aac082d",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/casos-de-uso.md",
       "target": "15-Best-Practices-and-Optimization/use-cases.md",
-      "target_sha256": "524c2ad6f2e6cf842d4c1f1818531fdd4b4b525bb2fa3d4cd22e9d1da4d4b2fa",
+      "target_sha256": "6ca9a1bfe9bee12190886316e88c068b0e615e88d66e75f14cde6e7dc24177cc",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/cheatsheet.md",
       "target": "15-Best-Practices-and-Optimization/cheatsheet.md",
       "target_sha256": "7521b03ed73f1dd09591267411e980cb09b0e345fdbba58b2d5b07a19ca8ed8d",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/flashcards.md",
       "target": "15-Best-Practices-and-Optimization/flashcards.md",
-      "target_sha256": "6be86b2418f681e466a69f554a5e32b3c1d6d5d4ea6953dbfe2367fdc2bb60ad",
+      "target_sha256": "5da743975905f2d9990ad6c2f84da7ab35caf4196bc19508260a5ff270dab4ee",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/lab.md",
       "target": "15-Best-Practices-and-Optimization/lab.md",
       "target_sha256": "77565379e1f5765dc56cbc9579164637320882d6f12a2f0ffeae515c3256ea0c",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/links.md",
       "target": "15-Best-Practices-and-Optimization/links.md",
       "target_sha256": "c35820256f209cf54babc331c621accb9de9f411d750522d732fa7001f79cfc0",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "15-Boas-Praticas-e-Otimizacao/questoes.md",
       "target": "15-Best-Practices-and-Optimization/questions.md",
-      "target_sha256": "89f5000a5f58130de1686d382db5db5c27b1016ae4ae78bf4214dcd9f2dff96b",
+      "target_sha256": "a2a617bc6cd6f9986b9830533faaa8139b0b11595bd5ab50da16ab44b594d784",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/README.md",
       "target": "16-Practice-Exams-and-Questions/README.md",
       "target_sha256": "5cc0336280671904384a1789b615b2e85b66fde52241bf7cf49ac394144d107c",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/caderno-de-erros.md",
       "target": "16-Practice-Exams-and-Questions/error-log.md",
-      "target_sha256": "979fe8715418cdea78ce5827d26d29ec476e5c8fbfd71c97d548f73e20b0b6ed",
+      "target_sha256": "dae97d01d66f8c9836a7ac6ac41f61b16e06a19a0fd4989414be69f21cb42775",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/cheatsheet.md",
       "target": "16-Practice-Exams-and-Questions/cheatsheet.md",
-      "target_sha256": "f1121ba2e59d7a3d189eb34c2b0410b988995daba64e4a0a802a58c8e6f0b891",
+      "target_sha256": "7992cf74a3e1f6ac34aabf7ed4ba391902261da312f0caf2d33916923ada027f",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/flashcards.md",
       "target": "16-Practice-Exams-and-Questions/flashcards.md",
-      "target_sha256": "5c7bbb2eb2a9e3cfcce12488b38712645e870d0fb6df5769a219635805e2b905",
+      "target_sha256": "385c4a115375c2595c8edc61ea4344de0de7b6df39df6e4f34c8fd59adabf287",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/links.md",
       "target": "16-Practice-Exams-and-Questions/links.md",
       "target_sha256": "1b6399c7ba22ca239ffb8935216055c1cefd62b97ff75cfccbdd3e939bf08023",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/mini-simulado-por-dominio.md",
       "target": "16-Practice-Exams-and-Questions/domain-practice-exams.md",
-      "target_sha256": "3f71c6a219b1db65c1ce062f11d931d19b1989a8d42d04d706bcf711df0d9765",
+      "target_sha256": "252746fc6965150351c19be81cb61fa651956ad1112b64d744434b3f8aeca973",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/questoes.md",
       "target": "16-Practice-Exams-and-Questions/questions.md",
-      "target_sha256": "87c4c4db655b1d7929f77f5ddc45bf77c2fb3b09c8c8693dd8851c98509c2392",
+      "target_sha256": "8e0aff1fda698128abe0ac250df0901ca578cd265ca37d76f625c689a914867a",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/reta-final-aif-c01.md",
       "target": "16-Practice-Exams-and-Questions/final-review-aif-c01.md",
       "target_sha256": "55af0a8067192ee84d45a12d22d4a4a6ba481dc3a5f83d426e6ba0e6a79d3dd2",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/simulado-completo-1.md",
       "target": "16-Practice-Exams-and-Questions/full-practice-exam-1.md",
-      "target_sha256": "b6af3e159eb9ef3decb7c65d715f4192957ec228dcca68ba5ffc349204c16f51",
+      "target_sha256": "dc113145bd07f3fc26cba6ff8a9753aaafe99aae97b1d806733c61681a01234b",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "16-Simulados-e-Questoes/simulado-completo-2.md",
       "target": "16-Practice-Exams-and-Questions/full-practice-exam-2.md",
-      "target_sha256": "3ca1e96350a99a81ffd25eb383b2e2638fc15ca01ba69e86090dd27a26009302",
+      "target_sha256": "0350958d9e41b24bf1d45919b881f66049d7a18a6f2b10326ee7981ec0b807c0",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/README.md",
       "target": "17-Glossary/README.md",
-      "target_sha256": "ba8b0194d1b591b4615320c6a471cb0ec555417a933e78ade77c9a91cb3d8ebe",
+      "target_sha256": "577c1ffa48186d2c0fad6437ec875444a578075a2d05525e2acf5b4cadc5fad3",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/casos-de-uso.md",
       "target": "17-Glossary/use-cases.md",
-      "target_sha256": "d5cf89417e2d1d4e85f11efe396a6bd71f0c0cf592dcb65d5cb6bbf48fe7a4fc",
+      "target_sha256": "f174200f7ff14c7d2d6fca5ab576470b98c4577693fb5f0b835a827e4225c5d7",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/cheatsheet.md",
       "target": "17-Glossary/cheatsheet.md",
       "target_sha256": "63b48d40df1b1170fedfd5935a6aaf98fc2e50efec9f882650d440e560be3852",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/flashcards.md",
       "target": "17-Glossary/flashcards.md",
-      "target_sha256": "1fdc32664b2d50c7bf0cd30a01d18cea15af20e8654cdba50f28155197f434c6",
+      "target_sha256": "434b5167097d9fd3928170dd70684244f3fa98d1e6b3fe25a0d57c9fe003c15d",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/lab.md",
       "target": "17-Glossary/lab.md",
       "target_sha256": "49b73944d6af591ba3edaa279e1b523ac8ccc0ff4cea11255490f74241637a51",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/links.md",
       "target": "17-Glossary/links.md",
       "target_sha256": "059c33d1a74d9da7b2e6d7e847e0cedde05b7a7dcebe299edf2bd8c3301b8fea",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "17-Glossario/questoes.md",
       "target": "17-Glossary/questions.md",
       "target_sha256": "c369209ee300752a8cc325de9fefc8441deef7532711b2fa3fc97ea2fd75328f",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/README.md",
       "target": "18-Resources-and-References/README.md",
-      "target_sha256": "ceb418d3de753794b9c7239e751e7fe0da722b2814c3e911b8e75cb2ca24de54",
+      "target_sha256": "c025e1ebe7339cb0c632b5f42ee59d0c2174416e0504ce87069d805535e11433",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/casos-de-uso.md",
       "target": "18-Resources-and-References/use-cases.md",
       "target_sha256": "d47cef725b9f49c8794407c665e3ece0c3f179917b2c6b3ff2d973f3dbd30f91",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/cheatsheet.md",
       "target": "18-Resources-and-References/cheatsheet.md",
-      "target_sha256": "5016e91570f7fcac1c45a6e5f947a234e3c63a56fbb78c4058f06b0fc08ec659",
+      "target_sha256": "c1a90270a9295d3e29f46402629ceb42fdf82d690bf1047e3fa3af6345a6ecdd",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/flashcards.md",
       "target": "18-Resources-and-References/flashcards.md",
-      "target_sha256": "d27cd8e04cfe10285def4300faead4b56ec0df72eb58f780e802aa43d169e3dd",
+      "target_sha256": "10c4645827cf92d966a6d9413764ea6e577be137c1507053356e48fc6a157233",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/lab.md",
       "target": "18-Resources-and-References/lab.md",
       "target_sha256": "81ab31437abb79167c2d92587090692a08735fe7bc16819f7700efdf72d96d74",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": "Static review only"
+      "lab_execution": "Static review only",
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/links.md",
       "target": "18-Resources-and-References/links.md",
       "target_sha256": "fb0f3ea4d6dc664b735678fd717ab25c4bc9bfd586f39857a94b3ccf9a6e0901",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "18-Recursos-e-Links/questoes.md",
       "target": "18-Resources-and-References/questions.md",
-      "target_sha256": "3bc929e4d81b08da2a430a9896935d9d87f54ae693d96e51154c91aed12b0e1a",
+      "target_sha256": "56d82b76fcdc7168f67d399a3e14ac8cec94589e0c15befd711e759390dd4eb8",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     },
     {
       "source": "README.md",
       "target": "README.md",
       "target_sha256": "0a4a43b990ce271d0b4ed6597d13cfa695d4fb252c7b4a53d0539616dc11aad7",
       "review": "Complete translation with editorial terminology and structural review; no independent SME certification.",
-      "lab_execution": null
+      "lab_execution": null,
+      "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4",
+      "final_review_record": "final-review.json"
     }
   ]
 }

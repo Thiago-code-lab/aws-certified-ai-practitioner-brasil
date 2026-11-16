@@ -35,7 +35,7 @@ Understand how to prepare, store, classify and protect data used in ML and GenAI
 
 ### Quality, freshness and relevance of data
 
-Models do not compensate for outdated or poorly organized data. In GenAI, old documents can feed wrong answers. In supervised ML, bad labels make bad decisions. The exam usually demands this effect in business language.
+Models do not compensate for outdated or poorly organized data. In GenAI, old documents can feed wrong answers. In supervised ML, poor labels can lead to poor predictions. The exam usually demands this effect in business language.
 
 ### Chunking, metadata and document curation
 
@@ -67,7 +67,7 @@ Chunking, cleaning, deduplication and versioning are not accessory tasks. These 
 - Remove or isolate content that is obsolete, duplicated, or too sensitive for the use case.
 - Use metadata to facilitate filtering and governance.
 - Classify data before connecting it to AI applications.
-- Design update pipeline so that the base does not age silently.
+- Design an update pipeline so that the knowledge base does not become outdated without detection.
 
 ## Exam tips
 
@@ -79,8 +79,8 @@ Chunking, cleaning, deduplication and versioning are not accessory tasks. These 
 ## Common pitfalls
 
 - Upload files without metadata and expect accurate contextual retrieval.
-- Mixing valid and obsolete material on the same basis without control.
-- Ignore sensitive data before exposing a document base to AI.
+- Mixing valid and obsolete material on the same knowledge base without controls.
+- Ignoring sensitive data before exposing a document base to AI.
 - Thinking that the model will correct data quality problems.
 
 ## Summary for review

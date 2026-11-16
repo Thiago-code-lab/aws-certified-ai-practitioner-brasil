@@ -2,15 +2,15 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Official doc: focus?
+- **Quick question:** What should you focus on in official documentation?
   **Short answer:** Use cases and limits.
-- **Quick question:** Final stretch: focus?
+- **Quick question:** What should final review focus on?
   **Short answer:** Curated review.
 - **Quick question:** How do I study actively?
   **Short answer:** Applied questions.
-- **Quick question:** Whitepaper for?
+- **Quick question:** What is a whitepaper useful for?
   **Short answer:** Trade-offs.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Curation.
 
 ---

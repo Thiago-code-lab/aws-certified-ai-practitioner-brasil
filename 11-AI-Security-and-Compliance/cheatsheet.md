@@ -9,11 +9,11 @@
 | IAM | Least privilege and access control. | Do not replace with content filters. |
 | KMS | Key management and encryption. | Encryption does not replace authorization. |
 | Secrets Manager | Stores secrets with rotation and control. | Do not hard-code credentials. |
-| CloudTrail | Audit trail. | Without log, there is no evidence. |
+| CloudTrail | Audit trail. | Without appropriate logs, important audit evidence can be missing. |
 
 ## Practical rules
 
-- Apply principle of least privilege for models, data and integrations.
+- Apply the principle of least privilege for models, data and integrations.
 - Encrypt sensitive data and secrets with appropriate managed services.
 - Use CloudTrail to create an audit trail of relevant actions.
 - Separate development, approval and production environments and permissions.

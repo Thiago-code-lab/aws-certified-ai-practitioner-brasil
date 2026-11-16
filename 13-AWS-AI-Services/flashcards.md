@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Is Rekognition suitable for?
+**Question:** What is Rekognition suitable for?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -14,7 +14,7 @@ Computer vision in image and video.
 
 ## Card 02
 
-**Question:** Comprehend solves what type of task?
+**Question:** Which tasks does Comprehend address?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -26,7 +26,7 @@ Traditional NLP tasks such as sentiment analysis and entity detection.
 
 ## Card 03
 
-**Question:** Textract is used for?
+**Question:** What is Textract used for?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,31 +50,31 @@ Audio to text conversion.
 
 ## Card 05
 
-**Question:** Translate adds in which scenario?
+**Question:** When is Translate useful?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Multilanguage streams.
+Workflows that require translation between supported languages.
 
 </details>
 
 ## Card 06
 
-**Question:** Polly offers what?
+**Question:** What does Polly provide?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Text to natural speech.
+Text-to-speech synthesis.
 
 </details>
 
 ## Card 07
 
-**Question:** Difference for Bedrock?
+**Question:** How do specialized AI services differ from Bedrock?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Specialized services versus FM platform.
 
 ## Card 08
 
-**Question:** How to avoid making mistakes in the test?
+**Question:** How can you avoid service-selection mistakes on the exam?
 
 <details>
 <summary><strong>See answer</strong></summary>

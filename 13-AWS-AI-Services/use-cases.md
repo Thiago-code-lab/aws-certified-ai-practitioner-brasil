@@ -6,7 +6,7 @@
 
 **Suggested architecture:** Amazon Personalize.
 
-**Why this choice makes sense:** It's the expert, managed answer to personalized recommendation.
+**Why this choice makes sense:** It's the specialized, managed option to personalized recommendation.
 
 **Associated exam trap:** Choosing an LLM just because 'generative AI is in'.
 

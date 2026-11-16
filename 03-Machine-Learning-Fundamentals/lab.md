@@ -11,7 +11,7 @@ Practice interpreting business problems to correctly map the main ML technique.
 
 ## Steps
 
-1. Write three problems: a prediction problem, a continuous value problem, and a clustering problem.
+1. Write three problems: a class-prediction problem, a continuous-value prediction problem, and a clustering problem.
 2. Mark for each one whether the desired output is class, number or group.
 3. Associate classification, regression or clustering.
 4. List what data would be needed and if there are labels.

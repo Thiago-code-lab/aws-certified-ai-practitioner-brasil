@@ -59,7 +59,7 @@ When user impact is relevant, the best architecture combines automation with hum
 
 ### Policy, observability and incident response
 
-Responsible applications need to record inputs, outputs, triggered actions, and policy violations. This allows for investigation, continuous improvement and evidence of compliance. Without logs and trails, governance becomes speech without execution.
+Responsible applications need auditable records of relevant inputs, outputs, triggered actions, and policy violations. Log only what is necessary, redact sensitive fields where appropriate, and enforce access and retention policies; unrestricted prompt logging can itself expose private data. This allows for investigation, continuous improvement and evidence of compliance. Without suitable records, governance cannot be demonstrated or investigated effectively.
 
 ## Best practices
 
@@ -71,17 +71,17 @@ Responsible applications need to record inputs, outputs, triggered actions, and 
 
 ## Exam tips
 
-- Responsible AI almost always speaks to security, governance and human review.
-- Clarify and A2I are strong names when the question talks about bias or human supervision.
+- Responsible AI is closely connected to security, governance, and appropriate human review.
+- Consider Clarify for bias analysis and explainability, and A2I for supported human-review workflows.
 - Guardrails handle content; CloudTrail and IAM handle operational governance.
 - If the case involves people, finances or compliance, be wary of full automation.
 
 ## Common pitfalls
 
 - Thinking that responsible AI is just a filter for offensive language.
-- Bypass human review in regulated decisions.
+- Bypassing human review in regulated decisions.
 - Confusing explainability with simple technical logging.
-- Treat governance as the sole task of the legal team.
+- Treating governance as the sole task of the legal team.
 
 ## Summary for review
 

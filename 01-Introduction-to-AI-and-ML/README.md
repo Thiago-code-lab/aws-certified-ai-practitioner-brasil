@@ -9,7 +9,7 @@ By the end of this module, you should be able to explain what AWS calls AI workl
 ## How this topic appears on AIF-C01
 
 - Understand the difference between traditional AI, ML and generative AI.
-- Recognize training, validation, implementation and inference as distinct phases.
+- Recognize training, validation, deployment, and inference as distinct phases.
 - Identify when the correct answer calls for a managed AWS service rather than raw infrastructure.
 
 ## Module navigation
@@ -52,7 +52,7 @@ AWS typically rewards the most managed choice that meets the requirements in cer
 A support center receives thousands of tickets per day. If the objective is to classify tickets by priority and responsible area, this can already be solved with supervised ML or even a managed natural language service, depending on the scope. If the objective is to generate contextualized responses from an internal knowledge base, the problem changes to GenAI with grounding.
 
 ```
-Client call -> Internal API/application -> AWS model/service -> classification or response -> queue/attendant
+Customer ticket -> internal API/application -> AWS model/service -> classification or response -> queue/agent
 ```
 
 ## Architectural reasoning
@@ -76,7 +76,7 @@ Out-of-the-box services are ideal when the problem is already well represented b
 ## Exam tips
 
 - If the question talks about creating new content, think first about GenAI and foundation models.
-- If you talk about predicting or classifying based on labeled history, think about supervised ML.
+- If the question describes prediction or classification based on labeled historical data, consider supervised ML.
 - If the company doesn't want to manage infrastructure or train models, Bedrock usually gains traction.
 - If the statement calls for fine control of the ML cycle, SageMaker AI tends to be the way to go.
 
@@ -85,13 +85,13 @@ Out-of-the-box services are ideal when the problem is already well represented b
 - Confusing generative AI with any type of intelligent automation.
 - Assuming that every AI use case requires its own model training.
 - Assuming that inference and training have the same cost and latency profile.
-- Ignore IAM and security by being in an introductory module.
+- Ignoring IAM and security by being in an introductory module.
 
 ## Summary for review
 
 - AI is the umbrella; ML is a subset; Generative AI creates new content.
 - Training teaches; inference answers.
-- Bedrock is AWS' strong point for consuming FMs via API.
+- Bedrock provides managed access to foundation models through APIs.
 - SageMaker AI is the platform for custom ML and lifecycle operation.
 - Certification values managed choices aligned to the use case.
 

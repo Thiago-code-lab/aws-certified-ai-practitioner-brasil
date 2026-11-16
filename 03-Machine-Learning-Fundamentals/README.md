@@ -4,7 +4,7 @@ AIF-C01 doesn't require heavy math, but it does require you to understand how ML
 
 ## Objective
 
-Consolidate the ML pillars that appear in the test: supervised and unsupervised learning, overfitting, datasets, metrics and choice between ready-made service and customized model.
+Review the ML concepts that appear on the exam: supervised and unsupervised learning, overfitting, datasets, metrics and choice between ready-made service and customized model.
 
 ## How this topic appears on AIF-C01
 
@@ -26,14 +26,14 @@ Consolidate the ML pillars that appear in the test: supervised and unsupervised 
 
 | AWS Service | Role in the module | How it appears on the exam |
 | --- | --- | --- |
-| Amazon SageMaker AI | Training, experimentation and implementation of customized models. | It appears when the company needs to build its own ML. |
+| Amazon SageMaker AI | Training, experimentation, and deployment of custom models. | It appears when the company needs to build its own ML. |
 | Amazon SageMaker Canvas | Low-code/no-code experience for business users. | Shows the possibility of ML without heavy coding. |
 | Amazon SageMaker Ground Truth | Data labeling for supervised training. | May appear in questions about dataset quality. |
 | Amazon S3 | Common data lake for training and inference datasets. | Frequent component in ML architectures. |
 
 ## Essential concepts
 
-### Supervised, unsupervised and reinforcement
+### Supervised, unsupervised, and reinforcement learning
 
 Supervised learning uses labeled examples to predict class or value. Unsupervised learning finds unlabeled patterns such as clusters. Reinforcement learning optimizes decisions based on rewards. For AIF-C01, supervised and unsupervised are the most recurrent.
 
@@ -60,7 +60,7 @@ Unlabeled data -> clustering -> customer segments
 
 ### Choose the type of learning from the available data
 
-If there are past examples with correct answer, the trend is supervised. If the goal is to find hidden patterns with no ready answer, unsupervised gains traction. The exam often describes this in business language rather than academic names.
+If historical examples have known target labels, supervised learning may fit. If the goal is to discover hidden structure without target labels, consider unsupervised learning. The exam often describes this in business language rather than academic names.
 
 ### Quality data overcomes misdirected complexity
 
@@ -78,19 +78,19 @@ In real architectures, preparing the data well usually has a greater impact than
 
 - Classification predicts class; regression predicts continuous value; clustering groups without label.
 - Ground Truth appears when the topic is supervised labeling.
-- High accuracy alone can be misleading in unbalanced datasets.
+- High accuracy alone can be misleading for imbalanced datasets.
 - Custom ML tends to point to SageMaker AI.
 
 ## Common pitfalls
 
 - Confusing clustering with classification.
 - Assuming unlabeled historical data allows supervised prediction immediately.
-- Interpret training performance as proof of generalization.
+- Interpreting training performance as proof of generalization.
 - Ignoring that bad data produces bad models.
 
 ## Summary for review
 
-- Supervised learns with label; unsupervised finds unlabeled structure.
+- Supervised learning uses labels; unsupervised learning finds structure without target labels.
 - Training, validation and testing exist to avoid self-deception.
 - Overfitting and underfitting both limit generalization.
 - Ground Truth helps in the labeling stage.

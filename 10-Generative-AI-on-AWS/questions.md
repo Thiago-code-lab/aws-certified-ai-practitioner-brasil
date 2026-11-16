@@ -2,15 +2,15 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Bedrock accelerates what?
+- **Quick question:** What does Bedrock help accelerate?
   **Short answer:** GenAI time-to-market.
-- **Quick question:** IAM for what?
+- **Quick question:** What is IAM used for?
   **Short answer:** Minimum access required.
 - **Quick question:** What does S3 store?
-  **Short answer:** Knowledge base.
+  **Short answer:** Source documents and artifacts used by the knowledge base; the retrieval index is a separate component.
 - **Quick question:** What reduces perceived latency?
   **Short answer:** Streaming.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Architecture.
 
 ---

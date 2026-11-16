@@ -75,14 +75,15 @@
               ]
             ],
             "answer": "B",
-            "sha256": "af8aec4b1f3e464bb1f91998c0d2a7e6d025f8f7402a700352f549037dcea475"
+            "sha256": "1b32ee8cd475465556568201d8acc15c4880f2a00b62c4f6f1abb0cdba3fa5c7"
           },
-          "target_sha256": "af8aec4b1f3e464bb1f91998c0d2a7e6d025f8f7402a700352f549037dcea475",
+          "target_sha256": "1b32ee8cd475465556568201d8acc15c4880f2a00b62c4f6f1abb0cdba3fa5c7",
           "official_domain": 3,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:18",
@@ -112,7 +113,7 @@
           },
           "target_question": {
             "number": "18",
-            "stem": "Which service best matches sentiment analysis and text entities?",
+            "stem": "Which service is best suited to sentiment analysis and entity detection in text?",
             "options": [
               [
                 "A",
@@ -132,14 +133,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "3c47d1b7dc7a2db4eec3da7ad8c0a319ecaaf88dfbe54987f6d1ab2cee37fdb5"
+            "sha256": "4f65b88bfe03166687c47f0b082b63808c191764285acd60f42cdb44659fd842"
           },
-          "target_sha256": "3c47d1b7dc7a2db4eec3da7ad8c0a319ecaaf88dfbe54987f6d1ab2cee37fdb5",
+          "target_sha256": "4f65b88bfe03166687c47f0b082b63808c191764285acd60f42cdb44659fd842",
           "official_domain": 1,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:19",
@@ -177,11 +179,11 @@
               ],
               [
                 "B",
-                "Store in Secrets Manager"
+                "Store it in Secrets Manager"
               ],
               [
                 "C",
-                "Save to local variable without protection"
+                "Save it in an unprotected local variable"
               ],
               [
                 "D",
@@ -189,14 +191,15 @@
               ]
             ],
             "answer": "B",
-            "sha256": "00f382a932d937f8d92d444a64cec9482a59e0ecad05b93b7c18c33e80717641"
+            "sha256": "a78061a1a2dc2724928b5c4c1ae2e6ab53d274259b69d72e8341f344829de0c1"
           },
-          "target_sha256": "00f382a932d937f8d92d444a64cec9482a59e0ecad05b93b7c18c33e80717641",
+          "target_sha256": "a78061a1a2dc2724928b5c4c1ae2e6ab53d274259b69d72e8341f344829de0c1",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:20",
@@ -238,7 +241,7 @@
               ],
               [
                 "C",
-                "Disable human validation always"
+                "Always disable human review"
               ],
               [
                 "D",
@@ -246,14 +249,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "a784cc50b7cc0a4ad81aa45abb075606d736247aa67e207e8ec50a6f6be5801e"
+            "sha256": "25debdec4ee79f7d6505fef59941b9863e14f1c7e01bf9256242834327ba6bf3"
           },
-          "target_sha256": "a784cc50b7cc0a4ad81aa45abb075606d736247aa67e207e8ec50a6f6be5801e",
+          "target_sha256": "25debdec4ee79f7d6505fef59941b9863e14f1c7e01bf9256242834327ba6bf3",
           "official_domain": 3,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:21",
@@ -310,7 +314,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:22",
@@ -367,7 +372,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:23",
@@ -397,7 +403,7 @@
           },
           "target_question": {
             "number": "23",
-            "stem": "For the case of using OCR on financial documents, which option tends to be more direct?",
+            "stem": "For OCR and field extraction from financial documents, which option is the most direct fit?",
             "options": [
               [
                 "A",
@@ -417,14 +423,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "b8deb9359177b76695daa4eaf138e48fff42aba2a1f5c6171c74da2d756ad99e"
+            "sha256": "f4b382e650f530ef2be8c3fe9b977841d61b6701b06c2e52b02ef5f7f8715305"
           },
-          "target_sha256": "b8deb9359177b76695daa4eaf138e48fff42aba2a1f5c6171c74da2d756ad99e",
+          "target_sha256": "f4b382e650f530ef2be8c3fe9b977841d61b6701b06c2e52b02ef5f7f8715305",
           "official_domain": 1,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "domain-practice-exams:24",
@@ -454,7 +461,7 @@
           },
           "target_question": {
             "number": "24",
-            "stem": "In the AI Practitioner test, when two options work, the best one is usually:",
+            "stem": "On the AI Practitioner exam, when two options work, the best one is usually:",
             "options": [
               [
                 "A",
@@ -474,14 +481,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "9e2e3d6d66fcdfd4f01f5827789a2dfd6a490b3a815ee8985ccab4d0c6a284b5"
+            "sha256": "8f8ede0cfad6d14d0e3bd810e23db77d35e679964b75016d5ba4ce639c81064a"
           },
-          "target_sha256": "9e2e3d6d66fcdfd4f01f5827789a2dfd6a490b3a815ee8985ccab4d0c6a284b5",
+          "target_sha256": "8f8ede0cfad6d14d0e3bd810e23db77d35e679964b75016d5ba4ce639c81064a",
           "official_domain": 2,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         }
       ]
     },
@@ -544,7 +552,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "questions:02",
@@ -594,14 +603,15 @@
               ]
             ],
             "answer": "B",
-            "sha256": "17ddc8b1833b434d4450654023a681326a7be125dc960a9562c2783a9e384670"
+            "sha256": "c42654497c11daab81be7e44df50a61857fada7d7e12b46ce5810a7a2a805d1d"
           },
-          "target_sha256": "17ddc8b1833b434d4450654023a681326a7be125dc960a9562c2783a9e384670",
+          "target_sha256": "c42654497c11daab81be7e44df50a61857fada7d7e12b46ce5810a7a2a805d1d",
           "official_domain": 4,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "questions:03",
@@ -658,7 +668,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "questions:04",
@@ -715,7 +726,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "questions:05",
@@ -765,14 +777,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "1a89e2f185232495a58763d8f4c2a2c70099fa7d568b287ec75a18bd3f37d5ac"
+            "sha256": "b06196e9bedc62dbd5a6293f87dd165c3d51eb12260d15b73daddabf7e69ee68"
           },
-          "target_sha256": "1a89e2f185232495a58763d8f4c2a2c70099fa7d568b287ec75a18bd3f37d5ac",
+          "target_sha256": "b06196e9bedc62dbd5a6293f87dd165c3d51eb12260d15b73daddabf7e69ee68",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "questions:06",
@@ -829,7 +842,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         }
       ]
     },
@@ -892,7 +906,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:02",
@@ -949,7 +964,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:03",
@@ -1006,7 +1022,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:04",
@@ -1036,7 +1053,7 @@
           },
           "target_question": {
             "number": "04",
-            "stem": "Which control is most aligned to the audit trail of actions?",
+            "stem": "Which service is most appropriate for recording an audit trail of actions?",
             "options": [
               [
                 "A",
@@ -1056,14 +1073,15 @@
               ]
             ],
             "answer": "B",
-            "sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e"
+            "sha256": "04d4265969e3e300abd5faf569aa7be6fc67f0040647c09acddb354d3fddde4c"
           },
-          "target_sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e",
+          "target_sha256": "04d4265969e3e300abd5faf569aa7be6fc67f0040647c09acddb354d3fddde4c",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:05",
@@ -1113,14 +1131,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1"
+            "sha256": "de341964cfc84569fa65237a023a9a4982e9a2e5867cac0d5d46e0e3ec6dfb49"
           },
-          "target_sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1",
+          "target_sha256": "de341964cfc84569fa65237a023a9a4982e9a2e5867cac0d5d46e0e3ec6dfb49",
           "official_domain": 4,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:06",
@@ -1170,14 +1189,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa"
+            "sha256": "4fa4fc5845c6566138d56e817616ccca17beb061c6a6064bc2d420ef570bf5a9"
           },
-          "target_sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa",
+          "target_sha256": "4fa4fc5845c6566138d56e817616ccca17beb061c6a6064bc2d420ef570bf5a9",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:07",
@@ -1227,14 +1247,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5"
+            "sha256": "21180e3337d63c10de55c280f52f6c67f2a651534de17b4b8e5e0acb3154a5b1"
           },
-          "target_sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5",
+          "target_sha256": "21180e3337d63c10de55c280f52f6c67f2a651534de17b4b8e5e0acb3154a5b1",
           "official_domain": 1,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-1:08",
@@ -1264,7 +1285,7 @@
           },
           "target_question": {
             "number": "08",
-            "stem": "In case of use with low latency and controlled cost, the recommended initial practice is:",
+            "stem": "For a use case requiring low latency and controlled cost, the recommended first step is:",
             "options": [
               [
                 "A",
@@ -1284,14 +1305,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c"
+            "sha256": "d61cf1185d5a8d324884955a2ce52f3e0ab32d596a7c75931a61fc6acc41807c"
           },
-          "target_sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c",
+          "target_sha256": "d61cf1185d5a8d324884955a2ce52f3e0ab32d596a7c75931a61fc6acc41807c",
           "official_domain": 3,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         }
       ]
     },
@@ -1354,7 +1376,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:10",
@@ -1411,7 +1434,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:11",
@@ -1468,7 +1492,8 @@
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:12",
@@ -1498,7 +1523,7 @@
           },
           "target_question": {
             "number": "12",
-            "stem": "Which control is most aligned to the audit trail of actions?",
+            "stem": "Which service is most appropriate for recording an audit trail of actions?",
             "options": [
               [
                 "A",
@@ -1518,14 +1543,15 @@
               ]
             ],
             "answer": "B",
-            "sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e"
+            "sha256": "04d4265969e3e300abd5faf569aa7be6fc67f0040647c09acddb354d3fddde4c"
           },
-          "target_sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e",
+          "target_sha256": "04d4265969e3e300abd5faf569aa7be6fc67f0040647c09acddb354d3fddde4c",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:13",
@@ -1575,14 +1601,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1"
+            "sha256": "de341964cfc84569fa65237a023a9a4982e9a2e5867cac0d5d46e0e3ec6dfb49"
           },
-          "target_sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1",
+          "target_sha256": "de341964cfc84569fa65237a023a9a4982e9a2e5867cac0d5d46e0e3ec6dfb49",
           "official_domain": 4,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:14",
@@ -1632,14 +1659,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa"
+            "sha256": "4fa4fc5845c6566138d56e817616ccca17beb061c6a6064bc2d420ef570bf5a9"
           },
-          "target_sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa",
+          "target_sha256": "4fa4fc5845c6566138d56e817616ccca17beb061c6a6064bc2d420ef570bf5a9",
           "official_domain": 5,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:15",
@@ -1689,14 +1717,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5"
+            "sha256": "21180e3337d63c10de55c280f52f6c67f2a651534de17b4b8e5e0acb3154a5b1"
           },
-          "target_sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5",
+          "target_sha256": "21180e3337d63c10de55c280f52f6c67f2a651534de17b4b8e5e0acb3154a5b1",
           "official_domain": 1,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         },
         {
           "id": "full-practice-exam-2:16",
@@ -1726,7 +1755,7 @@
           },
           "target_question": {
             "number": "16",
-            "stem": "In case of use with low latency and controlled cost, the recommended initial practice is:",
+            "stem": "For a use case requiring low latency and controlled cost, the recommended first step is:",
             "options": [
               [
                 "A",
@@ -1746,14 +1775,15 @@
               ]
             ],
             "answer": "A",
-            "sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c"
+            "sha256": "d61cf1185d5a8d324884955a2ce52f3e0ab32d596a7c75931a61fc6acc41807c"
           },
-          "target_sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c",
+          "target_sha256": "d61cf1185d5a8d324884955a2ce52f3e0ab32d596a7c75931a61fc6acc41807c",
           "official_domain": 3,
           "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
           "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
           "answer_changed": false,
-          "explanation_review": "Retained source logic; service roles checked against official references."
+          "explanation_review": "Retained source logic; service roles checked against official references.",
+          "final_review_baseline": "4c6132cda8800f22b0e3479a3e530dfc9526dbd4"
         }
       ]
     }

@@ -2,6 +2,16 @@
 
 This module brings together official materials and study references to consolidate preparation in the CloudStudy ecosystem.
 
+## Module navigation
+
+- [README](./README.md)
+- [Cheatsheet](./cheatsheet.md)
+- [Flashcards](./flashcards.md)
+- [Questions](./questions.md)
+- [Use cases](./use-cases.md)
+- [Practical lab](./lab.md)
+- [Official links](./links.md)
+
 ## Priority official documentation
 
 | Resource | Why Review | Link |

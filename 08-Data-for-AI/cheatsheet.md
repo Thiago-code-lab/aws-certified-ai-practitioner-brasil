@@ -20,8 +20,8 @@
 
 ## Memory cues
 
-- Good base generates better response; Bad base generates error faster.
-- Document without curation becomes a bad context.
+- A curated knowledge base supports better answers; poor source data can spread errors faster.
+- Uncurated documents can provide misleading context.
 - S3 stores; metadata guides; governance protects.
 
 ---

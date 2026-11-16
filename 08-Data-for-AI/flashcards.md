@@ -20,25 +20,25 @@ A model learns patterns from the data it receives.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Noise and low generalization.
+Noisy training signals and potentially poorer generalization.
 
 </details>
 
 ## Card 03
 
-**Question:** How to choose dataset?
+**Question:** How should you choose a dataset?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Representation and coverage of real scenarios.
+Choose representative data that covers the scenarios expected in production.
 
 </details>
 
 ## Card 04
 
-**Question:** Does data preparation include?
+**Question:** What does data preparation include?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Cleaning, transformation and standardization.
 
 ## Card 05
 
-**Question:** Embeddings help with what?
+**Question:** What do embeddings help with?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,13 +74,13 @@ Classified, protected and audited.
 
 ## Card 07
 
-**Question:** Weak dataset signal?
+**Question:** What can indicate a weak dataset?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-It goes well offline and fails in production.
+Good offline results followed by poor production performance can indicate unrepresentative data or distribution shift.
 
 </details>
 

@@ -76,16 +76,16 @@ Guardrails help with generated content and application experience, but they do n
 ## Exam tips
 
 - Bedrock = managed consumption of FMs; SageMaker AI = more customized ML cycle.
-- Knowledge Bases appear when the problem speaks in internal documents.
-- Guardrails control content, but do not do IAM or KMS.
+- Knowledge Bases are relevant when answers must be grounded in internal documents.
+- Guardrails evaluate content policies; they do not replace IAM permissions or KMS encryption controls.
 - Agents enter when the statement requests action, flow or use of a tool.
 
 ## Common pitfalls
 
 - Confusing Guardrails with identity access control.
-- Assume that Knowledge Base replaces the curation of source documents.
-- Use Amazon Bedrock Agents without thinking about observability and flow validation.
-- Ignore inference cost and context size.
+- Assuming that Knowledge Base replaces the curation of source documents.
+- Using Amazon Bedrock Agents without thinking about observability and flow validation.
+- Ignoring inference cost and context size.
 
 ## Summary for review
 

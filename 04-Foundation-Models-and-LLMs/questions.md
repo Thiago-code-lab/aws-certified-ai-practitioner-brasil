@@ -6,11 +6,11 @@
   **Short answer:** More consistency.
 - **Quick question:** What is a context window?
   **Short answer:** Total token limit.
-- **Quick question:** Fine-tuning when?
+- **Quick question:** When can fine-tuning be useful?
   **Short answer:** Persistent specialization.
 - **Quick question:** What does evaluation require?
   **Short answer:** Clear metrics.
-- **Quick question:** Key term?
+- **Quick question:** What is the key term?
   **Short answer:** Context.
 
 ---

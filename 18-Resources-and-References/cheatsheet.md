@@ -2,7 +2,7 @@
 
 | Objective | Best resource | Note |
 | --- | --- | --- |
-| Understand blueprint | Official Exam Guide | Read before the simulations. |
+| Understand blueprint | Official Exam Guide | Read before taking practice exams. |
 | Review Bedrock | Bedrock Documentation | High priority for AIF-C01. |
 | Review ML | SageMaker AI Documentation | Use together with modules 03 and 06. |
 | Hands-on practice | AWS Skill Builder | Good for guided labs. |

@@ -59,7 +59,7 @@ Certification tends to value efficient choices. If a smaller model meets the req
 
 ### Cache, batch and context selection save a lot
 
-Not every question needs to generate everything again. Repeated questions may be served by caching. Offline processes can run in batches. And excessive context increases cost without necessarily increasing quality.
+Not every question needs to generate everything again. Repeated questions may be served by caching. Partition caches by the relevant access scope, and expire cached answers when source documents or permissions change. Offline processes can run in batches. And excessive context increases cost without necessarily increasing quality.
 
 ## Best practices
 
@@ -78,10 +78,10 @@ Not every question needs to generate everything again. Repeated questions may be
 
 ## Common pitfalls
 
-- Always choose the most advanced model by reflex.
+- Always choosing the most advanced model by reflex.
 - Sending excessive context without measuring quality return.
 - Operate without minimum cost and latency metrics.
-- Ignore objective evaluation before changing prompts or architecture.
+- Ignoring objective evaluation before changing prompts or architecture.
 
 ## Summary for review
 

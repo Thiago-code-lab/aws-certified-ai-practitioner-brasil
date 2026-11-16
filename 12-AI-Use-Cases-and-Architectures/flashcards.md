@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** How to prioritize use cases?
+**Question:** How should use cases be prioritized?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -20,19 +20,19 @@ A clear business problem, available data, and measurable impact.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Asynchronous flows with variable peaks.
+Asynchronous workflows with variable demand and loosely coupled components.
 
 </details>
 
 ## Card 03
 
-**Question:** FAQ bot vs copilot?
+**Question:** How does a basic FAQ bot differ from a copilot?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-A FAQ bot provides fixed answers; a copilot uses operational context.
+A basic FAQ bot typically answers a fixed question set; a copilot uses operational context to assist with tasks. Actual capabilities depend on the application.
 
 </details>
 
@@ -56,13 +56,13 @@ Defined by the process SLA.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Evolution with less risk and lower lock-in.
+Independent component changes can reduce regression risk and vendor lock-in.
 
 </details>
 
 ## Card 06
 
-**Question:** How to reduce lock-in?
+**Question:** How can you reduce vendor lock-in?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ Standardized interfaces and clear contracts.
 
 ## Card 07
 
-**Question:** Common anti-pattern?
+**Question:** What is a common anti-pattern?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Use LLM where simple rules are enough.
 
 ## Card 08
 
-**Question:** Sign of good architecture?
+**Question:** What indicates a good architecture?
 
 <details>
 <summary><strong>See answer</strong></summary>

@@ -21,6 +21,14 @@ This edition translates **all 133 Markdown documents** from Portuguese source co
 
 All source lesson explanations, examples, use cases, cheatsheets, flashcards, question alternatives, answer explanations, lab steps, and learning references have English equivalents. Machine-assisted drafting was followed by editorial reading, terminology corrections, source comparison, and structural checks. No translation service or model is required to read the materials or run validation.
 
+## Final editorial and technical review
+
+The final pass resumed the published English edition at `4c6132cda8800f22b0e3479a3e530dfc9526dbd4`; it did not recreate the translation. The [final review ledger](final-review.json) covers all 133 original Markdown equivalents and records before/after digests and patches for 77 refined documents. Eighteen multiple-choice occurrences received wording or explanation improvements; every original answer letter and alternative order remains unchanged.
+
+This pass improves natural English in flashcards, short-answer reviews, lessons, and cheatsheets. Technical refinements distinguish training objectives from evaluation metrics, held-out-data leakage from disclosure of private data, model-specific token limits, transformer attention from tokenization, and vector-based RAG from lexical or hybrid retrieval. It also clarifies serverless cold starts, the limits of temperature and content filtering, bounded retries, log privacy, and access-aware caching. These refinements preserve the original learning objectives rather than shorten the lessons.
+
+Modules 17 and 18 now include the same complete module navigation as the earlier lessons. The validator checks that every original Markdown document is reachable from the main README and rejects unexpected module documents, duplicate inventory mappings, missing question-audit files, and accidental duplicate questions. The eight inherited repeated questions remain intentionally preserved.
+
 ## Questions and source discrepancies
 
 The [question audit](question-audit.json) records every multiple-choice question with its original and English stem, ordered alternatives, correct letter, reviewed digest, and an editorial mapping to the official exam domains.
@@ -61,7 +69,7 @@ git diff --check
 
 [Validation results](validation-results.json) record source coverage, module counts, language-pattern checks, relative Markdown and HTML references, local images, heading anchors, table widths, fenced blocks, expandable answers, lab steps, protected files, question letters and option order, and issue-template metadata. Reviewed document and question digests detect unapproved content changes, including explanation loss.
 
-[Test results](test-results.json) record 12 passing tests. Mutation tests reject a wrong answer, deleted alternative, changed alternative, missing distractor explanation, missing question, lost flashcard answer, deleted lab step, malformed table or fence, Portuguese prose, and broken links or anchors. Source-URL words are exempt from prose language checks.
+[Test results](test-results.json) record 21 passing tests. Mutation tests reject a wrong answer even if its approved digest is changed, deleted or altered alternatives, missing distractor explanations, missing question files, new duplicates, orphaned lessons, duplicate inventory mappings, lost flashcard answers, deleted lab steps or lesson sections, malformed tables or fences, Portuguese prose, and broken links or anchors. Source-URL words are exempt from prose language checks. Inherited question duplicates are accepted only when their source relationship is retained.
 
 ## Limitations and intentional exceptions
 

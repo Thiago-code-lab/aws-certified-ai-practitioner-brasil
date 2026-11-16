@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Supervised vs unsupervised?
+**Question:** How do supervised and unsupervised learning differ?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -20,7 +20,7 @@ Supervised uses labels; unsupervised finds unlabeled patterns.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-To adjust and measure unbiased generalization.
+To fit the model, select hyperparameters, and assess generalization on held-out data without reusing test results for tuning.
 
 </details>
 
@@ -32,13 +32,13 @@ To adjust and measure unbiased generalization.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Create and transform attributes that increase useful signal.
+Create and transform input features to make useful patterns easier for a model to learn.
 
 </details>
 
 ## Card 04
 
-**Question:** When to use confusion matrix?
+**Question:** When should you use a confusion matrix?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,13 +50,13 @@ To see errors by class.
 
 ## Card 05
 
-**Question:** Why normalize?
+**Question:** Why normalize numerical features?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Avoid distortion due to very different scales.
+Prevent features with very different scales from dominating scale-sensitive algorithms. Fit preprocessing on training data only.
 
 </details>
 
@@ -74,13 +74,13 @@ Distribution change over time.
 
 ## Card 07
 
-**Question:** How to avoid data leakage?
+**Question:** How can you avoid data leakage?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Do not use future information in training.
+Keep future information and held-out validation or test information out of training and preprocessing.
 
 </details>
 

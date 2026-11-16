@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Core value of Bedrock?
+**Question:** What is the main value of Bedrock?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -50,7 +50,7 @@ Grounding with business context retrieval.
 
 ## Card 05
 
-**Question:** Guardrails do what?
+**Question:** What do Guardrails do?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,7 +74,7 @@ Integration with IAM, auditing and encryption.
 
 ## Card 07
 
-**Question:** Typical app integration?
+**Question:** How is Bedrock typically integrated into an application?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Backend calls Bedrock and applies business rules.
 
 ## Card 08
 
-**Question:** Common error in the exam?
+**Question:** What is a common mistake on the exam?
 
 <details>
 <summary><strong>See answer</strong></summary>

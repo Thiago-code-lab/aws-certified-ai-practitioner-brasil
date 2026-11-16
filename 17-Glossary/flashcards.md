@@ -2,7 +2,7 @@
 
 ## Card 01
 
-**Question:** Inference means?
+**Question:** What does inference mean?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -14,7 +14,7 @@ Using the trained model to predict on new data.
 
 ## Card 02
 
-**Question:** Embedding means?
+**Question:** What does embedding mean?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -26,7 +26,7 @@ A vector representation of semantic meaning.
 
 ## Card 03
 
-**Question:** RAG means?
+**Question:** What does RAG mean?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,7 +38,7 @@ Context retrieval before generation.
 
 ## Card 04
 
-**Question:** Fine-tuning means?
+**Question:** What does fine-tuning mean?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -56,7 +56,7 @@ Additional adjustment for specialization.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Token limit per call.
+The model-specific token budget for a request; input and output limits must be considered together.
 
 </details>
 
@@ -80,7 +80,7 @@ Attempt to circumvent system instructions.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Impact equity between groups.
+Assess whether outcomes and error rates meet context-appropriate fairness criteria across relevant groups.
 
 </details>
 

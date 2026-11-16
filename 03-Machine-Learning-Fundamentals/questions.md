@@ -2,15 +2,15 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** When to use confusion matrix?
+- **Quick question:** When should you use a confusion matrix?
   **Short answer:** When you need to see the type of error by class.
 - **Quick question:** What is data leakage?
-  **Short answer:** Leakage of inappropriate information during training.
+  **Short answer:** Use of information during training or preprocessing that would not be available when making real predictions, such as held-out test data.
 - **Quick question:** What is drift?
   **Short answer:** Change in production data.
-- **Quick question:** Initial improvement step?
+- **Quick question:** What is a useful first step when improving a model?
   **Short answer:** Data quality.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Generalization.
 
 ---

@@ -41,4 +41,4 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 
 ---
 
-> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering in AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.
+> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering on AWS: From Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.

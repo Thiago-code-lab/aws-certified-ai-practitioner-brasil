@@ -8,7 +8,7 @@
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Attack that attempts to overwrite security instructions.
+An attack that tries to make a model follow untrusted instructions instead of the application's intended instructions, including instructions hidden in retrieved content.
 
 </details>
 
@@ -20,13 +20,13 @@ Attack that attempts to overwrite security instructions.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Undue exposure of sensitive information.
+Sensitive information is exposed to an unauthorized user or system through inputs, outputs, logs, or integrations.
 
 </details>
 
 ## Card 03
 
-**Question:** Guardrails mitigate what?
+**Question:** Which risks do Guardrails help mitigate?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -44,13 +44,13 @@ Inputs and outputs that violate policy.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Restricts invocation and query to critical data.
+It limits model invocation and access to sensitive data to authorized identities.
 
 </details>
 
 ## Card 05
 
-**Question:** Compliance requires what evidence?
+**Question:** What evidence supports compliance?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,7 +62,7 @@ Audit, retention and usage traceability.
 
 ## Card 06
 
-**Question:** Continuous monitoring observes what?
+**Question:** What should continuous monitoring detect?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -74,19 +74,19 @@ Abuse, bypass and leak risk.
 
 ## Card 07
 
-**Question:** Initial mitigation for injection?
+**Question:** What are initial defenses against prompt injection?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Separate system instructions and validate input.
+Separate trusted instructions from untrusted content, validate inputs, and enforce tool permissions outside the model. No single prompt technique guarantees protection.
 
 </details>
 
 ## Card 08
 
-**Question:** Common mistake in AI security?
+**Question:** What is a common AI security mistake?
 
 <details>
 <summary><strong>See answer</strong></summary>

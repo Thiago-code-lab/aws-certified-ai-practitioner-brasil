@@ -8,7 +8,7 @@
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Clear instruction, context and output format explained.
+Clear instructions, relevant context, and an explicit output format.
 
 </details>
 
@@ -20,7 +20,7 @@ Clear instruction, context and output format explained.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Represent semantics and enable similarity searches.
+Represent aspects of meaning as vectors and enable similarity searches.
 
 </details>
 
@@ -32,7 +32,7 @@ Represent semantics and enable similarity searches.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-More tokens increase cost and latency.
+More tokens generally increase usage charges and processing time for token-priced inference; model choice and caching also matter.
 
 </details>
 
@@ -56,7 +56,7 @@ When knowledge changes frequently.
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Plausible answer without reliable basis.
+A plausible-sounding response that is unsupported, incorrect, or invented.
 
 </details>
 
@@ -74,7 +74,7 @@ General pre-trained models for various tasks.
 
 ## Card 07
 
-**Question:** How to reduce factual error?
+**Question:** How can you reduce factual errors?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -86,7 +86,7 @@ Limit response to retrieved context.
 
 ## Card 08
 
-**Question:** GenAI core trade-off?
+**Question:** What is the main trade-off in GenAI?
 
 <details>
 <summary><strong>See answer</strong></summary>

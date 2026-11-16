@@ -7,8 +7,8 @@
 | Topic | What to remember | Exam trap |
 | --- | --- | --- |
 | Bedrock | Managed layer for FMs. | Not to be confused with complete customized training. |
-| Knowledge Bases | Grounding/RAG managed. | It does not replace document governance. |
-| Guardrails | Entry and exit policy. | It does not replace IAM. |
+| Knowledge Bases | Managed grounding and RAG. | It does not replace document governance. |
+| Guardrails | Input and output content policies. | It does not replace IAM. |
 | Agents | Orchestrate tasks and tools. | They do not remove the need to validate workflows. |
 
 ## Practical rules
@@ -20,7 +20,7 @@
 
 ## Memory cues
 
-- Bedrock accelerates FM usage; Guardrails discipline; KB reasons; Agents execute.
+- Bedrock provides FMs; Guardrails evaluate content; Knowledge Bases retrieve context; agents orchestrate actions.
 - Content governance does not eliminate access governance.
 
 ---

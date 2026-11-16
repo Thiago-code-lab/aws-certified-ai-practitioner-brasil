@@ -59,11 +59,11 @@ The correct answer is rarely a single service. Secure design typically combines 
 
 ### Compliance depends on traceability
 
-When the question talks about auditing, investigation or evidence of compliance, think about logs, trails, versioning and segregation of responsibilities. Compliance is not just born from encryption.
+When the question talks about auditing, investigation or evidence of compliance, think about logs, trails, versioning and segregation of responsibilities. Encryption alone does not establish compliance.
 
 ## Best practices
 
-- Apply principle of least privilege for models, data and integrations.
+- Apply the principle of least privilege for models, data and integrations.
 - Encrypt sensitive data and secrets with appropriate managed services.
 - Use CloudTrail to create an audit trail of relevant actions.
 - Separate development, approval and production environments and permissions.
@@ -78,10 +78,10 @@ When the question talks about auditing, investigation or evidence of compliance,
 
 ## Common pitfalls
 
-- Think that Guardrails solve all the security of the solution.
+- Thinking that Guardrails solve all the security of the solution.
 - Storing secrets in an environment variable without adequate governance.
-- Mix test and production environments with the same sensitive data.
-- Bypass audit trail in AI applications.
+- Mixing test and production environments with the same sensitive data.
+- Bypassing audit trail in AI applications.
 
 ## Summary for review
 
@@ -89,7 +89,7 @@ When the question talks about auditing, investigation or evidence of compliance,
 - Shared responsibility continues to apply in Bedrock and SageMaker AI.
 - IAM, KMS, Secrets Manager and CloudTrail are frequent parts in the exam.
 - Compliance requires evidence and traceability.
-- Secure generative application goes beyond the model.
+- Securing a generative application requires controls beyond the model.
 
 ## Next steps
 

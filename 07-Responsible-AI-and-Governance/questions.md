@@ -4,13 +4,13 @@
 
 - **Quick question:** Are bias and fairness the same?
   **Short answer:** No.
-- **Quick question:** Explainability for what?
+- **Quick question:** What is explainability useful for?
   **Short answer:** Audit and trust.
 - **Quick question:** What does privacy require?
   **Short answer:** Data protection.
 - **Quick question:** What is the focus of safety?
   **Short answer:** Prevent damage.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Governance.
 
 ---

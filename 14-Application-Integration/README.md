@@ -78,9 +78,9 @@ API Gateway and Lambda can expose a consistent interface to the front end, hidin
 
 ## Common pitfalls
 
-- Force everything to synchronous flow and degrade experience or cost.
-- Expose the model directly without authentication, validation and logging.
-- Ignore retries and idempotence in asynchronous processes.
+- Forcing everything to synchronous flow and degrade experience or cost.
+- Exposing the model directly without authentication, validation and logging.
+- Ignoring retries and idempotence in asynchronous processes.
 - Coupling the application too much to the internal behavior of the model.
 
 ## Summary for review

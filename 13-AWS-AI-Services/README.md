@@ -9,7 +9,7 @@ Consolidate key AWS AI services relevant to AIF-C01 and distinguish them in prac
 ## How this topic appears on AIF-C01
 
 - Quickly recognize the AWS service most aligned to the use case.
-- Compare Bedrock, SageMaker AI and expert services.
+- Compare Bedrock, SageMaker AI, and specialized AI services.
 - Review services within the scope of the exam with a practical eye.
 
 ## Module navigation
@@ -35,7 +35,7 @@ Consolidate key AWS AI services relevant to AIF-C01 and distinguish them in prac
 
 ### Mental catalog by type of problem
 
-If speech is the problem, think Transcribe or Polly. If it's a document, think Textract. If it's a recommendation, think about Personalize. Whether it's open response or more flexible natural language assistant, think Bedrock.
+If speech is the problem, think Transcribe or Polly. If it's a document, think Textract. If it's a recommendation, think about Personalize. For open-ended responses or a flexible natural-language assistant, consider Bedrock.
 
 ### Specialized services are still very strong
 
@@ -78,7 +78,7 @@ If the case is not just classifying or extracting, but conversing, summarizing, 
 
 ## Common pitfalls
 
-- Use LLM as a default response for any scenario.
+- Using LLM as a default response for any scenario.
 - Confusing Personalize with search solution.
 - Confusing Comprehend with Bedrock in tasks that do not require generation.
 - Ignoring that the exam follows an official list of services in scope.

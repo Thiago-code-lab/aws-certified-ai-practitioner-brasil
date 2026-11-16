@@ -26,7 +26,7 @@ Exclude options that violate the scenario requirement.
 
 ## Card 03
 
-**Question:** Two alternatives seem correct. And now?
+**Question:** What should you do when two alternatives seem correct?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -38,19 +38,19 @@ Choose the one most specific to the problem described.
 
 ## Card 04
 
-**Question:** Why keep a notebook of errors?
+**Question:** Why keep an error log?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Attack recurring failure patterns.
+Identify and address recurring error patterns.
 
 </details>
 
 ## Card 05
 
-**Question:** Keyword choice signal?
+**Question:** What indicates a choice based only on a keyword?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -62,13 +62,13 @@ Choosing a familiar service without checking the context.
 
 ## Card 06
 
-**Question:** How to manage time on the exam?
+**Question:** How can you manage exam time?
 
 <details>
 <summary><strong>See answer</strong></summary>
 
 **Answer:**
-Checkpoint per block of questions.
+Use time checkpoints for each block of questions.
 
 </details>
 
@@ -86,7 +86,7 @@ Recurrent errors and confusing services.
 
 ## Card 08
 
-**Question:** Rule for GenAI questions?
+**Question:** What is a useful rule for GenAI questions?
 
 <details>
 <summary><strong>See answer</strong></summary>
@@ -110,4 +110,4 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 
 ---
 
-> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering in AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.
+> If this module raises questions about pipelines, data lakes and processing in AWS, use the course [Data Engineering on AWS: From Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a complement.

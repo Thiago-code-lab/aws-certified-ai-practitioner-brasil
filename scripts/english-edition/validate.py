@@ -52,7 +52,7 @@ def questions(text: str) -> list[dict[str, Any]]:
     for number, body in zip(blocks[::2], blocks[1::2]):
         body = body.split('\n---')[0].strip()
         answer = re.search(r'\*\*(?:Resposta correta|Correct answer):\*\*\s*([A-D])', body)
-        options = re.findall(r'(?m)^- ([A-D])\) (.+)$', body)
+        options = [list(option) for option in re.findall(r'(?m)^- ([A-D])\) (.+)$', body)]
         stem = re.search(r'\*\*(?:Pergunta|Question):\*\* (.+)', body)
         result.append(dict(number=number, stem=stem[1] if stem else '', options=options,
                            answer=answer[1] if answer else '', sha256=digest(body.encode())))
@@ -78,6 +78,11 @@ def question_errors(source: str, target: str, approved: list[dict[str, Any]]) ->
 
 def structural_errors(source: str, target: str, path: str) -> list[str]:
     errors = []
+    source_tokens, target_tokens = PARSER.parse(source), PARSER.parse(target)
+    added_navigation = path in ('17-Glossary/README.md', '18-Resources-and-References/README.md')
+    if sum(token.type == 'heading_open' for token in source_tokens) + added_navigation != sum(
+            token.type == 'heading_open' for token in target_tokens):
+        errors.append(f'{path}: lesson sections changed')
     for tag in ('details', 'summary'):
         for closing in ('', '/'):
             marker = f'<{closing}{tag}>'
@@ -95,8 +100,8 @@ def structural_errors(source: str, target: str, path: str) -> list[str]:
             errors.append(f'{path}: question/answer structure changed')
     if sum(line.startswith('|') for line in source.splitlines()) != sum(line.startswith('|') for line in target.splitlines()):
         errors.append(f'{path}: table rows lost or added')
-    source_fences = [token for token in PARSER.parse(source) if token.type == 'fence']
-    target_fences = [token for token in PARSER.parse(target) if token.type == 'fence']
+    source_fences = [token for token in source_tokens if token.type == 'fence']
+    target_fences = [token for token in target_tokens if token.type == 'fence']
     if len(source_fences) != len(target_fences):
         errors.append(f'{path}: fenced examples changed')
     for before, after in zip(source_fences, target_fences):
@@ -182,6 +187,71 @@ def language_errors(text: str) -> list[str]:
     return sorted({match[0] for match in PORTUGUESE.finditer(prose)})
 
 
+def inventory_errors(entries: list[dict[str, Any]], source_paths: set[str], root: Path) -> list[str]:
+    errors = []
+    for field in ('source', 'target'):
+        values = [entry[field] for entry in entries]
+        if len(values) != len(set(values)):
+            errors.append(f'Duplicate {field} paths in the source inventory')
+    if {entry['source'] for entry in entries} != source_paths:
+        errors.append('Source inventory does not match the complete source tree')
+    expected = {entry['target'] for entry in entries if entry['markdown'] and entry['target'][:2].isdigit()}
+    actual = {path.relative_to(root).as_posix() for path in root.glob('[0-9][0-9]-*/**/*.md')}
+    errors.extend(f'Missing module document: {path}' for path in sorted(expected - actual))
+    errors.extend(f'Uninventoried module document: {path}' for path in sorted(actual - expected))
+    return errors
+
+
+def question_group_errors(source: dict[str, bytes], groups: list[dict[str, Any]]) -> list[str]:
+    expected = {path for path, data in source.items() if path.endswith('.md') and questions(data.decode('utf-8-sig'))}
+    actual = [group['source'] for group in groups]
+    errors = []
+    if len(actual) != len(set(actual)):
+        errors.append('Duplicate files in the multiple-choice audit')
+    if set(actual) != expected:
+        errors.append('Multiple-choice audit does not cover every original question file')
+    ids = [record.get('id') for group in groups for record in group['questions']]
+    if len(ids) != len(set(ids)) or None in ids:
+        errors.append('Question audit IDs are missing or duplicated')
+    return errors
+
+
+def duplicate_question_errors(original: list[str], translated: list[str]) -> list[str]:
+    if len(original) != len(translated):
+        return ['Question count changed during duplicate review']
+    source_seen: dict[str, str] = {}
+    target_seen: dict[str, str] = {}
+    errors = []
+    for before, after in zip(original, translated):
+        if before in source_seen and source_seen[before] != after:
+            errors.append('Inherited duplicate questions no longer have equivalent wording')
+        if after in target_seen and target_seen[after] != before:
+            errors.append('Distinct original questions were accidentally duplicated')
+        source_seen[before], target_seen[after] = after, before
+    return errors
+
+
+def orphan_document_errors(entries: list[dict[str, Any]], root: Path) -> list[str]:
+    required = {(root / entry['target']).resolve() for entry in entries if entry['markdown']}
+    pending = [(root / 'README.md').resolve()]
+    seen: set[Path] = set()
+    while pending:
+        path = pending.pop()
+        if path in seen or not path.is_file():
+            continue
+        seen.add(path)
+        for reference in references(path.read_text(encoding='utf-8')):
+            url = urlsplit(reference)
+            if url.scheme or url.netloc or not url.path:
+                continue
+            target = ((root / unquote(url.path).lstrip('/')) if url.path.startswith('/')
+                      else (path.parent / unquote(url.path))).resolve()
+            if target.is_relative_to(root.resolve()) and target.suffix == '.md' and target not in seen:
+                pending.append(target)
+    return [f'Orphaned educational document: {path.relative_to(root.resolve()).as_posix()}'
+            for path in sorted(required - seen)]
+
+
 def validate_files(inventory: dict[str, Any], source: dict[str, bytes]) -> tuple[list[str], Counter[str]]:
     errors, counts = [], Counter()
     editorial = {item['target']: item for item in read_json('editorial-manifest.json')['files']}
@@ -215,10 +285,25 @@ def validate_files(inventory: dict[str, Any], source: dict[str, bytes]) -> tuple
 
 def validate_questions(source: dict[str, bytes]) -> list[str]:
     audit = read_json('question-audit.json')
-    errors = []
+    errors = question_group_errors(source, audit['multiple_choice_files'])
+    original_stems, translated_stems = [], []
     for group in audit['multiple_choice_files']:
-        errors.extend(question_errors(source[group['source']].decode('utf-8-sig'),
-                                      (ROOT / group['target']).read_text(encoding='utf-8'), group['questions']))
+        path = ROOT / group['target']
+        if group['source'] not in source or not path.is_file():
+            errors.append(f"Missing question file: {group['source']} -> {group['target']}")
+            continue
+        original, translated = source[group['source']].decode('utf-8-sig'), path.read_text(encoding='utf-8')
+        errors.extend(question_errors(original, translated, group['questions']))
+        original_stems.extend(record['stem'] for record in questions(original))
+        translated_stems.extend(record['stem'] for record in questions(translated))
+        for before, record in zip(questions(original), group['questions']):
+            if before != record['source_question'] or record.get('official_domain') not in range(1, 6):
+                errors.append(f"Invalid source record or domain: {group['target']} question {before['number']}")
+    errors.extend(duplicate_question_errors(original_stems, translated_stems))
+    if len(original_stems) != audit['counts']['multiple_choice_occurrences']:
+        errors.append('Multiple-choice count metadata is incorrect')
+    if len(set(original_stems)) != audit['counts']['distinct_multiple_choice_questions']:
+        errors.append('Distinct question count metadata is incorrect')
     return errors
 
 
@@ -226,8 +311,8 @@ def validate_repository() -> dict[str, Any]:
     inventory = read_json('source-inventory.json')
     source = source_tree(inventory['source_commit'])
     errors, counts = validate_files(inventory, source)
-    if {item['source'] for item in inventory['files']} != set(source):
-        errors.append('Source inventory does not match the complete source tree')
+    errors.extend(inventory_errors(inventory['files'], set(source), ROOT))
+    errors.extend(orphan_document_errors(inventory['files'], ROOT))
     counts['modules'] = len(list(ROOT.glob('[0-9][0-9]-*/README.md')))
     if counts['modules'] != 18:
         errors.append('Expected all 18 modules')
@@ -238,6 +323,11 @@ def validate_repository() -> dict[str, Any]:
         counts['local_references_checked'] += checked
         errors.extend(f'{path.relative_to(ROOT)}: Portuguese prose: {word}' for word in language_errors(text))
     errors.extend(validate_questions(source))
+    expected_counts = read_json('question-audit.json')['counts']
+    for actual, recorded in (('flashcards', 'flashcards'), ('labs', 'labs'),
+                             ('short_review_prompts', 'short_answer_reviews')):
+        if counts[actual] != expected_counts[recorded]:
+            errors.append(f'Question audit count mismatch: {actual}')
     for path in ROOT.glob('.github/ISSUE_TEMPLATE/*.md'):
         metadata = yaml.safe_load(path.read_text(encoding='utf-8').split('---')[1])
         if not all(metadata.get(key) for key in ('name', 'about', 'title', 'labels')):

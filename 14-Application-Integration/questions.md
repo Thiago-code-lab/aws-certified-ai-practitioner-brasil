@@ -2,15 +2,15 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Is the queue good for?
+- **Quick question:** What are queues useful for?
   **Short answer:** Resilience and scale.
 - **Quick question:** How should timeouts be handled?
   **Short answer:** Retry/backoff.
 - **Quick question:** Why are direct model calls from the frontend risky?
-  **Short answer:** Secret exposed.
-- **Quick question:** Prompt versioning?
-  **Short answer:** Prevents regression.
-- **Quick question:** Keyword?
+  **Short answer:** Credentials or sensitive data may be exposed without an appropriate authentication and control layer.
+- **Quick question:** Why version prompts?
+  **Short answer:** It supports traceability, comparison, and regression testing.
+- **Quick question:** What is the key term?
   **Short answer:** Decoupling.
 
 ---

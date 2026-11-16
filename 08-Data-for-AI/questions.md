@@ -5,12 +5,12 @@
 - **Quick question:** What does data quality affect?
   **Short answer:** Accuracy and reliability.
 - **Quick question:** What do poor labels produce?
-  **Short answer:** Confused model.
-- **Quick question:** Embeddings used where?
+  **Short answer:** Noisy learning signals and unreliable predictions.
+- **Quick question:** Where are embeddings used?
   **Short answer:** RAG and search.
 - **Quick question:** What do sensitive data require?
   **Short answer:** Access control.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** Representativeness.
 
 ---

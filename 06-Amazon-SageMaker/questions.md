@@ -2,15 +2,15 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Endpoint is used for?
+- **Quick question:** What is a real-time endpoint used for?
   **Short answer:** Low latency inference.
-- **Quick question:** Pipeline solves it?
+- **Quick question:** What does a pipeline help achieve?
   **Short answer:** Operational repeatability.
-- **Quick question:** Does Feature Store prevent it?
+- **Quick question:** What inconsistency can Feature Store help reduce?
   **Short answer:** Training-production misalignment.
 - **Quick question:** SageMaker AI versus a specialized managed service?
   **Short answer:** More control and customization.
-- **Quick question:** Keyword?
+- **Quick question:** What is the key term?
   **Short answer:** MLOps.
 
 ---

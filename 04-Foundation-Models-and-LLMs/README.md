@@ -35,15 +35,15 @@ Understand the role of foundation models in real applications, differentiate tex
 
 ### Foundation models and LLMs
 
-Foundation models are broad models trained to serve as the basis for multiple tasks. LLMs are foundation models specialized in natural language. On the exam, the central point is to understand that an FM can be text, image or multimodal; an LLM is an important type within this field.
+Foundation models are broad models trained to serve as the basis for multiple tasks. LLMs are foundation models specialized in natural language. Many modern LLMs use transformer architectures, whose attention mechanisms relate tokens within a context. Tokenization is a separate preprocessing step that maps text into model-specific input units, which may be words, subwords, or character sequences. On the exam, the central point is to understand that an FM can be text, image or multimodal; an LLM is an important type within this field.
 
 ### Embeddings and semantic similarity
 
-Embeddings transform text, images, or other content into numeric vectors that preserve semantic meaning. This allows you to compare proximity between documents or questions, basing retrieval on meaning and not just identical words.
+Embeddings transform text, images, or other content into numeric vectors that encode aspects of semantic meaning. This allows you to compare proximity between documents or questions, basing retrieval on meaning and not just identical words.
 
 ### Vector databases and RAG
 
-A vector database stores embeddings and allows similarity searching. In RAG, the user's question also becomes embedding, the semantically closest items are retrieved and then sent as context to the generating model. This pattern helps reduce hallucinations and keep responses aligned with company data.
+A vector database stores embeddings and allows similarity searching. In vector-based RAG, the user's question is also converted into an embedding. Relevant passages are retrieved using similarity search and sent as context to the generative model. RAG can also use lexical or hybrid retrieval; embeddings are not required by every RAG design. This pattern helps reduce hallucinations and keep responses aligned with company data.
 
 ## Practical example
 
@@ -63,7 +63,7 @@ When the priority is to use updated internal knowledge, control the origin of th
 
 ### Embeddings do not generate text
 
-Embeddings represent content. The generator model generates the final answer. This distinction is important because several exam questions attempt to confuse the role of the vector database with the role of the LLM.
+Embeddings represent content. The generative model composes the final answer. This distinction is important because several exam questions attempt to confuse the role of the vector database with the role of the LLM.
 
 ## Best practices
 
@@ -84,8 +84,8 @@ Embeddings represent content. The generator model generates the final answer. Th
 
 - Thinking that embeddings and text generation are the same thing.
 - Confusing vector database with data lake or general transactional database.
-- Use fine-tuning when the problem is updating knowledge.
-- Ignore metadata and send irrelevant context to the model.
+- Using fine-tuning when the problem is updating knowledge.
+- Ignoring metadata and send irrelevant context to the model.
 
 ## Summary for review
 

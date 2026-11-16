@@ -3,14 +3,14 @@
 ## Quick Review (Q&A)
 
 - **Quick question:** When does RAG help?
-  **Short answer:** When the knowledge base always changes.
+  **Short answer:** When answers require knowledge that changes frequently.
 - **Quick question:** Why do tokens matter?
   **Short answer:** Cost and performance.
 - **Quick question:** What do embeddings enable?
   **Short answer:** Semantic search.
-- **Quick question:** Risk of vague prompt?
+- **Quick question:** What is the risk of a vague prompt?
   **Short answer:** Inconsistent answer.
-- **Quick question:** Key term?
+- **Quick question:** What is the key term?
   **Short answer:** Grounding.
 
 ---

@@ -18,13 +18,13 @@
 RAG favors continuous updating of knowledge without frequent retraining.
 
 **Why option A is wrong:**
-Increases cost and update cycle unnecessarily.
+Frequent fine-tuning adds training cost and delays document updates when retrieval would meet the requirement.
 
 </details>
 
 ## Question 18
 
-**Question:** Which service best matches sentiment analysis and text entities?
+**Question:** Which service is best suited to sentiment analysis and entity detection in text?
 
 - A) Comprehend
 - B) Rekognition
@@ -48,8 +48,8 @@ Rekognition is image/video focused.
 **Question:** To provide an API secret to your application with the lowest risk, you should:
 
 - A) Embed it in the code
-- B) Store in Secrets Manager
-- C) Save to local variable without protection
+- B) Store it in Secrets Manager
+- C) Save it in an unprotected local variable
 - D) Publish to public S3
 
 <details><summary><strong>See answer</strong></summary>
@@ -70,7 +70,7 @@ Hardcoding secrets compromises security and governance.
 
 - A) Grounding with reliable sources
 - B) Remove document context
-- C) Disable human validation always
+- C) Always disable human review
 - D) Ignore output evaluation
 
 <details><summary><strong>See answer</strong></summary>
@@ -129,7 +129,7 @@ Unrestricted access violates the principle of least privilege.
 
 ## Question 23
 
-**Question:** For the case of using OCR on financial documents, which option tends to be more direct?
+**Question:** For OCR and field extraction from financial documents, which option is the most direct fit?
 
 - A) Textract
 - B) Amazon Bedrock Guardrails
@@ -150,7 +150,7 @@ Guardrails controls generated content, not OCR.
 
 ## Question 24
 
-**Question:** In the AI Practitioner test, when two options work, the best one is usually:
+**Question:** On the AI Practitioner exam, when two options work, the best one is usually:
 
 - A) The most managed option that meets the stated requirements
 - B) The most technically complex
@@ -165,7 +165,7 @@ Guardrails controls generated content, not OCR.
 AWS tends to value operational simplicity and clear fit to requirement.
 
 **Why option B is wrong:**
-Extra complexity doesn't add up when the problem calls for a practical and managed solution.
+Additional complexity is not justified when a simpler managed solution meets the stated requirements.
 
 </details>
 
