@@ -257,7 +257,7 @@ def validate_repository() -> dict[str, Any]:
 
 def main() -> None:
     result = validate_repository()
-    (AUDIT / 'validation-results.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    (AUDIT / 'validation-results.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps(result, indent=2))
     sys.exit(0 if result['passed'] else 1)
 
