@@ -1,0 +1,49 @@
+{
+  "source_commit": "122726b73a6e805a71b711dd65d1786fcc2ba42f",
+  "implementation_head": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+  "verified_publication_head": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+  "remote_refs": {
+    "refs/heads/aif-c01-english": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+    "refs/heads/gh-pages": "224c0a075fa702bf9912dc75b86e0012797fb191",
+    "refs/heads/main": "122726b73a6e805a71b711dd65d1786fcc2ba42f"
+  },
+  "implementation_commits": [
+    {
+      "commit": "18b7cb61b2d738e9d6f7c4bfa157b8f3619adf37",
+      "subject": "docs(en): translate AI and machine learning fundamentals"
+    },
+    {
+      "commit": "5714eb4094c15979a0cd6380e034fc9c84b72db0",
+      "subject": "docs(en): translate Amazon Bedrock and SageMaker learning materials"
+    },
+    {
+      "commit": "9a60f1ab3cdd678446bd5b235e0fe91aeb2f929b",
+      "subject": "docs(en): translate responsible AI data and prompt engineering"
+    },
+    {
+      "commit": "986375e6cb79f246bac479117e7d1352d535485e",
+      "subject": "docs(en): translate AI services architecture and application integration"
+    },
+    {
+      "commit": "2e99e9c6e032973b67e9e615d4a3e68aea6df412",
+      "subject": "docs(en): translate practice exams and preserve all answer keys"
+    },
+    {
+      "commit": "1d43b065d89c416497589db747380d951bedd6dc",
+      "subject": "docs(en): translate glossary and official learning resources"
+    },
+    {
+      "commit": "92da62ab86b6873fc8355793195f2a42879a997b",
+      "subject": "docs(en): finalize README navigation and current AWS service notes"
+    },
+    {
+      "commit": "5d25273e05beb3b8d762abd6768a2f1b7e30b3c0",
+      "subject": "test(en): validate complete English coverage and educational preservation"
+    },
+    {
+      "commit": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+      "subject": "fix(en): support validation in fresh English branch clones"
+    }
+  ],
+  "evidence_note": "These are actual refs at verification time; subsequent audit-only commits record this evidence."
+}
