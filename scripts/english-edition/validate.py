@@ -245,6 +245,8 @@ def validate_repository() -> dict[str, Any]:
     if git('rev-parse', '--abbrev-ref', 'HEAD') != inventory['target_branch']:
         errors.append('Validation must run on the English branch')
     for ref in ('main', 'origin/main', 'origin/gh-pages'):
+        if ref == 'main' and subprocess.run(['git', 'show-ref', '--verify', '--quiet', 'refs/heads/main'], cwd=ROOT).returncode == 1:
+            continue  # A fresh English-branch clone has no local main branch.
         expected = inventory['protected_gh_pages'] if ref.endswith('gh-pages') else inventory['source_commit']
         if git('rev-parse', ref) != expected:
             errors.append(f'Protected ref changed: {ref}')
