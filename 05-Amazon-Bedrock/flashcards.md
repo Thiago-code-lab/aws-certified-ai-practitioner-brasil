@@ -1,109 +1,109 @@
-﻿# Flashcards - Amazon Bedrock
+# Flashcards - Amazon Bedrock
 
 ## Card 01
 
-**Pergunta:** Valor central do Bedrock?
+**Question:** Core value of Bedrock?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Acesso a modelos gerenciados sem operar infraestrutura de ML.
+**Answer:**
+Access to managed models without operating ML infrastructure.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Modelos gerenciados sao?
+**Question:** What are managed models?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Foundation models expostos por API.
+**Answer:**
+Foundation models exposed via API.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Quando usar Agents for Bedrock?
+**Question:** When to use Agents for Bedrock?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Fluxos com multiplas etapas e ferramentas.
+**Answer:**
+Flows with multiple steps and tools.
 
 </details>
 
 ## Card 04
 
-**Pergunta:** Knowledge Bases serve para?
+**Question:** What are Knowledge Bases used for?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Grounding com recuperacao de contexto empresarial.
+**Answer:**
+Grounding with business context retrieval.
 
 </details>
 
 ## Card 05
 
-**Pergunta:** Guardrails fazem o que?
+**Question:** Guardrails do what?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Aplicam politicas de conteudo e seguranca.
+**Answer:**
+Apply content and security policies.
 
 </details>
 
 ## Card 06
 
-**Pergunta:** Como Bedrock ajuda compliance?
+**Question:** How does Bedrock help compliance?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Integracao com IAM, auditoria e criptografia.
+**Answer:**
+Integration with IAM, auditing and encryption.
 
 </details>
 
 ## Card 07
 
-**Pergunta:** Integracao tipica de app?
+**Question:** Typical app integration?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Backend chama Bedrock e aplica regras de negocio.
+**Answer:**
+Backend calls Bedrock and applies business rules.
 
 </details>
 
 ## Card 08
 
-**Pergunta:** Erro comum no exame?
+**Question:** Common error in the exam?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Escolher retreinamento quando faltava RAG e guardrails.
+**Answer:**
+Choosing retraining when RAG and guardrails were missing.
 
 </details>
 
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/

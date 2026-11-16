@@ -4,9 +4,9 @@
 
 - **Quick question:** When does RAG help?
   **Short answer:** When the knowledge base always changes.
-- **Quick question:** Token matters why?
+- **Quick question:** Why do tokens matter?
   **Short answer:** Cost and performance.
-- **Quick question:** Embedding does what?
+- **Quick question:** What do embeddings enable?
   **Short answer:** Semantic search.
 - **Quick question:** Risk of vague prompt?
   **Short answer:** Inconsistent answer.

@@ -1,39 +1,39 @@
-# Cheatsheet — Módulo 05: Amazon Bedrock
+# Cheatsheet — Module 05: Amazon Bedrock
 
-> Revisão rápida pensada para a reta final do exame AWS Certified AI Practitioner.
+> Quick review designed for the final review of the AWS Certified AI Practitioner exam.
 
-## Visão rápida
+## At a glance
 
-| Tópico | O que lembrar | Armadilha de prova |
+| Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| Bedrock | Camada gerenciada para FMs. | Não confundir com treino customizado completo. |
-| Knowledge Bases | Grounding/RAG gerenciado. | Não substitui governança de documentos. |
-| Guardrails | Política de entrada e saída. | Não é IAM. |
-| Agents | Orquestram tarefas e ferramentas. | Não dispensam validação do fluxo. |
+| Bedrock | Managed layer for FMs. | Not to be confused with complete customized training. |
+| Knowledge Bases | Grounding/RAG managed. | It does not replace document governance. |
+| Guardrails | Entry and exit policy. | It does not replace IAM. |
+| Agents | Orchestrate tasks and tools. | They do not remove the need to validate workflows. |
 
-## Regras práticas
+## Practical rules
 
-- Use Bedrock quando a prioridade for consumir FMs rapidamente com governança gerenciada.
-- Aplique Guardrails para reduzir respostas fora de política e exposição indevida.
-- Conecte Knowledge Bases a fontes documentais controladas e atualizadas.
-- Monitore custo por token, latência e taxas de erro.
+- Use Bedrock when the priority is to consume FMs quickly with managed governance.
+- Apply Guardrails to reduce out-of-policy responses and undue exposure.
+- Connect Knowledge Bases to controlled and updated document sources.
+- Monitor cost per token, latency and error rates.
 
-## Gatilhos de memorização
+## Memory cues
 
-- Bedrock acelera uso de FM; Guardrails disciplinam; KB fundamenta; Agents executam.
-- Governança de conteúdo não elimina governança de acesso.
+- Bedrock accelerates FM usage; Guardrails discipline; KB reasons; Agents execute.
+- Content governance does not eliminate access governance.
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Como complemento pratico para entender dados alimentando IA na nuvem, veja o curso [Engenharia de Dados na AWS: do Zero aos Projetos Reais](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+> As a practical complement to understanding data feeding AI in the cloud, see the course [Data Engineering on AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).

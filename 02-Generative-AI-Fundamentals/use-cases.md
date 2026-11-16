@@ -1,6 +1,6 @@
 # Use Cases — Module 02: Generative AI Fundamentals
 
-## Case 1 — HR Base
+## Case 1 — HR knowledge base
 
 **Scenario:** The HR department wants to answer questions about benefits without inventing policies that don't exist.
 

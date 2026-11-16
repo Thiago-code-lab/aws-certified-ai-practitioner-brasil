@@ -2,13 +2,13 @@
 
 ## Quick Review (Q&A)
 
-- **Quick question:** Does low temperature generate?
+- **Quick question:** What does a low temperature favor?
   **Short answer:** More consistency.
 - **Quick question:** What is a context window?
   **Short answer:** Total token limit.
 - **Quick question:** Fine-tuning when?
   **Short answer:** Persistent specialization.
-- **Quick question:** Do you need an assessment?
+- **Quick question:** What does evaluation require?
   **Short answer:** Clear metrics.
 - **Quick question:** Key term?
   **Short answer:** Context.

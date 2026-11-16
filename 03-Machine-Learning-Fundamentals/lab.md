@@ -24,7 +24,7 @@ Practice interpreting business problems to correctly map the main ML technique.
 
 ## Costs and cleanup
 
-- Lab without mandatory cost if maintained on paper or local editor.
+- This lab has no required AWS cost when completed on paper or in a local editor.
 - If opening AWS services, close resources after testing.
 
 ---

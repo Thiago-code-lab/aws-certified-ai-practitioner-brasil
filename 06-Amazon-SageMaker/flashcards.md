@@ -1,109 +1,109 @@
-﻿# Flashcards - Amazon SageMaker
+# Flashcards - Amazon SageMaker
 
 ## Card 01
 
-**Pergunta:** Quando SageMaker e mais indicado?
+**Question:** When is SageMaker best suited?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Quando precisa ciclo completo de ML com maior controle tecnico.
+**Answer:**
+When you need a full ML cycle with greater technical control.
 
 </details>
 
 ## Card 02
 
-**Pergunta:** Notebooks sao usados para?
+**Question:** What are notebooks used for?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Explorar dados e testar modelos.
+**Answer:**
+Explore data and test models.
 
 </details>
 
 ## Card 03
 
-**Pergunta:** Endpoint no SageMaker e?
+**Question:** What is an endpoint in SageMaker AI?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Servico de inferencia online escalavel.
+**Answer:**
+Scalable online inference service.
 
 </details>
 
 ## Card 04
 
-**Pergunta:** Pipeline no SageMaker faz o que?
+**Question:** Pipeline in SageMaker does what?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Automatiza treino, validacao e deploy.
+**Answer:**
+Automates training, validation and deployment.
 
 </details>
 
 ## Card 05
 
-**Pergunta:** Feature Store ajuda em que?
+**Question:** Feature Store helps with what?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Consistencia entre treino e producao.
+**Answer:**
+Consistency between training and production.
 
 </details>
 
 ## Card 06
 
-**Pergunta:** Ciclo de ML coberto como?
+**Question:** ML cycle covered how?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Da preparacao de dados ao monitoramento.
+**Answer:**
+From data preparation to monitoring.
 
 </details>
 
 ## Card 07
 
-**Pergunta:** Como reduzir custo de inferencia?
+**Question:** How to reduce inference cost?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Dimensionar endpoint conforme carga real.
+**Answer:**
+Size endpoint according to real load.
 
 </details>
 
 ## Card 08
 
-**Pergunta:** Confusao comum na prova?
+**Question:** What is a common source of confusion on the exam?
 
 <details>
-<summary><strong>Ver resposta</strong></summary>
+<summary><strong>See answer</strong></summary>
 
-**Resposta:**
-Achar que SageMaker e so notebook.
+**Answer:**
+Thinking that SageMaker is just a notebook.
 
 </details>
 
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/

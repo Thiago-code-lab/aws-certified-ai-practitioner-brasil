@@ -1,43 +1,43 @@
-# Lab — Módulo 06: Amazon SageMaker AI
+# Lab — Module 06: Amazon SageMaker AI
 
-## Escolhendo entre real-time, serverless e batch
+## Choosing between real-time, serverless and batch
 
-Fixar como o padrão de acesso influencia o modo de inferência no SageMaker AI.
+Reinforce how access patterns influence inference mode in SageMaker AI.
 
-## Pré-requisitos
+## Prerequisites
 
-- Ler este módulo.
-- Conhecer os conceitos de treinamento e inferência.
+- Read this module.
+- Know the concepts of training and inference.
 
-## Passo a passo
+## Steps
 
-1. Defina três cenários: API online, job noturno e uso esporádico.
-2. Associe cada um a real-time, batch ou serverless.
-3. Anote o impacto de latência e custo em cada opção.
-4. Compare se algum cenário poderia ser resolvido por Bedrock em vez de modelo customizado.
-5. Registre a lógica usada para a decisão.
+1. Define three scenarios: online API, nightly job and sporadic use.
+2. Associate each one with real-time, batch or serverless.
+3. Note the latency and cost impact of each option.
+4. Compare whether any scenario could be resolved by Bedrock instead of a custom model.
+5. Record the logic used for the decision.
 
-## O que observar
+## What to observe
 
-- A melhor opção depende do padrão de uso, não apenas do serviço disponível.
-- Capacidade permanente sem necessidade é fonte comum de custo.
+- The best option depends on the usage pattern, not just the service available.
+- Unnecessary permanent capacity is a common source of cost.
 
-## Custos e limpeza
+## Costs and cleanup
 
-- Lab pode ser resolvido apenas conceitualmente.
-- Se criar recursos na AWS, encerre ao final.
+- Lab can be solved only conceptually.
+- If you create resources on AWS, close them at the end.
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Aprofundamento opcional: pipelines e fundamentos de dados na AWS aparecem no curso [Engenharia de Dados na AWS: do Zero aos Projetos Reais](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+> Optional in-depth: data pipelines and fundamentals in AWS appear in the course [Data Engineering in AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).

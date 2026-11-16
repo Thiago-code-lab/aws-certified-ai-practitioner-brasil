@@ -1,36 +1,36 @@
-# Cheatsheet — Módulo 06: Amazon SageMaker AI
+# Cheatsheet — Module 06: Amazon SageMaker AI
 
-> Revisão rápida pensada para a reta final do exame AWS Certified AI Practitioner.
+> Quick review designed for the final review of the AWS Certified AI Practitioner exam.
 
-## Visão rápida
+## At a glance
 
-| Tópico | O que lembrar | Armadilha de prova |
+| Topic | What to remember | Exam trap |
 | --- | --- | --- |
-| Studio | Ambiente técnico para desenvolvimento e experimentação. | Não confundir com Canvas. |
-| Canvas | ML low-code/no-code para analistas. | Ainda depende de dados adequados. |
-| JumpStart | Acelera início com modelos e templates. | Não substitui avaliação do caso de uso. |
-| Batch inference | Processamento em lote, fora do caminho crítico do usuário. | Não usar quando a pergunta pede resposta imediata. |
+| Studio | Technical environment for development and experimentation. | Not to be confused with Canvas. |
+| Canvas | Low-code/no-code ML for analysts. | It still depends on adequate data. |
+| JumpStart | Accelerates adoption with models and templates. | It does not replace use case evaluation. |
+| Batch inference | Batch processing, off the user's critical path. | Do not use when the question requires an immediate answer. |
 
-## Regras práticas
+## Practical rules
 
-- Defina claramente se o problema exige modelo customizado ou serviço gerenciado pronto.
-- Use S3 como base organizada para datasets e artefatos.
-- Escolha o modo de inferência conforme latência, custo e padrão de tráfego.
-- Mantenha rastreabilidade dos experimentos e versões do modelo.
+- Clearly define whether the problem requires a customized model or a ready-made managed service.
+- Use S3 as an organized base for datasets and artifacts.
+- Choose the inference mode according to latency, cost and traffic pattern.
+- Maintain traceability of experiments and model versions.
 
-## Gatilhos de memorização
+## Memory cues
 
-- Bedrock consome FMs; SageMaker AI constrói e opera ML.
-- Canvas democratiza; Studio aprofunda.
-- Carga define o tipo de inferência.
+- Bedrock consumes FMs; SageMaker AI builds and operates ML.
+- Canvas democratizes; Studio goes deeper.
+- Load defines the type of inference.
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/

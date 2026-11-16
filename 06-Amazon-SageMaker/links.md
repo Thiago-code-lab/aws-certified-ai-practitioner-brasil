@@ -1,23 +1,23 @@
-# Links Oficiais — Módulo 06: Amazon SageMaker AI
+# Official Links — Module 06: Amazon SageMaker AI
 
-| Recurso | Uso recomendado | Link |
+| Resource | Recommended use | Link |
 | --- | --- | --- |
-| SageMaker AI — visão geral | Base oficial do serviço | https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html |
-| SageMaker Studio | Ambiente integrado | https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated.html |
-| SageMaker Canvas | ML low-code/no-code | https://docs.aws.amazon.com/sagemaker/latest/dg/canvas.html |
-| SageMaker JumpStart | Modelos e soluções aceleradas | https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html |
+| SageMaker AI — overview | Official base of the service | https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html |
+| SageMaker Studio | Integrated environment | https://docs.aws.amazon.com/sagemaker/latest/dg/studio-updated.html |
+| SageMaker Canvas | low-code/no-code ML | https://docs.aws.amazon.com/sagemaker/latest/dg/canvas.html |
+| SageMaker JumpStart | Accelerated models and solutions | https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html |
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
 
-> Quem quiser reforcar a parte de ingestao, armazenamento e processamento na AWS pode usar o curso [Engenharia de Dados na AWS: do Zero aos Projetos Reais](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) como trilha paralela.
+> Anyone who wants to reinforce the ingestion, storage and processing part of AWS can use the course [Data Engineering at AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9) as a parallel track.

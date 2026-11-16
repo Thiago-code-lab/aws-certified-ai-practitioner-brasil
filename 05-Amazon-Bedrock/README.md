@@ -1,116 +1,116 @@
-﻿# Módulo 05 — Amazon Bedrock
+# Module 05 — Amazon Bedrock
 
-Amazon Bedrock é o eixo mais importante da certificação para IA generativa na AWS. O exame cobra o que ele resolve, quando usá-lo e como integrá-lo com segurança e governança.
+Amazon Bedrock is one of the central services in this certification for generative AI on AWS. The exam tests what it solves, when to use it, and how to integrate it with security and governance.
 
-## Objetivo
+## Objective
 
-Dominar o papel do Bedrock como plataforma gerenciada para foundation models, incluindo Knowledge Bases, Guardrails, Agents e critérios de escolha frente a SageMaker AI ou infraestrutura própria.
+Master the role of Bedrock as a managed platform for foundation models, including Knowledge Bases, Guardrails, Agents and selection criteria against SageMaker AI or your own infrastructure.
 
-## Onde este tema aparece no AIF-C01
+## How this topic appears on AIF-C01
 
-- Consumir modelos fundacionais sem gerenciar infraestrutura.
-- Entender Knowledge Bases, Guardrails e Agents.
-- Relacionar Bedrock com custo, latência, segurança e rapidez de entrega.
+- Consume foundation models without managing infrastructure.
+- Understand Knowledge Bases, Guardrails and Agents.
+- Relate Bedrock to cost, latency, security and speed of delivery.
 
-## Navegação do módulo
+## Module navigation
 
 - [README](./README.md)
 - [Cheatsheet](./cheatsheet.md)
 - [Flashcards](./flashcards.md)
-- [Questões](./questoes.md)
-- [Casos de uso](./casos-de-uso.md)
-- [Lab prático](./lab.md)
-- [Links oficiais](./links.md)
+- [Questions](./questions.md)
+- [Use cases](./use-cases.md)
+- [Practical lab](./lab.md)
+- [Official links](./links.md)
 
-## Serviços AWS principais
+## Core AWS Services
 
-| Serviço AWS | Papel no módulo | Como aparece na prova |
+| AWS Service | Role in the module | How it appears on the exam |
 | --- | --- | --- |
-| Amazon Bedrock | Camada principal de acesso a modelos fundacionais por API. | Serviço central do blueprint de GenAI. |
-| Bedrock Knowledge Bases | Grounding gerenciado para RAG. | Aparece quando o enunciado fala em responder com base em documentos. |
-| Bedrock Guardrails | Controles de segurança e política sobre entrada e saída. | Importante em cenários de responsible AI e segurança. |
-| Bedrock Agents | Orquestração de ações e uso de ferramentas por aplicações generativas. | Útil quando o modelo precisa executar etapas além de responder texto. |
+| Amazon Bedrock | Main layer for accessing foundation models via API. | GenAI blueprint core service. |
+| Amazon Bedrock Knowledge Bases | Managed grounding for RAG. | Appears when the statement talks about responding based on documents. |
+| Amazon Bedrock Guardrails | Security and policy controls on entry and exit. | Important in responsible AI and security scenarios. |
+| Amazon Bedrock Agents | Orchestration of actions and use of tools for generative applications. | Useful when the model needs to perform steps beyond responding to text. |
 
-## Conceitos essenciais
+## Essential concepts
 
-### Bedrock como camada gerenciada
+### Bedrock as a managed layer
 
-Bedrock abstrai o esforço de hospedar e escalar foundation models. Em vez de operar clusters, endpoints e capacidade de GPU, o time consome modelos por APIs e recursos gerenciados. Isso acelera experimentação, prototipagem e entrada em produção.
+Bedrock abstracts the effort of hosting and scaling foundation models. Instead of operating clusters, endpoints and GPU capacity, the team consumes models through APIs and managed resources. This accelerates experimentation, prototyping and entry into production.
 
-### Knowledge Bases, Guardrails e Agents
+### Knowledge Bases, Guardrails and Agents
 
-Knowledge Bases ajudam a conectar documentos e recuperação contextual. Guardrails aplicam políticas sobre conteúdo, tópicos proibidos, linguagem sensível e PII. Agents permitem que o modelo acione ferramentas e execute ações em sistemas conectados, ampliando a utilidade da aplicação.
+Knowledge Bases help connect documents and contextual retrieval. Guardrails can evaluate configured content filters, denied topics, and sensitive information such as PII. They reduce risk but do not guarantee policy compliance for every response. Agents allow the model to activate tools and perform actions on connected systems, expanding the application's usefulness.
 
-### Quando Bedrock aparece como melhor resposta
+### When Bedrock appears as the best answer
 
-Quando o enunciado prioriza simplicidade operacional, rapidez para usar FMs, integração com recursos gerenciados da AWS e redução do esforço de infraestrutura. Se a pergunta pede treinar modelos muito específicos do zero, a discussão muda para SageMaker AI.
+When the statement prioritizes operational simplicity, speed in using FMs, integration with AWS managed resources and reduction of infrastructure effort. If the question asks to train very specific models from scratch, the discussion shifts to SageMaker AI.
 
-## Exemplo prático
+## Practical example
 
-### Assistente interno com base de conhecimento e proteção de saída
+### Integrated assistant with a knowledge base and output protection
 
-Uma empresa quer um assistente para responder perguntas sobre procedimentos internos, mas precisa bloquear vazamento de PII e manter as respostas dentro de tópicos permitidos. Uma arquitetura com Bedrock Knowledge Bases e Guardrails atende esse desenho com baixo esforço operacional.
+A company wants an assistant to answer questions about internal procedures, but needs to block PII leaks and keep answers within permitted topics. An architecture with Amazon Bedrock Knowledge Bases and Guardrails can support this design with low operational effort. Evaluate the filters and enforce document access permissions; these controls do not guarantee that every sensitive output is blocked.
 
 ```
-Usuário -> aplicação -> Bedrock Guardrails -> Knowledge Base -> modelo -> resposta filtrada
+User -> application -> Amazon Bedrock Guardrails -> Knowledge Base -> model -> filtered response
 ```
 
-## Raciocínio arquitetural
+## Architectural reasoning
 
-### Bedrock vs infraestrutura própria
+### Bedrock vs own infrastructure
 
-Hospedar um modelo diretamente em infraestrutura própria aumenta controle, mas também aumenta operação, custo fixo e complexidade. Em prova, se não houver exigência explícita de customização profunda da camada de modelo, Bedrock tende a ser mais consistente com a filosofia managed-first da AWS.
+Hosting a model directly on your own infrastructure increases control, but also increases operation, fixed costs and complexity. On the exam, if there is no explicit requirement for deep customization of the model layer, Bedrock tends to be more consistent with AWS's managed-first philosophy.
 
-### Guardrails complementam, não substituem, segurança
+### Guardrails complement, not replace, safety
 
-Guardrails ajudam no conteúdo gerado e na experiência da aplicação, mas não substituem IAM, criptografia, logs, segregação de dados e revisão humana. O exame pode explorar essa diferença.
+Guardrails help with generated content and application experience, but they do not replace IAM, encryption, logs, data segregation, and human review. The exam can explore this difference.
 
-## Boas práticas
+## Best practices
 
-- Use Bedrock quando a prioridade for consumir FMs rapidamente com governança gerenciada.
-- Aplique Guardrails para reduzir respostas fora de política e exposição indevida.
-- Conecte Knowledge Bases a fontes documentais controladas e atualizadas.
-- Monitore custo por token, latência e taxas de erro.
-- Separe permissões de desenvolvimento, teste e produção.
+- Use Bedrock when the priority is to consume FMs quickly with managed governance.
+- Apply Guardrails to reduce out-of-policy responses and undue exposure.
+- Connect Knowledge Bases to controlled and updated document sources.
+- Monitor cost per token, latency and error rates.
+- Separate development, test and production permissions.
 
-## Dicas de prova
+## Exam tips
 
-- Bedrock = consumo gerenciado de FMs; SageMaker AI = ciclo de ML mais customizado.
-- Knowledge Bases aparecem quando o problema fala em documentos internos.
-- Guardrails controlam conteúdo, mas não fazem IAM nem KMS.
-- Agents entram quando o enunciado pede ação, fluxo ou uso de ferramenta.
+- Bedrock = managed consumption of FMs; SageMaker AI = more customized ML cycle.
+- Knowledge Bases appear when the problem speaks in internal documents.
+- Guardrails control content, but do not do IAM or KMS.
+- Agents enter when the statement requests action, flow or use of a tool.
 
-## Armadilhas comuns
+## Common pitfalls
 
-- Confundir Guardrails com controle de acesso de identidade.
-- Assumir que Knowledge Base substitui a curadoria dos documentos fonte.
-- Usar Bedrock Agents sem pensar em observabilidade e validação do fluxo.
-- Ignorar custo de inferência e tamanho de contexto.
+- Confusing Guardrails with identity access control.
+- Assume that Knowledge Base replaces the curation of source documents.
+- Use Amazon Bedrock Agents without thinking about observability and flow validation.
+- Ignore inference cost and context size.
 
-## Resumo para revisão
+## Summary for review
 
-- Bedrock entrega FMs por API com baixa carga operacional.
-- Knowledge Bases conectam grounding e recuperação.
-- Guardrails ajudam na política de conteúdo.
-- Agents ampliam a aplicação com ações e ferramentas.
-- O exame valoriza Bedrock como caminho natural para GenAI gerenciada na AWS.
+- Bedrock delivers FMs via API with low operational overhead.
+- Knowledge Bases connect grounding and retrieval.
+- Guardrails help with content policy.
+- Agents expand the application with actions and tools.
+- The exam values Bedrock as a natural path to managed GenAI on AWS.
 
-## Próximos passos
+## Next steps
 
-- Resolva as [questões do módulo](./questoes.md) antes de seguir.
-- Revise os [flashcards](./flashcards.md) como revisão espaçada.
-- Consulte o [lab](./lab.md) para consolidar a parte prática.
-- Revisão complementar: [Módulo 04 — Modelos Fundacionais e LLMs](../04-Modelos-Fundacionais-e-LLMs/README.md).
-- Continue para [Módulo 06 — Amazon SageMaker AI](../06-Amazon-SageMaker/README.md).
+- Solve the [module questions](./questions.md) before continuing.
+- Review [flashcards](./flashcards.md) as spaced review.
+- Consult [lab](./lab.md) to consolidate the practical part.
+- Complementary review: [Module 04 — Foundation Models and LLMs](../04-Foundation-Models-and-LLMs/README.md).
+- Continue to [Module 06 — Amazon SageMaker AI](../06-Amazon-SageMaker/README.md).
 
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/

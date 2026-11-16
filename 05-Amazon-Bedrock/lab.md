@@ -1,39 +1,39 @@
-# Lab — Módulo 05: Amazon Bedrock
+# Lab — Module 05: Amazon Bedrock
 
-## Mapa de capacidade do Bedrock
+## Bedrock capability map
 
-Organizar mentalmente os blocos do serviço e quando cada um entra na arquitetura.
+Mentally organize the service blocks and when each one enters the architecture.
 
-## Pré-requisitos
+## Prerequisites
 
-- Ler os módulos 02, 04 e 05.
-- Opcional: acesso à console do Bedrock.
+- Read modules 02, 04 and 05.
+- Optional: access to the Bedrock console.
 
-## Passo a passo
+## Steps
 
-1. Liste um caso de uso de pergunta e resposta com documentos internos.
-2. Mapeie onde entrariam modelo, Knowledge Base, Guardrails e logs.
-3. Identifique quais permissões IAM seriam necessárias.
-4. Defina quais respostas precisariam de revisão humana.
-5. Anote onde o custo cresce: contexto, tokens e frequência de chamadas.
+1. List a question and answer use case with internal documents.
+2. Map out where the model, Knowledge Base, Guardrails and logs would go.
+3. Identify which IAM permissions would be required.
+4. Define which responses would need human review.
+5. Note where the cost grows: context, tokens and call frequency.
 
-## O que observar
+## What to observe
 
-- Bedrock resolve a camada de FM, mas a aplicação ainda precisa arquitetura completa ao redor.
-- Knowledge Bases e Guardrails respondem a problemas diferentes.
+- Bedrock solves the FM layer, but the application still needs complete architecture around it.
+- Knowledge Bases and Guardrails respond to different problems.
 
-## Custos e limpeza
+## Costs and cleanup
 
-- Se criar recursos na conta, remova-os após o teste.
-- Não use dados sensíveis sem política e aprovação adequadas.
+- If you create resources in your account, remove them after testing.
+- Do not use sensitive data without proper policy and approval.
 
 ---
 
-## ☁️ Acompanhe a CloudStudy
+## ☁️ Follow CloudStudy
 
-Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+We are building a platform to help Brazilians study AWS in a more practical, organized and accessible way.
 
-Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+Follow CloudStudy to keep up with new materials, updates and content about AWS certifications:
 
 - Instagram: https://www.instagram.com/cloudstudy.ai/
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
