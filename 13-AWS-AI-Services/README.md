@@ -43,7 +43,7 @@ A common mistake in preparing for AI is forgetting that AWS has been offering sp
 
 ### Note on current scope
 
-The official list of services in scope of AIF-C01 must be prioritized. An important point: the official exam documentation still mentions Amazon Fraud Detector, but AWS stopped accepting new customers on **November 7, 2025**. For exam preparation, it is worth understanding the concept; for new projects, the practical architectural decision may be different.
+The official list of services in scope of AIF-C01 must be prioritized. The source highlighted Amazon Fraud Detector as an exam service. AWS stopped accepting new customers on **November 7, 2025**, and the current published in-scope list no longer names Fraud Detector. Retain the historical concept for context, but follow the current guide for exam preparation and current service documentation for new projects.
 
 ## Practical example
 
@@ -112,3 +112,5 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
+
+> **Service availability note (November 16, 2026):** Amazon Q Business is closed to new customers; its documentation records the change on July 31, 2026. This lesson retains the source use case for context. For new projects, review the successor Quick offering and the [official service history](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/doc-history.html).

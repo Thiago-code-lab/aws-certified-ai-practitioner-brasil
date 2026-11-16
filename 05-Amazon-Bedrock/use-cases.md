@@ -32,3 +32,5 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
+
+> **Service availability note (November 16, 2026):** The source references Amazon Bedrock Agents, now **Amazon Bedrock Agents Classic**, which is closed to new sign-ups. Existing customers can continue using it. For new agent implementations, review [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) and the [Agents availability notice](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html).

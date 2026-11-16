@@ -39,7 +39,7 @@ Models do not compensate for outdated or poorly organized data. In GenAI, old do
 
 ### Chunking, metadata and document curation
 
-For RAG, it's not enough to throw PDFs into a bucket. It is necessary to divide the content into useful parts, preserve context and maintain metadata such as date, area, version and sensitivity. This improves recovery and helps control what can and cannot be used.
+For RAG, it's not enough to throw PDFs into a bucket. It is necessary to divide the content into useful parts, preserve context and maintain metadata such as date, area, version and sensitivity. This improves retrieval and helps control what can and cannot be used.
 
 ### Data protection and classification
 

@@ -36,3 +36,5 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 - LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
 
 ---
+
+> **Service availability note (November 16, 2026):** Amazon Q Business is closed to new customers; its documentation records the change on July 31, 2026. This lesson retains the source use case for context. For new projects, review the successor Quick offering and the [official service history](https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/doc-history.html).

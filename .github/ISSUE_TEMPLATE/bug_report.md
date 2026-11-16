@@ -1,25 +1,25 @@
 ---
 name: bug_report
-about: Reportar problema técnico ou link quebrado
+about: Report technical problem or broken link
 title: "[BUG] "
 labels: bug
 assignees: ""
 ---
 
-## O que aconteceu
+## What happened
 
-Descreva o problema com objetividade.
+Describe the problem objectively.
 
-## Onde aconteceu
+## Where did it happen
 
-- Módulo:
-- Arquivo:
-- Trecho:
+- Module:
+- File:
+- Excerpt:
 
-## Comportamento esperado
+## Expected behavior
 
-Descreva como deveria estar.
+Describe how it should be.
 
-## Observações adicionais
+## Additional observations
 
-Inclua contexto, prints ou sugestão de correção se necessário.
+Include context, screenshots, or correction suggestions if necessary.

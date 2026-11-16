@@ -1,19 +1,19 @@
 ---
 name: aws_update
-about: Sugerir atualização por mudança em serviço, nomenclatura ou escopo do exame
+about: Suggest update due to change in service, nomenclature or scope of the exam
 title: "[AWS UPDATE] "
 labels: content
 assignees: ""
 ---
 
-## Mudança observada
+## Change observed
 
-Explique o que mudou na AWS ou no exame.
+Explain what has changed in AWS or the exam.
 
-## Fonte oficial
+## Official source
 
-Cole o link oficial da AWS que sustenta a atualização.
+Paste the official AWS link supporting the update.
 
-## Impacto no repositório
+## Impact on the repository
 
-Quais módulos ou arquivos precisam ser revisados?
+What modules or files need to be reviewed?

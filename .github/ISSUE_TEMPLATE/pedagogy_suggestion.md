@@ -1,20 +1,20 @@
 ---
 name: pedagogy_suggestion
-about: Sugerir melhoria didática no conteúdo
-title: "[PEDAGOGIA] "
+about: Suggest didactic improvement in content
+title: "[PEDAGOGY] "
 labels: enhancement
 assignees: ""
 ---
 
-## Ponto de melhoria
+## Point for improvement
 
-Explique qual parte do conteúdo pode ficar mais clara.
+Explain which part of the content could be made clearer.
 
-## Arquivo ou módulo
+## File or module
 
-- Módulo:
-- Arquivo:
+- Module:
+- File:
 
-## Sugestão
+## Suggestion
 
-Descreva a melhoria didática proposta.
+Describe the proposed teaching improvement.

@@ -37,3 +37,5 @@ Follow CloudStudy to keep up with new materials, updates and content about AWS c
 ---
 
 > As a practical complement to understanding data feeding AI in the cloud, see the course [Data Engineering on AWS: from Zero to Real Projects](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
+
+> **Service availability note (November 16, 2026):** The source references Amazon Bedrock Agents, now **Amazon Bedrock Agents Classic**, which is closed to new sign-ups. Existing customers can continue using it. For new agent implementations, review [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html) and the [Agents availability notice](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html).
