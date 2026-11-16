@@ -1,0 +1,874 @@
+{
+  "source_commit": "122726b73a6e805a71b711dd65d1786fcc2ba42f",
+  "target_branch": "aif-c01-english",
+  "protected_gh_pages": "224c0a075fa702bf9912dc75b86e0012797fb191",
+  "directory_renames": {
+    "01-Introducao-IA-e-ML": "01-Introduction-to-AI-and-ML",
+    "02-Fundamentos-de-IA-Generativa": "02-Generative-AI-Fundamentals",
+    "03-Fundamentos-de-Machine-Learning": "03-Machine-Learning-Fundamentals",
+    "04-Modelos-Fundacionais-e-LLMs": "04-Foundation-Models-and-LLMs",
+    "05-Amazon-Bedrock": "05-Amazon-Bedrock",
+    "06-Amazon-SageMaker": "06-Amazon-SageMaker",
+    "07-IA-Responsavel-e-Governanca": "07-Responsible-AI-and-Governance",
+    "08-Dados-para-IA": "08-Data-for-AI",
+    "09-Engenharia-de-Prompts": "09-Prompt-Engineering",
+    "10-IA-Generativa-na-AWS": "10-Generative-AI-on-AWS",
+    "11-Seguranca-e-Conformidade-em-IA": "11-AI-Security-and-Compliance",
+    "12-Casos-de-Uso-e-Arquiteturas": "12-AI-Use-Cases-and-Architectures",
+    "13-Servicos-de-IA-da-AWS": "13-AWS-AI-Services",
+    "14-Integracao-com-Aplicacoes": "14-Application-Integration",
+    "15-Boas-Praticas-e-Otimizacao": "15-Best-Practices-and-Optimization",
+    "16-Simulados-e-Questoes": "16-Practice-Exams-and-Questions",
+    "17-Glossario": "17-Glossary",
+    "18-Recursos-e-Links": "18-Resources-and-References",
+    "casos-de-uso.md": "use-cases.md",
+    "questoes.md": "questions.md",
+    "caderno-de-erros.md": "error-log.md",
+    "mini-simulado-por-dominio.md": "domain-practice-exams.md",
+    "reta-final-aif-c01.md": "final-review-aif-c01.md",
+    "simulado-completo-1.md": "full-practice-exam-1.md",
+    "simulado-completo-2.md": "full-practice-exam-2.md"
+  },
+  "files": [
+    {
+      "source": ".github/ISSUE_TEMPLATE/aws_update.md",
+      "target": ".github/ISSUE_TEMPLATE/aws_update.md",
+      "source_sha256": "35adc08c3e7f836f3252560edf09de7f63098fda427da4df38654cb9475a0eb4",
+      "markdown": true
+    },
+    {
+      "source": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "target": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "source_sha256": "f9f5c4ee319ebb6e0a208c85094eaf8fccc95dfbc9c2464a827608fc9f61dc8b",
+      "markdown": true
+    },
+    {
+      "source": ".github/ISSUE_TEMPLATE/pedagogy_suggestion.md",
+      "target": ".github/ISSUE_TEMPLATE/pedagogy_suggestion.md",
+      "source_sha256": "a3fe173bc523fd5eb0a011af9a698e20a418bd64e8892b7cf35e560b8c478511",
+      "markdown": true
+    },
+    {
+      "source": ".github/workflows/deploy.yml",
+      "target": ".github/workflows/deploy.yml",
+      "source_sha256": "aa7b38459d7dfb5335a1f069e427dc767a4330af4888a434d84ddb6be04199e7",
+      "markdown": false
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/README.md",
+      "target": "01-Introduction-to-AI-and-ML/README.md",
+      "source_sha256": "57811ac373a4b80b2361e829f062f535ccc5fd708bd7cd437e3415a7e49b3185",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/casos-de-uso.md",
+      "target": "01-Introduction-to-AI-and-ML/use-cases.md",
+      "source_sha256": "9629f23ef4258b78c2a92ce5145ba62f0e1aa5fb3ea9999938b6449e49530e45",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/cheatsheet.md",
+      "target": "01-Introduction-to-AI-and-ML/cheatsheet.md",
+      "source_sha256": "f62668fdb2f02ad6c60ed2c50f82165edde0e41ac0adff4d9ba2745501953456",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/flashcards.md",
+      "target": "01-Introduction-to-AI-and-ML/flashcards.md",
+      "source_sha256": "6e9381ebb64a4713cd78e7228b10d3d6d13b850c0fcf9cfbd72c9a3e281f61a9",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/lab.md",
+      "target": "01-Introduction-to-AI-and-ML/lab.md",
+      "source_sha256": "59606af8c140c6a96e553412899c30930aca3f7e02c9a7ed820e4b4d3b82d012",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/links.md",
+      "target": "01-Introduction-to-AI-and-ML/links.md",
+      "source_sha256": "ed70577445641ab95ce44b95110ca84aadc96328dae4f76fbe758ed99faf24ca",
+      "markdown": true
+    },
+    {
+      "source": "01-Introducao-IA-e-ML/questoes.md",
+      "target": "01-Introduction-to-AI-and-ML/questions.md",
+      "source_sha256": "7e12c9612be8d9256fa557bfd92fd6b203850ab3a44b4da3e1b0eaa670c97791",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/README.md",
+      "target": "02-Generative-AI-Fundamentals/README.md",
+      "source_sha256": "029e285f8d3769b5f61fef1d74e75fc13c5d1475e27a902dc9574974e0a9e4d6",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/casos-de-uso.md",
+      "target": "02-Generative-AI-Fundamentals/use-cases.md",
+      "source_sha256": "46d597d506460485d525d4f8c02d7c448d8c4b40bb8e1535f8f1d628f386d9b8",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/cheatsheet.md",
+      "target": "02-Generative-AI-Fundamentals/cheatsheet.md",
+      "source_sha256": "629f1d58a5d8c13ec07f89e616200111202c375969b8a479d0cd1282b052a0b6",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/flashcards.md",
+      "target": "02-Generative-AI-Fundamentals/flashcards.md",
+      "source_sha256": "0adf7a489ea74d4e20f57155a4995cdae78e1fb5dae34e16bba9bd1b005359eb",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/lab.md",
+      "target": "02-Generative-AI-Fundamentals/lab.md",
+      "source_sha256": "9fbc825ed18f9e5e8c4d6592638883cc3290a1d25264f06240f8c32f2335f212",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/links.md",
+      "target": "02-Generative-AI-Fundamentals/links.md",
+      "source_sha256": "8c5c131d3048fe54851a2795a4e5c0c540c8ad928a8007f129db52aeb9830c50",
+      "markdown": true
+    },
+    {
+      "source": "02-Fundamentos-de-IA-Generativa/questoes.md",
+      "target": "02-Generative-AI-Fundamentals/questions.md",
+      "source_sha256": "5ccbf1ec531e2b9991476cf30d9d2cdb16bc878777ef130dcf7f8d06a1166e4d",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/README.md",
+      "target": "03-Machine-Learning-Fundamentals/README.md",
+      "source_sha256": "22e760c9dc8dbc3cd825af01cdc18669202a0f1f3f9882205643c2602d3704f0",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/casos-de-uso.md",
+      "target": "03-Machine-Learning-Fundamentals/use-cases.md",
+      "source_sha256": "b2010eeaf995aae018dd28043ef8382cc14cd35c9306b4a37c067767078e9312",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/cheatsheet.md",
+      "target": "03-Machine-Learning-Fundamentals/cheatsheet.md",
+      "source_sha256": "69e0acf801994b29ee9f39d2911820adbae52581d1cd8fb25a2a0b5b3f48a6f0",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/flashcards.md",
+      "target": "03-Machine-Learning-Fundamentals/flashcards.md",
+      "source_sha256": "cb8a07dc8ff2b84e60b70796c9af9a7d830e10aef599c8251e2d1d3d78ac06af",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/lab.md",
+      "target": "03-Machine-Learning-Fundamentals/lab.md",
+      "source_sha256": "0189abd720390a384da28cd945eb887b0f3843274341e9c7be962b7f4e0f8eec",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/links.md",
+      "target": "03-Machine-Learning-Fundamentals/links.md",
+      "source_sha256": "e890177cb3478cdc7ea999f8c79f159afae07587a1c9230f08057afb0558e9ec",
+      "markdown": true
+    },
+    {
+      "source": "03-Fundamentos-de-Machine-Learning/questoes.md",
+      "target": "03-Machine-Learning-Fundamentals/questions.md",
+      "source_sha256": "a20cfc53df89dcb50f02e4594cad48dfdee56142a8f37f3f6f6ee3ab75d89c31",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/README.md",
+      "target": "04-Foundation-Models-and-LLMs/README.md",
+      "source_sha256": "e2c085b5bbdddfec10947b47d8c1b3ded9b57b6f56dc4824f61942b7746f4868",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/casos-de-uso.md",
+      "target": "04-Foundation-Models-and-LLMs/use-cases.md",
+      "source_sha256": "b7d92cd2d60628a34617c6b29351f04ed2d3f71414daecba059aa19e58cf2672",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/cheatsheet.md",
+      "target": "04-Foundation-Models-and-LLMs/cheatsheet.md",
+      "source_sha256": "4ae286e2ab81fb6ca9a9ed0f28d7805d7f740984e89e213e4ef4d2c05d610622",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/flashcards.md",
+      "target": "04-Foundation-Models-and-LLMs/flashcards.md",
+      "source_sha256": "b38bdc0b8c91c9b75db33f38701779d1d7585a4229c7cd3360c6f8ccae9ec78b",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/lab.md",
+      "target": "04-Foundation-Models-and-LLMs/lab.md",
+      "source_sha256": "173025dc048ac1e4931eecced05abf57d8990a0459e371caadac486143070894",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/links.md",
+      "target": "04-Foundation-Models-and-LLMs/links.md",
+      "source_sha256": "755e89802706a67d2dec5947e9cfee3ec70404dfae6b928a7ac5a872b55e3936",
+      "markdown": true
+    },
+    {
+      "source": "04-Modelos-Fundacionais-e-LLMs/questoes.md",
+      "target": "04-Foundation-Models-and-LLMs/questions.md",
+      "source_sha256": "aa818c8018384517a8101cb7817b020f586ad98dfb63e96abbeccfbdca4161c8",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/README.md",
+      "target": "05-Amazon-Bedrock/README.md",
+      "source_sha256": "46603d7a0b7a05138f990ffee671284677d5c665e24769caa2cbf6563fa30a81",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/casos-de-uso.md",
+      "target": "05-Amazon-Bedrock/use-cases.md",
+      "source_sha256": "164e8a41aa001445df504c1fb4a509cd0e2a7334ff28d3eb0aa9e88dd16700e3",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/cheatsheet.md",
+      "target": "05-Amazon-Bedrock/cheatsheet.md",
+      "source_sha256": "4174d4c6ca2d262ed1459347b7735f72798a09a00ea3749917072ecf2c41dc3b",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/flashcards.md",
+      "target": "05-Amazon-Bedrock/flashcards.md",
+      "source_sha256": "f0274c19f927666dfb6cf464a796b3a394468e83fe8278397445ed7f54c90322",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/lab.md",
+      "target": "05-Amazon-Bedrock/lab.md",
+      "source_sha256": "4cf819b8e331f1d24b9c316b580a1433051f649960dda1b970b6acfbcb1229a6",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/links.md",
+      "target": "05-Amazon-Bedrock/links.md",
+      "source_sha256": "c40fadcd76cd151d81c89ec7cd66f78925b85dfb39f46649ab2bd3d848b16156",
+      "markdown": true
+    },
+    {
+      "source": "05-Amazon-Bedrock/questoes.md",
+      "target": "05-Amazon-Bedrock/questions.md",
+      "source_sha256": "db25c807ef02b11879351246dd6ee3def12dd5c6f4e308fce68690cfc1c748d4",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/README.md",
+      "target": "06-Amazon-SageMaker/README.md",
+      "source_sha256": "f71fce96ea3dc7a9874d0cf9462a8db007cb656527eb02ed2d0c2a007e8d0e3b",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/casos-de-uso.md",
+      "target": "06-Amazon-SageMaker/use-cases.md",
+      "source_sha256": "7b6dbbfa51c7d55e916025ea5a44e7a603ac8181c27ebefd96b1361fc0091a88",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/cheatsheet.md",
+      "target": "06-Amazon-SageMaker/cheatsheet.md",
+      "source_sha256": "7545335809c3e03dd1f8e370ac080054b3dc514663af794fcf9f47530b2d60df",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/flashcards.md",
+      "target": "06-Amazon-SageMaker/flashcards.md",
+      "source_sha256": "b6d05ad4827d431f3eba3fae5ca16c8721ecbd413039ad457e28ddc3b1cf5db6",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/lab.md",
+      "target": "06-Amazon-SageMaker/lab.md",
+      "source_sha256": "2f8671994789bc7b40f714e0f47b91e98135705988396868e68732eab2ae4cd0",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/links.md",
+      "target": "06-Amazon-SageMaker/links.md",
+      "source_sha256": "6a5a94a903039af94ce5691aa6edc8cc6625c468b48ee48d800be5a2c72631c1",
+      "markdown": true
+    },
+    {
+      "source": "06-Amazon-SageMaker/questoes.md",
+      "target": "06-Amazon-SageMaker/questions.md",
+      "source_sha256": "d4221f05c54a115f9dff49726c5356923d53b66397704759b68fcd690e453568",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/README.md",
+      "target": "07-Responsible-AI-and-Governance/README.md",
+      "source_sha256": "e9622737be00ad001e3531d349cd272e7a9685c9dd4a466c15a15f838cad9fdb",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/casos-de-uso.md",
+      "target": "07-Responsible-AI-and-Governance/use-cases.md",
+      "source_sha256": "74220ae02612aa716bd1f87f0cbed6b01a14fae52a18d0719982c6276b7e33e3",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/cheatsheet.md",
+      "target": "07-Responsible-AI-and-Governance/cheatsheet.md",
+      "source_sha256": "b1d03c125edee74dbc94b09721e773da66021d8ed31bc613f050e4b4a5124253",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/flashcards.md",
+      "target": "07-Responsible-AI-and-Governance/flashcards.md",
+      "source_sha256": "f7114d595694f5ea77142f88bc4a75f98422b2ffd3605c3e2b1c6b04e36d7ba2",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/lab.md",
+      "target": "07-Responsible-AI-and-Governance/lab.md",
+      "source_sha256": "8f93fa5c62205146815e3ce0217c76a64e98c13149c29c748dc462f28667bf9c",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/links.md",
+      "target": "07-Responsible-AI-and-Governance/links.md",
+      "source_sha256": "3990739a071462c9865fd72a7732b0d7350d0b2337fc91065195cf6eef3ba42f",
+      "markdown": true
+    },
+    {
+      "source": "07-IA-Responsavel-e-Governanca/questoes.md",
+      "target": "07-Responsible-AI-and-Governance/questions.md",
+      "source_sha256": "02050636e3b20561d68447f2ecbfc7fd34c08ba8844b626bc713ac1809680da7",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/README.md",
+      "target": "08-Data-for-AI/README.md",
+      "source_sha256": "a526847005d1af1ddfcbfabd195409bb51ad71098e1f3af1e9a5e4556c98e6ba",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/casos-de-uso.md",
+      "target": "08-Data-for-AI/use-cases.md",
+      "source_sha256": "8cc3b89ea74f7d53111e08958f63fc97c9e79c9005fe3986bcef37385ffc4721",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/cheatsheet.md",
+      "target": "08-Data-for-AI/cheatsheet.md",
+      "source_sha256": "7a5517fc7be84ee092c371180715c41670c088a61059bad3a55c1dc1cd2f7af2",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/flashcards.md",
+      "target": "08-Data-for-AI/flashcards.md",
+      "source_sha256": "c6cf031015f7eb21b9ed4bccdc35ab81c2b309eff5996ab05c7ff7641b4c4541",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/lab.md",
+      "target": "08-Data-for-AI/lab.md",
+      "source_sha256": "d5d795a6ee1ce29cbdacbba002853954859f306a63ce8900cd582944cd3b0e12",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/links.md",
+      "target": "08-Data-for-AI/links.md",
+      "source_sha256": "f4c9cc2607c5c6c847e534bf4c89cad03bdeac620517cce79210370edba9b6a8",
+      "markdown": true
+    },
+    {
+      "source": "08-Dados-para-IA/questoes.md",
+      "target": "08-Data-for-AI/questions.md",
+      "source_sha256": "b2d2f7c9d0c37d7418274a57168f090daad7f94796c6829073315babbbc2f1ba",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/README.md",
+      "target": "09-Prompt-Engineering/README.md",
+      "source_sha256": "f6b0e22ee8a03236f31c26de8ceee7a9ae9635036555bda17da7805e4bf38532",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/casos-de-uso.md",
+      "target": "09-Prompt-Engineering/use-cases.md",
+      "source_sha256": "9cb79be4d2799f55e95a075b6f94c4c5eb815db73075fcbc7488d1a7848f7e9e",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/cheatsheet.md",
+      "target": "09-Prompt-Engineering/cheatsheet.md",
+      "source_sha256": "8a6806a43f29c639eaa96cb37b33f8ef84097e1f4497e6e8f68261604e6eaee7",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/flashcards.md",
+      "target": "09-Prompt-Engineering/flashcards.md",
+      "source_sha256": "0c561f574dc8515a6a89030f5609d6f642a2a4951e5a6fc76ff7b64084f5584f",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/lab.md",
+      "target": "09-Prompt-Engineering/lab.md",
+      "source_sha256": "1fb59db6b134af6a72b4cc6f62ac544d775488123b8f2dab5253604358aeda28",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/links.md",
+      "target": "09-Prompt-Engineering/links.md",
+      "source_sha256": "ed4f6fa2e4137b43004635803564a96cb7043deb6d38803598144cf4e1077d89",
+      "markdown": true
+    },
+    {
+      "source": "09-Engenharia-de-Prompts/questoes.md",
+      "target": "09-Prompt-Engineering/questions.md",
+      "source_sha256": "783f7c6a2b2c330b54a5a67a88a04ded89e0e8e59ca1945db5b787901118046a",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/README.md",
+      "target": "10-Generative-AI-on-AWS/README.md",
+      "source_sha256": "1deb0ce484f62e06bc563049a81275d9ee4164e4a032e5f16d440615e3764ec2",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/casos-de-uso.md",
+      "target": "10-Generative-AI-on-AWS/use-cases.md",
+      "source_sha256": "6c47d5b00c2ab43623dd51d4885cf095ce5df2bb435063fdf1cae4952f9a4519",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/cheatsheet.md",
+      "target": "10-Generative-AI-on-AWS/cheatsheet.md",
+      "source_sha256": "e2b807781dde5f4af1866ef36d288b4913a3c5090d94e5261c657cab3d0dab93",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/flashcards.md",
+      "target": "10-Generative-AI-on-AWS/flashcards.md",
+      "source_sha256": "693357a6303925c2e342897d39943d62bf5667308ab6e09b4048c9ea05dffad8",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/lab.md",
+      "target": "10-Generative-AI-on-AWS/lab.md",
+      "source_sha256": "00d673773deb6f8929d99048f582f6660af081cad917860eecfbd0b70ed81af3",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/links.md",
+      "target": "10-Generative-AI-on-AWS/links.md",
+      "source_sha256": "54b0fd87852c21d0cd2882ef3f200269e19603cc7e93c005cc9aa6923b8cb2d9",
+      "markdown": true
+    },
+    {
+      "source": "10-IA-Generativa-na-AWS/questoes.md",
+      "target": "10-Generative-AI-on-AWS/questions.md",
+      "source_sha256": "231a7012b22266e4a1ee411b8f46b6b20c4628a0455e510bd10a923c8885bef8",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/README.md",
+      "target": "11-AI-Security-and-Compliance/README.md",
+      "source_sha256": "45ba4c2e27240c6b38897805bf6e6641da16af6e581fce8ed1df74d3fed8687c",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/casos-de-uso.md",
+      "target": "11-AI-Security-and-Compliance/use-cases.md",
+      "source_sha256": "734829d072cc41ceb6e8aa12a5bdb1a1aa2b8aa4388240ab82803b6656354769",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/cheatsheet.md",
+      "target": "11-AI-Security-and-Compliance/cheatsheet.md",
+      "source_sha256": "ff595fdf458689de852e7d88a9bbba7fa49bd332aec4ea8c6be477a075d9d1f8",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/flashcards.md",
+      "target": "11-AI-Security-and-Compliance/flashcards.md",
+      "source_sha256": "a1ad9c640232612517e01095ae315a9521f81062bfc348b33b90d39dded5ea55",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/lab.md",
+      "target": "11-AI-Security-and-Compliance/lab.md",
+      "source_sha256": "7c6f29b52fe36a3db5f932446f0a5d49a502f9670376becda3f8b0060e5d24a6",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/links.md",
+      "target": "11-AI-Security-and-Compliance/links.md",
+      "source_sha256": "8083a97a446dd1690b3d3f1159209a550965aec72c086f93408492cf6db696e5",
+      "markdown": true
+    },
+    {
+      "source": "11-Seguranca-e-Conformidade-em-IA/questoes.md",
+      "target": "11-AI-Security-and-Compliance/questions.md",
+      "source_sha256": "cefec02e25c993989bda23146a34bd4198d3ec1ae7cd7f74c6ef2451085fd172",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/README.md",
+      "target": "12-AI-Use-Cases-and-Architectures/README.md",
+      "source_sha256": "76055f4c2d0bb55792ae8287a4a1baf53ae153b7e72fc8540b812fabd86f8fb0",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/casos-de-uso.md",
+      "target": "12-AI-Use-Cases-and-Architectures/use-cases.md",
+      "source_sha256": "904b87142b9f99f1013f21138ed5f930b109d1bc02c757d8ed692d334a4a2a44",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/cheatsheet.md",
+      "target": "12-AI-Use-Cases-and-Architectures/cheatsheet.md",
+      "source_sha256": "1cd407e8bbe171328cc95dcaed3b7da258f5e672dc0b33d6539a107cf885e0ee",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/flashcards.md",
+      "target": "12-AI-Use-Cases-and-Architectures/flashcards.md",
+      "source_sha256": "c8f526dfa55412529111a102b642a7f186b429f0003ef630abbd5c9f38271278",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/lab.md",
+      "target": "12-AI-Use-Cases-and-Architectures/lab.md",
+      "source_sha256": "155ff3397ebbe5c048666ebf20c97da3dfcc84053bc5a308297bd3a64d9e664b",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/links.md",
+      "target": "12-AI-Use-Cases-and-Architectures/links.md",
+      "source_sha256": "b2a7cc06d99f4712ba5c1718474146923c8b05e904cda39b80315be3e4d0ee79",
+      "markdown": true
+    },
+    {
+      "source": "12-Casos-de-Uso-e-Arquiteturas/questoes.md",
+      "target": "12-AI-Use-Cases-and-Architectures/questions.md",
+      "source_sha256": "0f31502a837d333c1863f9e02d57655be09cd2db8f20538d420b16ae7e766864",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/README.md",
+      "target": "13-AWS-AI-Services/README.md",
+      "source_sha256": "2c9825df6433f32d1f3187043350b1763a16531583eca9a64d00f8c463a6f979",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/casos-de-uso.md",
+      "target": "13-AWS-AI-Services/use-cases.md",
+      "source_sha256": "65a4ded02219f831c0cc1202f42b1ac5f718414b605a3bd30df20360ed7c96a7",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/cheatsheet.md",
+      "target": "13-AWS-AI-Services/cheatsheet.md",
+      "source_sha256": "049bc2df3452375124aacbaa34048b36e78585bf42b469fc7a6680bd0443afe0",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/flashcards.md",
+      "target": "13-AWS-AI-Services/flashcards.md",
+      "source_sha256": "905db96b69cba62c916bb98e49412d50ef13dca3f9a9a43f21c7ecc4e9e91042",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/lab.md",
+      "target": "13-AWS-AI-Services/lab.md",
+      "source_sha256": "e2d70085ea385a3f25f735d70fd31e95e168be96cf97adfbf544fd3bfaf784b2",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/links.md",
+      "target": "13-AWS-AI-Services/links.md",
+      "source_sha256": "523791c08d26d50133d1309cf458e513541b1d11dd6fc2099b8ee9d966a15689",
+      "markdown": true
+    },
+    {
+      "source": "13-Servicos-de-IA-da-AWS/questoes.md",
+      "target": "13-AWS-AI-Services/questions.md",
+      "source_sha256": "6ab128eaf71b0f45e2ced9888a435f556da4ae6b736f433a86abcbf5298f3125",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/README.md",
+      "target": "14-Application-Integration/README.md",
+      "source_sha256": "4c2d6cf28592e605ecb1b191d45959d4579784bbec7a92499d70ea052943c9e5",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/casos-de-uso.md",
+      "target": "14-Application-Integration/use-cases.md",
+      "source_sha256": "bf36ca186be35e915d5a944de6dc9747ecd7aa908dd4dc6c9337202389d36337",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/cheatsheet.md",
+      "target": "14-Application-Integration/cheatsheet.md",
+      "source_sha256": "b6f545587b748def6dfd9dac007939009e027beb3cf6d203cf7cd0759bf9d515",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/flashcards.md",
+      "target": "14-Application-Integration/flashcards.md",
+      "source_sha256": "1f3cff29e1f59a0f4e6acc63387221e018623dc32b1c8ba5dd19ee7275d05d74",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/lab.md",
+      "target": "14-Application-Integration/lab.md",
+      "source_sha256": "348160d96538ccb53cc0f415607bec66be0e04ee54b365951b7d564e58b656aa",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/links.md",
+      "target": "14-Application-Integration/links.md",
+      "source_sha256": "bca07af052746db6230a76f227f4807cbb4b2ccbaa6fe09ed375b9772a34e830",
+      "markdown": true
+    },
+    {
+      "source": "14-Integracao-com-Aplicacoes/questoes.md",
+      "target": "14-Application-Integration/questions.md",
+      "source_sha256": "d78a97755c30a9dda81350d76e3df4399ed86728f7bccb6f7ef641d348d7e3ff",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/README.md",
+      "target": "15-Best-Practices-and-Optimization/README.md",
+      "source_sha256": "39d05354e2d009b8000dc43a9bd24b42244901b0167f36a606d360d7245c37c5",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/casos-de-uso.md",
+      "target": "15-Best-Practices-and-Optimization/use-cases.md",
+      "source_sha256": "07d9a900deb2240c03293e300481b9727ffd0f2b4bf728fe2ad2077414a45754",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/cheatsheet.md",
+      "target": "15-Best-Practices-and-Optimization/cheatsheet.md",
+      "source_sha256": "9cf4daf2d02ce587879a10f43635c953aabd2fc9e20ad2794ae30bc009a67fc0",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/flashcards.md",
+      "target": "15-Best-Practices-and-Optimization/flashcards.md",
+      "source_sha256": "5d758f7e080d87e47085587419ed4b23fa6ed928fd144df761014e7e47779567",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/lab.md",
+      "target": "15-Best-Practices-and-Optimization/lab.md",
+      "source_sha256": "2d7c4a24aae29ef48ec00d1c3a0ea58e6d56e2de0b53091d670a83a2efd5aed2",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/links.md",
+      "target": "15-Best-Practices-and-Optimization/links.md",
+      "source_sha256": "3f09923a91ce4f055f5d9f7311e79327086730f9f48cf994f71bb593abff7650",
+      "markdown": true
+    },
+    {
+      "source": "15-Boas-Praticas-e-Otimizacao/questoes.md",
+      "target": "15-Best-Practices-and-Optimization/questions.md",
+      "source_sha256": "2fa0af2e67c00d27a04a6acbab7a0b6514e9751cefe32e95fb56acfe5f73f6ff",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/README.md",
+      "target": "16-Practice-Exams-and-Questions/README.md",
+      "source_sha256": "a69fcb625ec430197dcb1e2e3493e0388dfdeba6bef4e3d79be39d8c5d8c620b",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/caderno-de-erros.md",
+      "target": "16-Practice-Exams-and-Questions/error-log.md",
+      "source_sha256": "e55e7e6d2cf2ff6e2879ca337ee43ad4de06c88df8db7080dd9dcc938c097e18",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/cheatsheet.md",
+      "target": "16-Practice-Exams-and-Questions/cheatsheet.md",
+      "source_sha256": "73fc7b493f28e97a9883156f46d3d3887d44b41f47f640d086bd0f201b08c992",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/flashcards.md",
+      "target": "16-Practice-Exams-and-Questions/flashcards.md",
+      "source_sha256": "4110288c3229789d464cb8d77eb5ba74d1ea2c2b8941a93c6c61d636c259b493",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/links.md",
+      "target": "16-Practice-Exams-and-Questions/links.md",
+      "source_sha256": "1d440b17c6b797c33fea7004f330f40ac3da210d25781105a8e93dd3cc823758",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/mini-simulado-por-dominio.md",
+      "target": "16-Practice-Exams-and-Questions/domain-practice-exams.md",
+      "source_sha256": "f4ab36bcb0aece8af0192a7240f07740120851ab51d3d8896176967ace43d407",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/questoes.md",
+      "target": "16-Practice-Exams-and-Questions/questions.md",
+      "source_sha256": "37d17e05fe912149dce8147543925adf894b1fdcc35f1c9ac4c6f68e544dbb04",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/reta-final-aif-c01.md",
+      "target": "16-Practice-Exams-and-Questions/final-review-aif-c01.md",
+      "source_sha256": "f68089e2f7b4b9be840d0e0d6ec4ece511c588210612147997d7cd09c84f0809",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/simulado-completo-1.md",
+      "target": "16-Practice-Exams-and-Questions/full-practice-exam-1.md",
+      "source_sha256": "d88684f854386ed1bf901ed0fcdeef144e3ae4fcfbfef2be9663459b546f8376",
+      "markdown": true
+    },
+    {
+      "source": "16-Simulados-e-Questoes/simulado-completo-2.md",
+      "target": "16-Practice-Exams-and-Questions/full-practice-exam-2.md",
+      "source_sha256": "9c381832eacfddbac1dd58996917fec1026c95b9e945b93d1f0fb7368271dc5c",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/README.md",
+      "target": "17-Glossary/README.md",
+      "source_sha256": "939d1086e1500904ccc8e441d5d2b110fb2cae3e2bde72e7afe58888f648af92",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/casos-de-uso.md",
+      "target": "17-Glossary/use-cases.md",
+      "source_sha256": "4dbb456fc29305ab31eeed35166af8f114b5ffb070dfb6201000d33f2619d349",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/cheatsheet.md",
+      "target": "17-Glossary/cheatsheet.md",
+      "source_sha256": "605c4709f5f6692b7b6b684bce46c0ffb8823a60bdd00c68ba57f82831312593",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/flashcards.md",
+      "target": "17-Glossary/flashcards.md",
+      "source_sha256": "eb4204e6903c71cdabc17e349efbc23d13cbc51c49c7c5e25170e78cdaed6d08",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/lab.md",
+      "target": "17-Glossary/lab.md",
+      "source_sha256": "b39227f43dc87217c4c3017a3b80bfcca5d47fa728d23040560ec95cb7eceeb4",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/links.md",
+      "target": "17-Glossary/links.md",
+      "source_sha256": "d0717618cf6aea50776c6c08eec9f84c49837e63adea57b33db534d6759a29d2",
+      "markdown": true
+    },
+    {
+      "source": "17-Glossario/questoes.md",
+      "target": "17-Glossary/questions.md",
+      "source_sha256": "6efada14f395cc5e89ea970f6dde3515b07c5ebe5ef4a566d35a50e49fec61f7",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/README.md",
+      "target": "18-Resources-and-References/README.md",
+      "source_sha256": "5c7270f28e6b441011749b6175971dd3c09442d0ff4d9433543e75bc1c7bd81c",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/casos-de-uso.md",
+      "target": "18-Resources-and-References/use-cases.md",
+      "source_sha256": "d43d10c4018ddcc7f2c3acc870b89e7eca75457f4b649c98c18bb96aa66e6d24",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/cheatsheet.md",
+      "target": "18-Resources-and-References/cheatsheet.md",
+      "source_sha256": "12ac58d276fb924968045e630c741c5c5c8441e230257354c63e9b41878e238f",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/flashcards.md",
+      "target": "18-Resources-and-References/flashcards.md",
+      "source_sha256": "76efbc0b30d97eaa5f0b38015803e1c8a117f5e00b532692e787b2e1fef0e30d",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/lab.md",
+      "target": "18-Resources-and-References/lab.md",
+      "source_sha256": "aafc63d696b6572261a1becee5305a7e4aceb9e776967357cddd5328ce025bb3",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/links.md",
+      "target": "18-Resources-and-References/links.md",
+      "source_sha256": "795a1bc683f436ca1db5712349890c52b4b6df571d467ad26cd55cb0dcb54490",
+      "markdown": true
+    },
+    {
+      "source": "18-Recursos-e-Links/questoes.md",
+      "target": "18-Resources-and-References/questions.md",
+      "source_sha256": "408f8f9269d0c73715ea07ef0cf6af5f5f6cc8b5ab2e15228d93866cfa888f6f",
+      "markdown": true
+    },
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "source_sha256": "73f1fe5eb0398c8a33a03523b53d7f786932562118f8073d42eda1e620a2e787",
+      "markdown": false
+    },
+    {
+      "source": "README.md",
+      "target": "README.md",
+      "source_sha256": "2b4979512d3b14c9079fbcc202174ad4da36730dd5a6c995ed87422cab57b50c",
+      "markdown": true
+    },
+    {
+      "source": "assets/AI-Practitioner-Banner.png",
+      "target": "assets/AI-Practitioner-Banner.png",
+      "source_sha256": "bc13593a1aee3e0cf114a3a167157d17876f08173f42a2382913ed9d090e36cf",
+      "markdown": false
+    },
+    {
+      "source": "assets/Free-open-repo.png",
+      "target": "assets/Free-open-repo.png",
+      "source_sha256": "239c9718e5809710bf4e28f7dbd24fe30fbb0a83df0386bf5283d24136f710f5",
+      "markdown": false
+    },
+    {
+      "source": "assets/IaPractitioner (1).png",
+      "target": "assets/IaPractitioner (1).png",
+      "source_sha256": "f79548586d54bfaa11a0dac383c2b5536720a2c81a84d71583b3943052c110c3",
+      "markdown": false
+    },
+    {
+      "source": "assets/Logo-CloudStudy.png",
+      "target": "assets/Logo-CloudStudy.png",
+      "source_sha256": "020c13830d14b33100f8238b7a1edd95798b44c23b0e504d9eaf9e0bae4cb3c8",
+      "markdown": false
+    },
+    {
+      "source": "index.html",
+      "target": "index.html",
+      "source_sha256": "99cb99776ce80921be84bde4a43ef4c7df36ed4835df33bf78ef50a1d5f17b4e",
+      "markdown": false
+    }
+  ]
+}

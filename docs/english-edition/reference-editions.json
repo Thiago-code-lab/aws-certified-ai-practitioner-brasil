@@ -1,0 +1,22 @@
+{
+  "references": [
+    {
+      "repository": "reference-clf",
+      "branch": "clf-c02-english",
+      "commit": "6dc4989bee92978c2bf4d0610cf0ca7a425efc2b"
+    },
+    {
+      "repository": "reference-saa",
+      "branch": "saa-c03-english",
+      "commit": "ce3f39a210a2cb22e5290deb20fad9c754b3428c"
+    }
+  ],
+  "adopted_conventions": [
+    "Descriptive English paths and repeated basenames",
+    "GitHub-native module navigation",
+    "Preserved CloudStudy artwork and promotional links",
+    "Source inventory and editorial manifests",
+    "Question audit, link validation, and mutation tests"
+  ],
+  "excluded": "Portal development and browser/deployment tests: explicitly outside this task."
+}

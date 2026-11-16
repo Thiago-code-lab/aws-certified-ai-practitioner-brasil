@@ -1,0 +1,1761 @@
+{
+  "counts": {
+    "multiple_choice_occurrences": 30,
+    "distinct_multiple_choice_questions": 22,
+    "short_answer_reviews": 85,
+    "flashcards": 144,
+    "labs": 17
+  },
+  "official_domain_counts": {
+    "1": 7,
+    "2": 5,
+    "3": 5,
+    "4": 5,
+    "5": 8
+  },
+  "answer_key_corrections": [],
+  "answer_key_discrepancies": [],
+  "source_content_discrepancies": [
+    "Module 16 introduction advertised 13/20/20/15 questions; actual files contain 6/8/8/8.",
+    "Practice exam 2 repeats all eight questions in practice exam 1; duplicates are preserved.",
+    "The source 65-question assembly plan cannot be completed with the actual question bank.",
+    "Domain practice contains mixed objectives without named domain sections; per-question mappings are supplied here.",
+    "Only single-answer multiple-choice questions are present; the source description overstated format coverage."
+  ],
+  "multiple_choice_files": [
+    {
+      "source": "16-Simulados-e-Questoes/mini-simulado-por-dominio.md",
+      "target": "16-Practice-Exams-and-Questions/domain-practice-exams.md",
+      "questions": [
+        {
+          "id": "domain-practice-exams:17",
+          "source_question": {
+            "number": "17",
+            "stem": "Em uma questão que contrasta RAG e fine-tuning para base documental dinâmica, a melhor escolha tende a ser:",
+            "options": [
+              [
+                "A",
+                "Fine-tuning recorrente"
+              ],
+              [
+                "B",
+                "RAG com base vetorial"
+              ],
+              [
+                "C",
+                "Sem fonte de contexto"
+              ],
+              [
+                "D",
+                "Prompt único fixo"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "c8412c80562acbea556279126e5c95f700e0c7c541702b32a954ebee75272f28"
+          },
+          "target_question": {
+            "number": "17",
+            "stem": "In a question that contrasts RAG and fine-tuning for dynamic document bases, the best choice tends to be:",
+            "options": [
+              [
+                "A",
+                "Recurrent fine-tuning"
+              ],
+              [
+                "B",
+                "Vector-based RAG"
+              ],
+              [
+                "C",
+                "No context source"
+              ],
+              [
+                "D",
+                "Fixed single prompt"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "af8aec4b1f3e464bb1f91998c0d2a7e6d025f8f7402a700352f549037dcea475"
+          },
+          "target_sha256": "af8aec4b1f3e464bb1f91998c0d2a7e6d025f8f7402a700352f549037dcea475",
+          "official_domain": 3,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:18",
+          "source_question": {
+            "number": "18",
+            "stem": "Qual serviço combina melhor com análise de sentimento e entidades em texto?",
+            "options": [
+              [
+                "A",
+                "Comprehend"
+              ],
+              [
+                "B",
+                "Rekognition"
+              ],
+              [
+                "C",
+                "Textract"
+              ],
+              [
+                "D",
+                "Polly"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fdab3c7f358754c497ec2ca9fda9cb0d0a9596c11ec4d3670a853c9995d2cc90"
+          },
+          "target_question": {
+            "number": "18",
+            "stem": "Which service best matches sentiment analysis and text entities?",
+            "options": [
+              [
+                "A",
+                "Comprehend"
+              ],
+              [
+                "B",
+                "Rekognition"
+              ],
+              [
+                "C",
+                "Textract"
+              ],
+              [
+                "D",
+                "Polly"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "3c47d1b7dc7a2db4eec3da7ad8c0a319ecaaf88dfbe54987f6d1ab2cee37fdb5"
+          },
+          "target_sha256": "3c47d1b7dc7a2db4eec3da7ad8c0a319ecaaf88dfbe54987f6d1ab2cee37fdb5",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:19",
+          "source_question": {
+            "number": "19",
+            "stem": "Para expor segredo de API ao app com menor risco, você deve:",
+            "options": [
+              [
+                "A",
+                "Embutir no código"
+              ],
+              [
+                "B",
+                "Armazenar em Secrets Manager"
+              ],
+              [
+                "C",
+                "Salvar em variável local sem proteção"
+              ],
+              [
+                "D",
+                "Publicar no S3 público"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "81fc77d20028f5f1239f547a0af179cf277b61db70ee21c1eb1ab933de413b2c"
+          },
+          "target_question": {
+            "number": "19",
+            "stem": "To provide an API secret to your application with the lowest risk, you should:",
+            "options": [
+              [
+                "A",
+                "Embed it in the code"
+              ],
+              [
+                "B",
+                "Store in Secrets Manager"
+              ],
+              [
+                "C",
+                "Save to local variable without protection"
+              ],
+              [
+                "D",
+                "Publish to public S3"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "00f382a932d937f8d92d444a64cec9482a59e0ecad05b93b7c18c33e80717641"
+          },
+          "target_sha256": "00f382a932d937f8d92d444a64cec9482a59e0ecad05b93b7c18c33e80717641",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:20",
+          "source_question": {
+            "number": "20",
+            "stem": "Qual prática reduz alucinação em assistentes corporativos?",
+            "options": [
+              [
+                "A",
+                "Grounding com fontes confiáveis"
+              ],
+              [
+                "B",
+                "Remover contexto documental"
+              ],
+              [
+                "C",
+                "Desabilitar validação humana sempre"
+              ],
+              [
+                "D",
+                "Ignorar avaliação de saída"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "aefc202861a83b573d8c537ad5e01cf860633fbec286030df7b2ed2b441cc798"
+          },
+          "target_question": {
+            "number": "20",
+            "stem": "Which practice reduces hallucinations in corporate assistants?",
+            "options": [
+              [
+                "A",
+                "Grounding with reliable sources"
+              ],
+              [
+                "B",
+                "Remove document context"
+              ],
+              [
+                "C",
+                "Disable human validation always"
+              ],
+              [
+                "D",
+                "Ignore output evaluation"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "a784cc50b7cc0a4ad81aa45abb075606d736247aa67e207e8ec50a6f6be5801e"
+          },
+          "target_sha256": "a784cc50b7cc0a4ad81aa45abb075606d736247aa67e207e8ec50a6f6be5801e",
+          "official_domain": 3,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:21",
+          "source_question": {
+            "number": "21",
+            "stem": "Para detectar dados sensíveis em S3 de forma gerenciada, qual serviço é esperado?",
+            "options": [
+              [
+                "A",
+                "Macie"
+              ],
+              [
+                "B",
+                "DynamoDB"
+              ],
+              [
+                "C",
+                "ECR"
+              ],
+              [
+                "D",
+                "SNS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "2b38f1f19f7004503a55a2e1cbf335a5e77aba2b3327b5317390ea93315e9e11"
+          },
+          "target_question": {
+            "number": "21",
+            "stem": "To detect sensitive data in S3 in a managed way, what service is expected?",
+            "options": [
+              [
+                "A",
+                "Macie"
+              ],
+              [
+                "B",
+                "DynamoDB"
+              ],
+              [
+                "C",
+                "ECR"
+              ],
+              [
+                "D",
+                "SNS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "22adb41eaa276c3e250e3e088d8875e266cc2c3f2c0c856612127b174848f930"
+          },
+          "target_sha256": "22adb41eaa276c3e250e3e088d8875e266cc2c3f2c0c856612127b174848f930",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:22",
+          "source_question": {
+            "number": "22",
+            "stem": "Em responsabilidade de IA, o que fortalece accountability?",
+            "options": [
+              [
+                "A",
+                "Logs e critérios de revisão humana"
+              ],
+              [
+                "B",
+                "Exclusão de auditoria"
+              ],
+              [
+                "C",
+                "Acesso irrestrito por conveniência"
+              ],
+              [
+                "D",
+                "Sem versionamento de prompt"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "bbd001ba5ba0e186ecb3421b985f40fdd4a72242313a7d05c6a2ebe0236f7a9d"
+          },
+          "target_question": {
+            "number": "22",
+            "stem": "In responsible AI, what strengthens accountability?",
+            "options": [
+              [
+                "A",
+                "Logs and human review criteria"
+              ],
+              [
+                "B",
+                "Audit exclusion"
+              ],
+              [
+                "C",
+                "Unrestricted access for convenience"
+              ],
+              [
+                "D",
+                "No prompt versioning"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "72c57f5a1298eff31125936bf378778f3c440997def681856fc3aaa0c42b50d3"
+          },
+          "target_sha256": "72c57f5a1298eff31125936bf378778f3c440997def681856fc3aaa0c42b50d3",
+          "official_domain": 4,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:23",
+          "source_question": {
+            "number": "23",
+            "stem": "Para caso de uso de OCR em documentos financeiros, qual opção tende a ser mais direta?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Bedrock Guardrails"
+              ],
+              [
+                "C",
+                "Neptune"
+              ],
+              [
+                "D",
+                "CloudWatch Logs"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "424fd2f861410d5f33cdaeec72697d98858288fadad402199cf973387769e933"
+          },
+          "target_question": {
+            "number": "23",
+            "stem": "For the case of using OCR on financial documents, which option tends to be more direct?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Amazon Bedrock Guardrails"
+              ],
+              [
+                "C",
+                "Neptune"
+              ],
+              [
+                "D",
+                "CloudWatch Logs"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "b8deb9359177b76695daa4eaf138e48fff42aba2a1f5c6171c74da2d756ad99e"
+          },
+          "target_sha256": "b8deb9359177b76695daa4eaf138e48fff42aba2a1f5c6171c74da2d756ad99e",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "domain-practice-exams:24",
+          "source_question": {
+            "number": "24",
+            "stem": "Em prova de AI Practitioner, quando duas opções funcionam, a melhor costuma ser:",
+            "options": [
+              [
+                "A",
+                "A mais gerenciada e aderente ao enunciado"
+              ],
+              [
+                "B",
+                "A mais complexa tecnicamente"
+              ],
+              [
+                "C",
+                "A mais customizada sem necessidade"
+              ],
+              [
+                "D",
+                "A de maior custo"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "5bca9d7a75e6da8a496ef30548dd1bc3194fe6febdb4946c164c7315e197684a"
+          },
+          "target_question": {
+            "number": "24",
+            "stem": "In the AI Practitioner test, when two options work, the best one is usually:",
+            "options": [
+              [
+                "A",
+                "The most managed option that meets the stated requirements"
+              ],
+              [
+                "B",
+                "The most technically complex"
+              ],
+              [
+                "C",
+                "The most customized without need"
+              ],
+              [
+                "D",
+                "The highest cost"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "9e2e3d6d66fcdfd4f01f5827789a2dfd6a490b3a815ee8985ccab4d0c6a284b5"
+          },
+          "target_sha256": "9e2e3d6d66fcdfd4f01f5827789a2dfd6a490b3a815ee8985ccab4d0c6a284b5",
+          "official_domain": 2,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        }
+      ]
+    },
+    {
+      "source": "16-Simulados-e-Questoes/questoes.md",
+      "target": "16-Practice-Exams-and-Questions/questions.md",
+      "questions": [
+        {
+          "id": "questions:01",
+          "source_question": {
+            "number": "01",
+            "stem": "Em um cenário com base documental que muda semanalmente, qual abordagem é mais adequada para respostas atualizadas?",
+            "options": [
+              [
+                "A",
+                "RAG com recuperação de contexto"
+              ],
+              [
+                "B",
+                "Fine-tuning a cada atualização"
+              ],
+              [
+                "C",
+                "Remoção de logs de auditoria"
+              ],
+              [
+                "D",
+                "Substituir IAM por Guardrails"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "24b70fd525fcb5ad2395b829252768bdfb7082e3179a479100b7fe9ef03dc2c7"
+          },
+          "target_question": {
+            "number": "01",
+            "stem": "In a document-based scenario that changes weekly, which approach is best suited for updated responses?",
+            "options": [
+              [
+                "A",
+                "RAG with context retrieval"
+              ],
+              [
+                "B",
+                "Fine-tuning with each update"
+              ],
+              [
+                "C",
+                "Removal of audit logs"
+              ],
+              [
+                "D",
+                "Replace IAM with Guardrails"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "d69d030c951bb5a766ac3e2c4eecc2f873d57e3eb9bcab0ac5193a8b9c36a567"
+          },
+          "target_sha256": "d69d030c951bb5a766ac3e2c4eecc2f873d57e3eb9bcab0ac5193a8b9c36a567",
+          "official_domain": 3,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "questions:02",
+          "source_question": {
+            "number": "02",
+            "stem": "Qual serviço AWS é mais indicado para aplicar políticas de conteúdo em apps GenAI com Bedrock?",
+            "options": [
+              [
+                "A",
+                "AWS KMS"
+              ],
+              [
+                "B",
+                "Amazon Bedrock Guardrails"
+              ],
+              [
+                "C",
+                "Amazon Route 53"
+              ],
+              [
+                "D",
+                "Amazon CloudFront"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "f380330bfb6b1ca9d8dea817607e96c1dd9e588bb466969934c4df04ef721ff9"
+          },
+          "target_question": {
+            "number": "02",
+            "stem": "Which AWS service is best suited for applying content policies to GenAI apps with Bedrock?",
+            "options": [
+              [
+                "A",
+                "AWS KMS"
+              ],
+              [
+                "B",
+                "Amazon Bedrock Guardrails"
+              ],
+              [
+                "C",
+                "Amazon Route 53"
+              ],
+              [
+                "D",
+                "Amazon CloudFront"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "17ddc8b1833b434d4450654023a681326a7be125dc960a9562c2783a9e384670"
+          },
+          "target_sha256": "17ddc8b1833b434d4450654023a681326a7be125dc960a9562c2783a9e384670",
+          "official_domain": 4,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "questions:03",
+          "source_question": {
+            "number": "03",
+            "stem": "Para identificar dados sensíveis em buckets S3, qual serviço é o mais aderente?",
+            "options": [
+              [
+                "A",
+                "Amazon Macie"
+              ],
+              [
+                "B",
+                "Amazon Rekognition"
+              ],
+              [
+                "C",
+                "Amazon Polly"
+              ],
+              [
+                "D",
+                "Amazon SQS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "77cce311e991480052512012663655c828a31bc58f77318f85b3fe3cde727cb7"
+          },
+          "target_question": {
+            "number": "03",
+            "stem": "To identify sensitive data in S3 buckets, which service is the best fit?",
+            "options": [
+              [
+                "A",
+                "Amazon Macie"
+              ],
+              [
+                "B",
+                "Amazon Rekognition"
+              ],
+              [
+                "C",
+                "Amazon Polly"
+              ],
+              [
+                "D",
+                "Amazon SQS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "6794a332089d61bf4f333d083cbcbe6955ccdd21fd68a8897b418c8dda78d33a"
+          },
+          "target_sha256": "6794a332089d61bf4f333d083cbcbe6955ccdd21fd68a8897b418c8dda78d33a",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "questions:04",
+          "source_question": {
+            "number": "04",
+            "stem": "Em inferência com tráfego imprevisível, qual decisão tende a reduzir custo ocioso?",
+            "options": [
+              [
+                "A",
+                "Manter capacidade máxima fixa"
+              ],
+              [
+                "B",
+                "Usar modelo maior por padrão"
+              ],
+              [
+                "C",
+                "Inferência elástica sob demanda"
+              ],
+              [
+                "D",
+                "Aumentar contexto sempre"
+              ]
+            ],
+            "answer": "C",
+            "sha256": "6e6e4bfa1e6c3a4051c82ce2d0322884e82a4c480281047024f4e5f3ae3fb249"
+          },
+          "target_question": {
+            "number": "04",
+            "stem": "In inference with unpredictable traffic, which decision tends to reduce idle cost?",
+            "options": [
+              [
+                "A",
+                "Maintain fixed maximum capacity"
+              ],
+              [
+                "B",
+                "Use a larger model by default"
+              ],
+              [
+                "C",
+                "On-demand inference with elastic capacity"
+              ],
+              [
+                "D",
+                "Always increase context"
+              ]
+            ],
+            "answer": "C",
+            "sha256": "f29645bb013f816fe566fbd9d05d8383bf11899a17661453b75b6a3d253065fe"
+          },
+          "target_sha256": "f29645bb013f816fe566fbd9d05d8383bf11899a17661453b75b6a3d253065fe",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "questions:05",
+          "source_question": {
+            "number": "05",
+            "stem": "Qual par de serviços atende melhor à proteção de segredos e criptografia de dados?",
+            "options": [
+              [
+                "A",
+                "Secrets Manager + AWS KMS"
+              ],
+              [
+                "B",
+                "CloudFront + Route 53"
+              ],
+              [
+                "C",
+                "Textract + Comprehend"
+              ],
+              [
+                "D",
+                "Budgets + Cost Explorer"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "39157aee8f33a7541970f35337fb6261158e8455205eace53ae7f8a112806b1b"
+          },
+          "target_question": {
+            "number": "05",
+            "stem": "Which pair of services best serves secret protection and data encryption?",
+            "options": [
+              [
+                "A",
+                "Secrets Manager + AWS KMS"
+              ],
+              [
+                "B",
+                "CloudFront + Route 53"
+              ],
+              [
+                "C",
+                "Textract + Comprehend"
+              ],
+              [
+                "D",
+                "Budgets + Cost Explorer"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "1a89e2f185232495a58763d8f4c2a2c70099fa7d568b287ec75a18bd3f37d5ac"
+          },
+          "target_sha256": "1a89e2f185232495a58763d8f4c2a2c70099fa7d568b287ec75a18bd3f37d5ac",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "questions:06",
+          "source_question": {
+            "number": "06",
+            "stem": "Em IA responsável para decisões sensíveis, qual prática é prioritária?",
+            "options": [
+              [
+                "A",
+                "Revisão humana em decisões críticas"
+              ],
+              [
+                "B",
+                "Automação irrestrita"
+              ],
+              [
+                "C",
+                "Desativar trilhas de auditoria"
+              ],
+              [
+                "D",
+                "Aumentar temperatura para diversificar respostas"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "52589aaa9a655c920cad981e2e050f500c97574fe7d656ea9463432f45ec1379"
+          },
+          "target_question": {
+            "number": "06",
+            "stem": "In responsible AI for sensitive decisions, which practice is a priority?",
+            "options": [
+              [
+                "A",
+                "Human review of critical decisions"
+              ],
+              [
+                "B",
+                "Unrestricted automation"
+              ],
+              [
+                "C",
+                "Disable audit trails"
+              ],
+              [
+                "D",
+                "Increase temperature to diversify answers"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "94fa47111173fe822698ba2cde44fc8873ca58b471dd76e9d189641bd9665f45"
+          },
+          "target_sha256": "94fa47111173fe822698ba2cde44fc8873ca58b471dd76e9d189641bd9665f45",
+          "official_domain": 4,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        }
+      ]
+    },
+    {
+      "source": "16-Simulados-e-Questoes/simulado-completo-1.md",
+      "target": "16-Practice-Exams-and-Questions/full-practice-exam-1.md",
+      "questions": [
+        {
+          "id": "full-practice-exam-1:01",
+          "source_question": {
+            "number": "01",
+            "stem": "Quando o enunciado pede \"menor esforço operacional\" para GenAI, qual direção costuma ser mais adequada?",
+            "options": [
+              [
+                "A",
+                "Serviço gerenciado"
+              ],
+              [
+                "B",
+                "Infraestrutura autogerida completa"
+              ],
+              [
+                "C",
+                "Treino distribuído próprio"
+              ],
+              [
+                "D",
+                "Pipeline MLOps customizado do zero"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fbef707705263b1b42fa0b76cc6380b64907813c9fcb8f3ef23b79511c020668"
+          },
+          "target_question": {
+            "number": "01",
+            "stem": "When the statement calls for \"lower operational effort\" for GenAI, which direction is usually more appropriate?",
+            "options": [
+              [
+                "A",
+                "Managed service"
+              ],
+              [
+                "B",
+                "Complete self-managed infrastructure"
+              ],
+              [
+                "C",
+                "Own distributed training"
+              ],
+              [
+                "D",
+                "Customized MLOps pipeline from scratch"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fc6ee6d6db844e07d1ca8767ad79d9aebeb3a79d52b821e14ac92329ff9bf48f"
+          },
+          "target_sha256": "fc6ee6d6db844e07d1ca8767ad79d9aebeb3a79d52b821e14ac92329ff9bf48f",
+          "official_domain": 2,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:02",
+          "source_question": {
+            "number": "02",
+            "stem": "Embeddings são usados principalmente para:",
+            "options": [
+              [
+                "A",
+                "Gerar áudio"
+              ],
+              [
+                "B",
+                "Recuperação semântica"
+              ],
+              [
+                "C",
+                "Gerar DNS"
+              ],
+              [
+                "D",
+                "Criptografar buckets"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "564bafa12800c5b30a4da2b6e07d7cd0faf78e89918b780ff07e2f21c26f1a87"
+          },
+          "target_question": {
+            "number": "02",
+            "stem": "Embeddings are mainly used for:",
+            "options": [
+              [
+                "A",
+                "Generate audio"
+              ],
+              [
+                "B",
+                "Semantic retrieval"
+              ],
+              [
+                "C",
+                "Generate DNS"
+              ],
+              [
+                "D",
+                "Encrypt buckets"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "fe41a87b131a2fe853b9b6ba4a18ec87de3217756da10a7f0be3c26568eca68d"
+          },
+          "target_sha256": "fe41a87b131a2fe853b9b6ba4a18ec87de3217756da10a7f0be3c26568eca68d",
+          "official_domain": 2,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:03",
+          "source_question": {
+            "number": "03",
+            "stem": "Qual serviço é mais associado à extração de formulários em PDF?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Personalize"
+              ],
+              [
+                "C",
+                "Kinesis"
+              ],
+              [
+                "D",
+                "CloudFormation"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "82be91dae754bacb9cdea4bf3d1e2304ba17d4cfc67e82bb80745d8839b23c84"
+          },
+          "target_question": {
+            "number": "03",
+            "stem": "Which service is most associated with extracting PDF forms?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Personalize"
+              ],
+              [
+                "C",
+                "Kinesis"
+              ],
+              [
+                "D",
+                "CloudFormation"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "e6766a7498c92644f59a2e6d9f1332ea16729afd73763e68711f1b786d8ac5fb"
+          },
+          "target_sha256": "e6766a7498c92644f59a2e6d9f1332ea16729afd73763e68711f1b786d8ac5fb",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:04",
+          "source_question": {
+            "number": "04",
+            "stem": "Qual controle é mais alinhado para trilha de auditoria de ações?",
+            "options": [
+              [
+                "A",
+                "IAM"
+              ],
+              [
+                "B",
+                "CloudTrail"
+              ],
+              [
+                "C",
+                "Route 53"
+              ],
+              [
+                "D",
+                "WAF"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "ea274222d6d325e201b20b3e08a44aba11c534cbf6df65c5cdaf5937779a970a"
+          },
+          "target_question": {
+            "number": "04",
+            "stem": "Which control is most aligned to the audit trail of actions?",
+            "options": [
+              [
+                "A",
+                "IAM"
+              ],
+              [
+                "B",
+                "CloudTrail"
+              ],
+              [
+                "C",
+                "Route 53"
+              ],
+              [
+                "D",
+                "WAF"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e"
+          },
+          "target_sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:05",
+          "source_question": {
+            "number": "05",
+            "stem": "Para limitar saída inadequada de um assistente Bedrock, você deve priorizar:",
+            "options": [
+              [
+                "A",
+                "Guardrails"
+              ],
+              [
+                "B",
+                "NAT Gateway"
+              ],
+              [
+                "C",
+                "EBS"
+              ],
+              [
+                "D",
+                "ELB"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fe92b5ac34e01102935d87b569393ba7f2e860f3289dba6532569dea7adf4d96"
+          },
+          "target_question": {
+            "number": "05",
+            "stem": "To limit inappropriate output from a Bedrock assistant, you must prioritize:",
+            "options": [
+              [
+                "A",
+                "Guardrails"
+              ],
+              [
+                "B",
+                "NAT Gateway"
+              ],
+              [
+                "C",
+                "EBS"
+              ],
+              [
+                "D",
+                "ELB"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1"
+          },
+          "target_sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1",
+          "official_domain": 4,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:06",
+          "source_question": {
+            "number": "06",
+            "stem": "Quando a questão destaca \"dados sensíveis\" e \"chaves\", o serviço esperado é:",
+            "options": [
+              [
+                "A",
+                "KMS"
+              ],
+              [
+                "B",
+                "EventBridge"
+              ],
+              [
+                "C",
+                "SES"
+              ],
+              [
+                "D",
+                "ECS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "b20307f097cb84e154160c3c897d19e2e6e191f88f108221a1341f2eba349747"
+          },
+          "target_question": {
+            "number": "06",
+            "stem": "When the question highlights \"sensitive data\" and \"keys\", the expected service is:",
+            "options": [
+              [
+                "A",
+                "KMS"
+              ],
+              [
+                "B",
+                "EventBridge"
+              ],
+              [
+                "C",
+                "SES"
+              ],
+              [
+                "D",
+                "ECS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa"
+          },
+          "target_sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:07",
+          "source_question": {
+            "number": "07",
+            "stem": "Em perguntas sobre recomendação personalizada de produtos, qual serviço costuma ser o alvo?",
+            "options": [
+              [
+                "A",
+                "Amazon Personalize"
+              ],
+              [
+                "B",
+                "Amazon Athena"
+              ],
+              [
+                "C",
+                "AWS Backup"
+              ],
+              [
+                "D",
+                "AWS Glue DataBrew"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "d704b1283c89d324da10589d0869ae1cd58eecd668f79d677158562f70789cbe"
+          },
+          "target_question": {
+            "number": "07",
+            "stem": "In questions about personalized product recommendations, which service is typically targeted?",
+            "options": [
+              [
+                "A",
+                "Amazon Personalize"
+              ],
+              [
+                "B",
+                "Amazon Athena"
+              ],
+              [
+                "C",
+                "AWS Backup"
+              ],
+              [
+                "D",
+                "AWS Glue DataBrew"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5"
+          },
+          "target_sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-1:08",
+          "source_question": {
+            "number": "08",
+            "stem": "Em caso de uso com baixa latência e custo controlado, a prática inicial recomendada é:",
+            "options": [
+              [
+                "A",
+                "Começar com modelo menor e medir qualidade"
+              ],
+              [
+                "B",
+                "Sempre usar o maior modelo disponível"
+              ],
+              [
+                "C",
+                "Ignorar observabilidade"
+              ],
+              [
+                "D",
+                "Aumentar temperatura para tudo"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "7460e5a682c0dce4426e3d01fe44930692fc77144a5eac77e448986fb0778a90"
+          },
+          "target_question": {
+            "number": "08",
+            "stem": "In case of use with low latency and controlled cost, the recommended initial practice is:",
+            "options": [
+              [
+                "A",
+                "Start with a smaller model and measure quality"
+              ],
+              [
+                "B",
+                "Always use the largest model available"
+              ],
+              [
+                "C",
+                "Ignore observability"
+              ],
+              [
+                "D",
+                "Increase temperature for everything"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c"
+          },
+          "target_sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c",
+          "official_domain": 3,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        }
+      ]
+    },
+    {
+      "source": "16-Simulados-e-Questoes/simulado-completo-2.md",
+      "target": "16-Practice-Exams-and-Questions/full-practice-exam-2.md",
+      "questions": [
+        {
+          "id": "full-practice-exam-2:09",
+          "source_question": {
+            "number": "09",
+            "stem": "Quando o enunciado pede \"menor esforço operacional\" para GenAI, qual direção costuma ser mais adequada?",
+            "options": [
+              [
+                "A",
+                "Serviço gerenciado"
+              ],
+              [
+                "B",
+                "Infraestrutura autogerida completa"
+              ],
+              [
+                "C",
+                "Treino distribuído próprio"
+              ],
+              [
+                "D",
+                "Pipeline MLOps customizado do zero"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fbef707705263b1b42fa0b76cc6380b64907813c9fcb8f3ef23b79511c020668"
+          },
+          "target_question": {
+            "number": "09",
+            "stem": "When the statement calls for \"lower operational effort\" for GenAI, which direction is usually more appropriate?",
+            "options": [
+              [
+                "A",
+                "Managed service"
+              ],
+              [
+                "B",
+                "Complete self-managed infrastructure"
+              ],
+              [
+                "C",
+                "Own distributed training"
+              ],
+              [
+                "D",
+                "Customized MLOps pipeline from scratch"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fc6ee6d6db844e07d1ca8767ad79d9aebeb3a79d52b821e14ac92329ff9bf48f"
+          },
+          "target_sha256": "fc6ee6d6db844e07d1ca8767ad79d9aebeb3a79d52b821e14ac92329ff9bf48f",
+          "official_domain": 2,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:10",
+          "source_question": {
+            "number": "10",
+            "stem": "Embeddings são usados principalmente para:",
+            "options": [
+              [
+                "A",
+                "Gerar áudio"
+              ],
+              [
+                "B",
+                "Recuperação semântica"
+              ],
+              [
+                "C",
+                "Gerar DNS"
+              ],
+              [
+                "D",
+                "Criptografar buckets"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "564bafa12800c5b30a4da2b6e07d7cd0faf78e89918b780ff07e2f21c26f1a87"
+          },
+          "target_question": {
+            "number": "10",
+            "stem": "Embeddings are mainly used for:",
+            "options": [
+              [
+                "A",
+                "Generate audio"
+              ],
+              [
+                "B",
+                "Semantic retrieval"
+              ],
+              [
+                "C",
+                "Generate DNS"
+              ],
+              [
+                "D",
+                "Encrypt buckets"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "fe41a87b131a2fe853b9b6ba4a18ec87de3217756da10a7f0be3c26568eca68d"
+          },
+          "target_sha256": "fe41a87b131a2fe853b9b6ba4a18ec87de3217756da10a7f0be3c26568eca68d",
+          "official_domain": 2,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain2.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:11",
+          "source_question": {
+            "number": "11",
+            "stem": "Qual serviço é mais associado à extração de formulários em PDF?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Personalize"
+              ],
+              [
+                "C",
+                "Kinesis"
+              ],
+              [
+                "D",
+                "CloudFormation"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "82be91dae754bacb9cdea4bf3d1e2304ba17d4cfc67e82bb80745d8839b23c84"
+          },
+          "target_question": {
+            "number": "11",
+            "stem": "Which service is most associated with extracting PDF forms?",
+            "options": [
+              [
+                "A",
+                "Textract"
+              ],
+              [
+                "B",
+                "Personalize"
+              ],
+              [
+                "C",
+                "Kinesis"
+              ],
+              [
+                "D",
+                "CloudFormation"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "e6766a7498c92644f59a2e6d9f1332ea16729afd73763e68711f1b786d8ac5fb"
+          },
+          "target_sha256": "e6766a7498c92644f59a2e6d9f1332ea16729afd73763e68711f1b786d8ac5fb",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:12",
+          "source_question": {
+            "number": "12",
+            "stem": "Qual controle é mais alinhado para trilha de auditoria de ações?",
+            "options": [
+              [
+                "A",
+                "IAM"
+              ],
+              [
+                "B",
+                "CloudTrail"
+              ],
+              [
+                "C",
+                "Route 53"
+              ],
+              [
+                "D",
+                "WAF"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "ea274222d6d325e201b20b3e08a44aba11c534cbf6df65c5cdaf5937779a970a"
+          },
+          "target_question": {
+            "number": "12",
+            "stem": "Which control is most aligned to the audit trail of actions?",
+            "options": [
+              [
+                "A",
+                "IAM"
+              ],
+              [
+                "B",
+                "CloudTrail"
+              ],
+              [
+                "C",
+                "Route 53"
+              ],
+              [
+                "D",
+                "WAF"
+              ]
+            ],
+            "answer": "B",
+            "sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e"
+          },
+          "target_sha256": "5c11da41b3d9260476e90e42da3ae20c6c1498cd341c9902d2b44d6c73f0eb6e",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:13",
+          "source_question": {
+            "number": "13",
+            "stem": "Para limitar saída inadequada de um assistente Bedrock, você deve priorizar:",
+            "options": [
+              [
+                "A",
+                "Guardrails"
+              ],
+              [
+                "B",
+                "NAT Gateway"
+              ],
+              [
+                "C",
+                "EBS"
+              ],
+              [
+                "D",
+                "ELB"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "fe92b5ac34e01102935d87b569393ba7f2e860f3289dba6532569dea7adf4d96"
+          },
+          "target_question": {
+            "number": "13",
+            "stem": "To limit inappropriate output from a Bedrock assistant, you must prioritize:",
+            "options": [
+              [
+                "A",
+                "Guardrails"
+              ],
+              [
+                "B",
+                "NAT Gateway"
+              ],
+              [
+                "C",
+                "EBS"
+              ],
+              [
+                "D",
+                "ELB"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1"
+          },
+          "target_sha256": "2c011e0564554af5f7475fc16666c30cce01da461bedcef62554f0cf42df24e1",
+          "official_domain": 4,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain4.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:14",
+          "source_question": {
+            "number": "14",
+            "stem": "Quando a questão destaca \"dados sensíveis\" e \"chaves\", o serviço esperado é:",
+            "options": [
+              [
+                "A",
+                "KMS"
+              ],
+              [
+                "B",
+                "EventBridge"
+              ],
+              [
+                "C",
+                "SES"
+              ],
+              [
+                "D",
+                "ECS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "b20307f097cb84e154160c3c897d19e2e6e191f88f108221a1341f2eba349747"
+          },
+          "target_question": {
+            "number": "14",
+            "stem": "When the question highlights \"sensitive data\" and \"keys\", the expected service is:",
+            "options": [
+              [
+                "A",
+                "KMS"
+              ],
+              [
+                "B",
+                "EventBridge"
+              ],
+              [
+                "C",
+                "SES"
+              ],
+              [
+                "D",
+                "ECS"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa"
+          },
+          "target_sha256": "0a822a411ad876eec9abaebc16c1b80e38867854c6edc8987850ac0f8bb191fa",
+          "official_domain": 5,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain5.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:15",
+          "source_question": {
+            "number": "15",
+            "stem": "Em perguntas sobre recomendação personalizada de produtos, qual serviço costuma ser o alvo?",
+            "options": [
+              [
+                "A",
+                "Amazon Personalize"
+              ],
+              [
+                "B",
+                "Amazon Athena"
+              ],
+              [
+                "C",
+                "AWS Backup"
+              ],
+              [
+                "D",
+                "AWS Glue DataBrew"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "d704b1283c89d324da10589d0869ae1cd58eecd668f79d677158562f70789cbe"
+          },
+          "target_question": {
+            "number": "15",
+            "stem": "In questions about personalized product recommendations, which service is typically targeted?",
+            "options": [
+              [
+                "A",
+                "Amazon Personalize"
+              ],
+              [
+                "B",
+                "Amazon Athena"
+              ],
+              [
+                "C",
+                "AWS Backup"
+              ],
+              [
+                "D",
+                "AWS Glue DataBrew"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5"
+          },
+          "target_sha256": "86b94d0c52220f8b4cf41dff33adf6f2642530224fff23e2d238cc6db39b21a5",
+          "official_domain": 1,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain1.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        },
+        {
+          "id": "full-practice-exam-2:16",
+          "source_question": {
+            "number": "16",
+            "stem": "Em caso de uso com baixa latência e custo controlado, a prática inicial recomendada é:",
+            "options": [
+              [
+                "A",
+                "Começar com modelo menor e medir qualidade"
+              ],
+              [
+                "B",
+                "Sempre usar o maior modelo disponível"
+              ],
+              [
+                "C",
+                "Ignorar observabilidade"
+              ],
+              [
+                "D",
+                "Aumentar temperatura para tudo"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "7460e5a682c0dce4426e3d01fe44930692fc77144a5eac77e448986fb0778a90"
+          },
+          "target_question": {
+            "number": "16",
+            "stem": "In case of use with low latency and controlled cost, the recommended initial practice is:",
+            "options": [
+              [
+                "A",
+                "Start with a smaller model and measure quality"
+              ],
+              [
+                "B",
+                "Always use the largest model available"
+              ],
+              [
+                "C",
+                "Ignore observability"
+              ],
+              [
+                "D",
+                "Increase temperature for everything"
+              ]
+            ],
+            "answer": "A",
+            "sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c"
+          },
+          "target_sha256": "782fee4b18d37d56d7724a055e6892349a79e4318616b711433b08463568f13c",
+          "official_domain": 3,
+          "domain_reference": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01-domain3.html",
+          "classification": "Editorial mapping to the dominant tested objective; not an AWS classification.",
+          "answer_changed": false,
+          "explanation_review": "Retained source logic; service roles checked against official references."
+        }
+      ]
+    }
+  ]
+}

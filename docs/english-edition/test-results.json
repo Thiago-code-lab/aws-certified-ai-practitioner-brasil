@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests_run": 12,
+  "unittest_returncode": 0,
+  "output": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.017s\n\nOK",
+  "diff_check_returncode": 0,
+  "diff_check_output": ""
+}

@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-11-16",
+  "references": [
+    {
+      "title": "Exam guide",
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html",
+      "review_scope": "Question formats, score, five domains and weights."
+    },
+    {
+      "title": "Guide revisions",
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html",
+      "review_scope": "Version 1.2 published October 29, 2026; current guide adds topics beyond the inherited curriculum."
+    },
+    {
+      "title": "Certification",
+      "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+      "review_scope": "90-minute exam duration."
+    },
+    {
+      "title": "SageMaker AI",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html",
+      "review_scope": "Service name and scope; API namespaces remain unchanged."
+    },
+    {
+      "title": "Bedrock Guardrails",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+      "review_scope": "Configurable content controls; no guarantee of perfect filtering."
+    },
+    {
+      "title": "Bedrock Knowledge Bases",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+      "review_scope": "Retrieval and grounding; source access permissions still require configuration."
+    },
+    {
+      "title": "Bedrock data protection",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/data-protection.html",
+      "review_scope": "Customer responsibilities and model-provider access."
+    },
+    {
+      "title": "Macie",
+      "url": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html",
+      "review_scope": "Sensitive data discovery in S3."
+    },
+    {
+      "title": "Fraud Detector",
+      "url": "https://docs.aws.amazon.com/frauddetector/latest/ug/frauddetector-availability-change.html",
+      "review_scope": "Closed to new customers since November 7, 2025."
+    },
+    {
+      "title": "Q Business history",
+      "url": "https://docs.aws.amazon.com/amazonq/latest/qbusiness-ug/doc-history.html",
+      "review_scope": "Closed to new customers; history records July 31, 2026; successor Quick offering."
+    },
+    {
+      "title": "Bedrock Agents",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+      "review_scope": "Agents Classic is closed to new sign-ups; AgentCore is referenced for new implementations."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "counts": {
+    "source_markdown_equivalents": 133,
+    "flashcards": 144,
+    "short_review_prompts": 85,
+    "labs": 17,
+    "modules": 18,
+    "local_references_checked": 320
+  },
+  "errors": [],
+  "lab_execution": "Static review only; no AWS resources provisioned",
+  "semantic_limit": "Structural, language-pattern, and reviewed-digest checks complement editorial review."
+}
