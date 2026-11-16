@@ -1,9 +1,9 @@
 {
   "source_commit": "122726b73a6e805a71b711dd65d1786fcc2ba42f",
-  "implementation_head": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
-  "verified_publication_head": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+  "implementation_head": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
+  "verified_publication_head": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
   "remote_refs": {
-    "refs/heads/aif-c01-english": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
+    "refs/heads/aif-c01-english": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
     "refs/heads/gh-pages": "224c0a075fa702bf9912dc75b86e0012797fb191",
     "refs/heads/main": "122726b73a6e805a71b711dd65d1786fcc2ba42f"
   },
@@ -43,7 +43,24 @@
     {
       "commit": "9b8bb426c7ffc8d2aff7e4e698b8c6ebf7fc5c80",
       "subject": "fix(en): support validation in fresh English branch clones"
+    },
+    {
+      "commit": "01e0ae1dcf82e4010a58b0caa0a4c1a0cf4e6e8c",
+      "subject": "docs(en): publish English edition audit and release evidence"
+    },
+    {
+      "commit": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
+      "subject": "fix(en): write portable LF validation reports"
     }
   ],
-  "evidence_note": "These are actual refs at verification time; subsequent audit-only commits record this evidence."
+  "evidence_note": "These are actual refs at verification time; subsequent audit-only commits record this evidence.",
+  "clean_clone_verification": {
+    "verified_commit": "8edcdb3f7458c0e4d774e5c21d06fdb7d3a62e33",
+    "checkout": "Independent clone with core.autocrlf=false; no local main branch",
+    "validation_passed": true,
+    "tests_passed": 12,
+    "local_references_checked": 320,
+    "diff_check_returncode": 0,
+    "working_tree_clean": true
+  }
 }
