@@ -1,0 +1,43 @@
+# Lab — Módulo 06: Amazon SageMaker AI
+
+## Escolhendo entre real-time, serverless e batch
+
+Fixar como o padrão de acesso influencia o modo de inferência no SageMaker AI.
+
+## Pré-requisitos
+
+- Ler este módulo.
+- Conhecer os conceitos de treinamento e inferência.
+
+## Passo a passo
+
+1. Defina três cenários: API online, job noturno e uso esporádico.
+2. Associe cada um a real-time, batch ou serverless.
+3. Anote o impacto de latência e custo em cada opção.
+4. Compare se algum cenário poderia ser resolvido por Bedrock em vez de modelo customizado.
+5. Registre a lógica usada para a decisão.
+
+## O que observar
+
+- A melhor opção depende do padrão de uso, não apenas do serviço disponível.
+- Capacidade permanente sem necessidade é fonte comum de custo.
+
+## Custos e limpeza
+
+- Lab pode ser resolvido apenas conceitualmente.
+- Se criar recursos na AWS, encerre ao final.
+
+---
+
+## ☁️ Acompanhe a CloudStudy
+
+Estamos construindo uma plataforma para ajudar brasileiros a estudarem AWS de forma mais prática, organizada e acessível.
+
+Siga a CloudStudy para acompanhar novos materiais, atualizações e conteúdos sobre certificações AWS:
+
+- Instagram: https://www.instagram.com/cloudstudy.ai/
+- LinkedIn: https://www.linkedin.com/company/cloudstudy-ai/
+
+---
+
+> Aprofundamento opcional: pipelines e fundamentos de dados na AWS aparecem no curso [Engenharia de Dados na AWS: do Zero aos Projetos Reais](https://www.udemy.com/course/engenharia-de-dados-na-aws-do-zero-aos-projetos-reais/?referralCode=E28670B9116BA68E08A9).
